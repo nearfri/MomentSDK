@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:FrameworkProject/FrameworkProject.xcodeproj">
+      location = "group:MomentKit/MomentKit.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:MomentSDK.xcodeproj">

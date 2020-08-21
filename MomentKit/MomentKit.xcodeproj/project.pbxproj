@@ -304,7 +304,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 082CD3CA24EFA28200538841 /* Build configuration list for PBXProject "FrameworkProject" */;
+			buildConfigurationList = 082CD3CA24EFA28200538841 /* Build configuration list for PBXProject "MomentKit" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -640,7 +640,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		082CD3CA24EFA28200538841 /* Build configuration list for PBXProject "FrameworkProject" */ = {
+		082CD3CA24EFA28200538841 /* Build configuration list for PBXProject "MomentKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				082CD3D624EFA28200538841 /* Debug */,
