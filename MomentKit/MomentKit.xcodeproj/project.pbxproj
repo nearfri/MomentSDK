@@ -30,7 +30,43 @@
 		082CD4AD24EFA5E600538841 /* MomentCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 082CD4AA24EFA5E500538841 /* MomentCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		082CD4AE24EFA5E600538841 /* MomentCommonUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082CD4AB24EFA5E500538841 /* MomentCommonUtil.framework */; };
 		082CD4AF24EFA5E600538841 /* MomentCommonUtil.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 082CD4AB24EFA5E500538841 /* MomentCommonUtil.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		082CD6A224EFAB5300538841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082CD6A124EFAB5300538841 /* AppDelegate.swift */; };
+		082CD6A424EFAB5300538841 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082CD6A324EFAB5300538841 /* SceneDelegate.swift */; };
+		082CD6A624EFAB5300538841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082CD6A524EFAB5300538841 /* ViewController.swift */; };
+		082CD6A924EFAB5300538841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082CD6A724EFAB5300538841 /* Main.storyboard */; };
+		082CD6AB24EFAB5300538841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082CD6AA24EFAB5300538841 /* Assets.xcassets */; };
+		082CD6AE24EFAB5300538841 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082CD6AC24EFAB5300538841 /* LaunchScreen.storyboard */; };
+		082CD6B324EFAB5E00538841 /* MomentCommonKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082CD4A224EFA5C700538841 /* MomentCommonKit.framework */; };
+		082CD6B424EFAB5E00538841 /* MomentCommonKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 082CD4A224EFA5C700538841 /* MomentCommonKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		082CD6B724EFAB5E00538841 /* MomentEditorKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082CD3E024EFA29200538841 /* MomentEditorKit.framework */; };
+		082CD6B824EFAB5E00538841 /* MomentEditorKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 082CD3E024EFA29200538841 /* MomentEditorKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		082CD6BB24EFAB5E00538841 /* MomentPlayerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 082CD40324EFA2AB00538841 /* MomentPlayerKit.framework */; };
+		082CD6BC24EFAB5E00538841 /* MomentPlayerKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 082CD40324EFA2AB00538841 /* MomentPlayerKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		082CD6B524EFAB5E00538841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082CD3C724EFA28200538841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 082CD4A124EFA5C700538841;
+			remoteInfo = MomentCommonKit;
+		};
+		082CD6B924EFAB5E00538841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082CD3C724EFA28200538841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 082CD3DF24EFA29200538841;
+			remoteInfo = MomentEditorKit;
+		};
+		082CD6BD24EFAB5E00538841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 082CD3C724EFA28200538841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 082CD40224EFA2AB00538841;
+			remoteInfo = MomentPlayerKit;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		082CD3FD24EFA29D00538841 /* Embed Frameworks */ = {
@@ -73,6 +109,19 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		082CD6BF24EFAB5E00538841 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				082CD6B824EFAB5E00538841 /* MomentEditorKit.framework in Embed Frameworks */,
+				082CD6BC24EFAB5E00538841 /* MomentPlayerKit.framework in Embed Frameworks */,
+				082CD6B424EFAB5E00538841 /* MomentCommonKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +144,14 @@
 		082CD4A524EFA5C700538841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		082CD4AA24EFA5E500538841 /* MomentCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MomentCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		082CD4AB24EFA5E500538841 /* MomentCommonUtil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MomentCommonUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		082CD69F24EFAB5300538841 /* MomentKitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MomentKitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		082CD6A124EFAB5300538841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		082CD6A324EFAB5300538841 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		082CD6A524EFAB5300538841 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		082CD6A824EFAB5300538841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		082CD6AA24EFAB5300538841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		082CD6AD24EFAB5300538841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		082CD6AF24EFAB5300538841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +186,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		082CD69C24EFAB5300538841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082CD6B724EFAB5E00538841 /* MomentEditorKit.framework in Frameworks */,
+				082CD6BB24EFAB5E00538841 /* MomentPlayerKit.framework in Frameworks */,
+				082CD6B324EFAB5E00538841 /* MomentCommonKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -138,6 +205,7 @@
 				082CD4A324EFA5C700538841 /* MomentCommonKit */,
 				082CD3E924EFA29200538841 /* MomentEditorKit */,
 				082CD40424EFA2AB00538841 /* MomentPlayerKit */,
+				082CD6A024EFAB5300538841 /* MomentKitApp */,
 				082CD3D124EFA28200538841 /* Products */,
 				082CD3F024EFA29D00538841 /* Frameworks */,
 			);
@@ -149,6 +217,7 @@
 				082CD3E024EFA29200538841 /* MomentEditorKit.framework */,
 				082CD40324EFA2AB00538841 /* MomentPlayerKit.framework */,
 				082CD4A224EFA5C700538841 /* MomentCommonKit.framework */,
+				082CD69F24EFAB5300538841 /* MomentKitApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -195,6 +264,20 @@
 				082CD4A524EFA5C700538841 /* Info.plist */,
 			);
 			path = MomentCommonKit;
+			sourceTree = "<group>";
+		};
+		082CD6A024EFAB5300538841 /* MomentKitApp */ = {
+			isa = PBXGroup;
+			children = (
+				082CD6A124EFAB5300538841 /* AppDelegate.swift */,
+				082CD6A324EFAB5300538841 /* SceneDelegate.swift */,
+				082CD6A524EFAB5300538841 /* ViewController.swift */,
+				082CD6A724EFAB5300538841 /* Main.storyboard */,
+				082CD6AA24EFAB5300538841 /* Assets.xcassets */,
+				082CD6AC24EFAB5300538841 /* LaunchScreen.storyboard */,
+				082CD6AF24EFAB5300538841 /* Info.plist */,
+			);
+			path = MomentKitApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,12 +367,34 @@
 			productReference = 082CD4A224EFA5C700538841 /* MomentCommonKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		082CD69E24EFAB5300538841 /* MomentKitApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 082CD6B224EFAB5300538841 /* Build configuration list for PBXNativeTarget "MomentKitApp" */;
+			buildPhases = (
+				082CD69B24EFAB5300538841 /* Sources */,
+				082CD69C24EFAB5300538841 /* Frameworks */,
+				082CD69D24EFAB5300538841 /* Resources */,
+				082CD6BF24EFAB5E00538841 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				082CD6B624EFAB5E00538841 /* PBXTargetDependency */,
+				082CD6BA24EFAB5E00538841 /* PBXTargetDependency */,
+				082CD6BE24EFAB5E00538841 /* PBXTargetDependency */,
+			);
+			name = MomentKitApp;
+			productName = MomentKitApp;
+			productReference = 082CD69F24EFAB5300538841 /* MomentKitApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		082CD3C724EFA28200538841 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = "Ukjeong Lee";
 				TargetAttributes = {
@@ -300,6 +405,9 @@
 						CreatedOnToolsVersion = 11.6;
 					};
 					082CD4A124EFA5C700538841 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					082CD69E24EFAB5300538841 = {
 						CreatedOnToolsVersion = 11.6;
 					};
 				};
@@ -320,6 +428,7 @@
 				082CD4A124EFA5C700538841 /* MomentCommonKit */,
 				082CD3DF24EFA29200538841 /* MomentEditorKit */,
 				082CD40224EFA2AB00538841 /* MomentPlayerKit */,
+				082CD69E24EFAB5300538841 /* MomentKitApp */,
 			);
 		};
 /* End PBXProject section */
@@ -343,6 +452,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		082CD69D24EFAB5300538841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082CD6AE24EFAB5300538841 /* LaunchScreen.storyboard in Resources */,
+				082CD6AB24EFAB5300538841 /* Assets.xcassets in Resources */,
+				082CD6A924EFAB5300538841 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +489,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		082CD69B24EFAB5300538841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082CD6A624EFAB5300538841 /* ViewController.swift in Sources */,
+				082CD6A224EFAB5300538841 /* AppDelegate.swift in Sources */,
+				082CD6A424EFAB5300538841 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		082CD6B624EFAB5E00538841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 082CD4A124EFA5C700538841 /* MomentCommonKit */;
+			targetProxy = 082CD6B524EFAB5E00538841 /* PBXContainerItemProxy */;
+		};
+		082CD6BA24EFAB5E00538841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 082CD3DF24EFA29200538841 /* MomentEditorKit */;
+			targetProxy = 082CD6B924EFAB5E00538841 /* PBXContainerItemProxy */;
+		};
+		082CD6BE24EFAB5E00538841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 082CD40224EFA2AB00538841 /* MomentPlayerKit */;
+			targetProxy = 082CD6BD24EFAB5E00538841 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		082CD6A724EFAB5300538841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082CD6A824EFAB5300538841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		082CD6AC24EFAB5300538841 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				082CD6AD24EFAB5300538841 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		082CD3D624EFA28200538841 /* Debug */ = {
@@ -649,6 +815,42 @@
 			};
 			name = Release;
 		};
+		082CD6B024EFAB5300538841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4WL5WK33A;
+				INFOPLIST_FILE = MomentKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ukjeong.navercorp.MomentKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		082CD6B124EFAB5300538841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4WL5WK33A;
+				INFOPLIST_FILE = MomentKitApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ukjeong.navercorp.MomentKitApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -684,6 +886,15 @@
 			buildConfigurations = (
 				082CD4A724EFA5C700538841 /* Debug */,
 				082CD4A824EFA5C700538841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		082CD6B224EFAB5300538841 /* Build configuration list for PBXNativeTarget "MomentKitApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				082CD6B024EFAB5300538841 /* Debug */,
+				082CD6B124EFAB5300538841 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
