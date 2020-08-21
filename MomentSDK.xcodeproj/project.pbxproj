@@ -3118,27 +3118,27 @@
       };
       "OBJ_352" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorTests";
+         target = "MomentSDK::MomentPlayerRepositoryTests";
       };
       "OBJ_353" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerTests";
+         target = "MomentSDK::MomentEditorDomainTests";
       };
       "OBJ_354" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerRepositoryTests";
+         target = "MomentSDK::MomentEditorTests";
       };
       "OBJ_355" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorRepositoryTests";
+         target = "MomentSDK::MomentPlayerTests";
       };
       "OBJ_356" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomainTests";
+         target = "MomentSDK::MomentEditorRepositoryTests";
       };
       "OBJ_357" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorDomainTests";
+         target = "MomentSDK::MomentPlayerDomainTests";
       };
       "OBJ_36" = {
          isa = "PBXFileReference";
@@ -3485,23 +3485,23 @@
       "OBJ_79" = {
          isa = "PBXGroup";
          children = (
-            "MomentSDK::MomentPlayerDomainTests::Product",
-            "MomentSDK::MomentEditorRepository::Product",
-            "MomentSDK::MomentCommon::Product",
             "MomentSDK::MomentPlayerRepositoryTests::Product",
-            "MomentSDK::MomentEditorRepositoryTests::Product",
-            "Alamofire::Alamofire::Product",
-            "MomentSDK::MomentPlayer::Product",
-            "MomentSDK::MomentPlayerTests::Product",
+            "MomentSDK::MomentEditorTests::Product",
             "MomentSDK::MomentEditorView::Product",
+            "MomentSDK::MomentPlayerDomainTests::Product",
+            "MomentSDK::MomentPlayerTests::Product",
             "MomentSDK::MomentEditorDomain::Product",
-            "MomentSDK::MomentPlayerRepository::Product",
-            "MomentSDK::MomentCommonUtil::Product",
             "MomentSDK::MomentEditorDomainTests::Product",
             "MomentSDK::MomentPlayerView::Product",
+            "MomentSDK::MomentCommonUtil::Product",
+            "MomentSDK::MomentEditorRepositoryTests::Product",
             "MomentSDK::MomentEditor::Product",
             "MomentSDK::MomentPlayerDomain::Product",
-            "MomentSDK::MomentEditorTests::Product"
+            "MomentSDK::MomentCommon::Product",
+            "MomentSDK::MomentPlayer::Product",
+            "MomentSDK::MomentPlayerRepository::Product",
+            "Alamofire::Alamofire::Product",
+            "MomentSDK::MomentEditorRepository::Product"
          );
          name = "Products";
          path = "";
