@@ -10,7 +10,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "MomentCommon",
-            targets: ["MomentCommon_Util"]),
+            targets: ["MomentCommon"]),
         .library(
             name: "MomentEditor",
             targets: ["MomentEditor"]),
@@ -30,7 +30,12 @@ let package = Package(
         // MARK: - Common
         
         .target(
-            name: "MomentCommon_Util",
+            name: "MomentCommon",
+            dependencies: ["MomentCommonUtil"],
+            path: "Sources/Common/MomentCommon"),
+        
+        .target(
+            name: "MomentCommonUtil",
             dependencies: [],
             path: "Sources/Common/Util"),
         
@@ -48,7 +53,7 @@ let package = Package(
             path: "Tests/Editor/MomentEditorTests"),
         .target(
             name: "MomentEditorDomain",
-            dependencies: [],
+            dependencies: ["MomentCommonUtil"],
             path: "Sources/Editor/Domain"),
         .testTarget(
             name: "MomentEditorDomainTests",
@@ -56,7 +61,7 @@ let package = Package(
             path: "Tests/Editor/DomainTests"),
         .target(
             name: "MomentEditorView",
-            dependencies: ["MomentEditorDomain"],
+            dependencies: ["MomentEditorDomain", "MomentCommonUtil"],
             path: "Sources/Editor/View"),
         .target(
             name: "MomentEditorRepository",
@@ -81,7 +86,7 @@ let package = Package(
             path: "Tests/Player/MomentPlayerTests"),
         .target(
             name: "MomentPlayerDomain",
-            dependencies: [],
+            dependencies: ["MomentCommonUtil"],
             path: "Sources/Player/Domain"),
         .testTarget(
             name: "MomentPlayerDomainTests",
@@ -89,7 +94,7 @@ let package = Package(
             path: "Tests/Player/DomainTests"),
         .target(
             name: "MomentPlayerView",
-            dependencies: ["MomentPlayerDomain"],
+            dependencies: ["MomentPlayerDomain", "MomentCommonUtil"],
             path: "Sources/Player/View"),
         .target(
             name: "MomentPlayerRepository",
