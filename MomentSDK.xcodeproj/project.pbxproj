@@ -731,10 +731,8 @@
                "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "/Users/ukjeong/Downloads/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk",
                "-package-description-version",
                "5.1.0"
             );
@@ -751,10 +749,8 @@
                "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "/Users/ukjeong/Downloads/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk",
                "-package-description-version",
                "5.1.0"
             );
@@ -1314,13 +1310,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorDomainTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -1353,13 +1349,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorDomainTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -1590,13 +1586,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorRepositoryTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -1629,13 +1625,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorRepositoryTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -1737,13 +1733,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -1776,13 +1772,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -2321,13 +2317,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerDomainTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -2360,13 +2356,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerDomainTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -2621,13 +2617,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerRepositoryTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -2660,13 +2656,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerRepositoryTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -2759,13 +2755,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -2798,13 +2794,13 @@
                "$(inherited)"
             );
             INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
+            IPHONEOS_DEPLOYMENT_TARGET = "14.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "@loader_path/../Frameworks",
                "@loader_path/Frameworks"
             );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            MACOSX_DEPLOYMENT_TARGET = "10.15";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -3045,10 +3041,8 @@
                "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "/Users/ukjeong/Downloads/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk",
                "-package-description-version",
                "5.2.0"
             );
@@ -3065,10 +3059,8 @@
                "5",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "/Users/ukjeong/Downloads/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.0.sdk",
                "-package-description-version",
                "5.2.0"
             );
@@ -3118,7 +3110,7 @@
       };
       "OBJ_352" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerRepositoryTests";
+         target = "MomentSDK::MomentPlayerDomainTests";
       };
       "OBJ_353" = {
          isa = "PBXTargetDependency";
@@ -3130,15 +3122,15 @@
       };
       "OBJ_355" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerTests";
+         target = "MomentSDK::MomentPlayerRepositoryTests";
       };
       "OBJ_356" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorRepositoryTests";
+         target = "MomentSDK::MomentPlayerTests";
       };
       "OBJ_357" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomainTests";
+         target = "MomentSDK::MomentEditorRepositoryTests";
       };
       "OBJ_36" = {
          isa = "PBXFileReference";
@@ -3486,22 +3478,22 @@
          isa = "PBXGroup";
          children = (
             "MomentSDK::MomentPlayerRepositoryTests::Product",
-            "MomentSDK::MomentEditorTests::Product",
+            "MomentSDK::MomentCommonUtil::Product",
+            "MomentSDK::MomentPlayer::Product",
+            "MomentSDK::MomentCommon::Product",
             "MomentSDK::MomentEditorView::Product",
             "MomentSDK::MomentPlayerDomainTests::Product",
+            "MomentSDK::MomentEditor::Product",
+            "MomentSDK::MomentEditorRepository::Product",
+            "MomentSDK::MomentPlayerDomain::Product",
+            "MomentSDK::MomentEditorRepositoryTests::Product",
+            "MomentSDK::MomentEditorDomainTests::Product",
+            "MomentSDK::MomentPlayerRepository::Product",
             "MomentSDK::MomentPlayerTests::Product",
             "MomentSDK::MomentEditorDomain::Product",
-            "MomentSDK::MomentEditorDomainTests::Product",
-            "MomentSDK::MomentPlayerView::Product",
-            "MomentSDK::MomentCommonUtil::Product",
-            "MomentSDK::MomentEditorRepositoryTests::Product",
-            "MomentSDK::MomentEditor::Product",
-            "MomentSDK::MomentPlayerDomain::Product",
-            "MomentSDK::MomentCommon::Product",
-            "MomentSDK::MomentPlayer::Product",
-            "MomentSDK::MomentPlayerRepository::Product",
+            "MomentSDK::MomentEditorTests::Product",
             "Alamofire::Alamofire::Product",
-            "MomentSDK::MomentEditorRepository::Product"
+            "MomentSDK::MomentPlayerView::Product"
          );
          name = "Products";
          path = "";

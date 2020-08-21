@@ -3,10 +3,14 @@ import MomentEditorView
 import MomentEditorDomain
 import MomentEditorRepository
 
-struct MomentData {
-    var text = "Hello, World!"
+public struct MomentData {
+    public var text = "Hello, World!"
     
-    func foo() {
+    public init() {
+        
+    }
+    
+    public func foo() {
         let aa = ViewData()
         print(aa)
     }

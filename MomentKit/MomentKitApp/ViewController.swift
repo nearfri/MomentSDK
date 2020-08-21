@@ -8,7 +8,7 @@
 
 import UIKit
 import MomentCommon
-import MomentEditor
+import MomentEditorRepository
 import MomentPlayer
 
 class ViewController: UIViewController {
@@ -16,7 +16,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        print("hello")
+        
+        ActualRepository().foo()
+        
+        MomentPlayer.MomentData().foo()
     }
 
 
