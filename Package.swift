@@ -77,7 +77,8 @@ let package = Package(
         .target(
             name: "MomentPlayer",
             dependencies: [
-                "MomentPlayerDomain", "MomentPlayerView", "MomentPlayerRepository"
+                "MomentPlayerDomain", "MomentPlayerView", "MomentPlayerRepository",
+                "Alamofire"
             ],
             path: "Sources/Player/MomentPlayer"),
         .testTarget(

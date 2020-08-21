@@ -237,10 +237,11 @@
             "OBJ_261"
          );
          dependencies = (
-            "OBJ_266",
+            "OBJ_267",
             "OBJ_268",
             "OBJ_270",
-            "OBJ_272"
+            "OBJ_272",
+            "OBJ_274"
          );
          name = "MomentPlayer";
          productName = "MomentPlayer";
@@ -254,13 +255,13 @@
       };
       "MomentSDK::MomentPlayerDomain" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_273";
+         buildConfigurationList = "OBJ_275";
          buildPhases = (
-            "OBJ_276",
-            "OBJ_278"
+            "OBJ_278",
+            "OBJ_280"
          );
          dependencies = (
-            "OBJ_280"
+            "OBJ_282"
          );
          name = "MomentPlayerDomain";
          productName = "MomentPlayerDomain";
@@ -274,14 +275,14 @@
       };
       "MomentSDK::MomentPlayerDomainTests" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_282";
+         buildConfigurationList = "OBJ_284";
          buildPhases = (
-            "OBJ_285",
-            "OBJ_287"
+            "OBJ_287",
+            "OBJ_289"
          );
          dependencies = (
-            "OBJ_290",
-            "OBJ_291"
+            "OBJ_292",
+            "OBJ_293"
          );
          name = "MomentPlayerDomainTests";
          productName = "MomentPlayerDomainTests";
@@ -295,14 +296,14 @@
       };
       "MomentSDK::MomentPlayerRepository" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_292";
+         buildConfigurationList = "OBJ_294";
          buildPhases = (
-            "OBJ_295",
-            "OBJ_297"
+            "OBJ_297",
+            "OBJ_299"
          );
          dependencies = (
-            "OBJ_300",
-            "OBJ_301"
+            "OBJ_302",
+            "OBJ_303"
          );
          name = "MomentPlayerRepository";
          productName = "MomentPlayerRepository";
@@ -316,15 +317,15 @@
       };
       "MomentSDK::MomentPlayerRepositoryTests" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_303";
+         buildConfigurationList = "OBJ_305";
          buildPhases = (
-            "OBJ_306",
-            "OBJ_308"
+            "OBJ_308",
+            "OBJ_310"
          );
          dependencies = (
-            "OBJ_312",
-            "OBJ_313",
-            "OBJ_314"
+            "OBJ_314",
+            "OBJ_315",
+            "OBJ_316"
          );
          name = "MomentPlayerRepositoryTests";
          productName = "MomentPlayerRepositoryTests";
@@ -338,17 +339,18 @@
       };
       "MomentSDK::MomentPlayerTests" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_316";
+         buildConfigurationList = "OBJ_318";
          buildPhases = (
-            "OBJ_319",
-            "OBJ_321"
+            "OBJ_321",
+            "OBJ_323"
          );
          dependencies = (
-            "OBJ_327",
-            "OBJ_328",
-            "OBJ_329",
             "OBJ_330",
-            "OBJ_331"
+            "OBJ_331",
+            "OBJ_332",
+            "OBJ_333",
+            "OBJ_334",
+            "OBJ_335"
          );
          name = "MomentPlayerTests";
          productName = "MomentPlayerTests";
@@ -362,14 +364,14 @@
       };
       "MomentSDK::MomentPlayerView" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_332";
+         buildConfigurationList = "OBJ_336";
          buildPhases = (
-            "OBJ_335",
-            "OBJ_337"
+            "OBJ_339",
+            "OBJ_341"
          );
          dependencies = (
-            "OBJ_340",
-            "OBJ_341"
+            "OBJ_344",
+            "OBJ_345"
          );
          name = "MomentPlayerView";
          productName = "MomentPlayerView";
@@ -383,25 +385,25 @@
       };
       "MomentSDK::MomentSDKPackageTests::ProductTarget" = {
          isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_349";
+         buildConfigurationList = "OBJ_353";
          buildPhases = (
          );
          dependencies = (
-            "OBJ_352",
-            "OBJ_353",
-            "OBJ_354",
-            "OBJ_355",
             "OBJ_356",
-            "OBJ_357"
+            "OBJ_357",
+            "OBJ_358",
+            "OBJ_359",
+            "OBJ_360",
+            "OBJ_361"
          );
          name = "MomentSDKPackageTests";
          productName = "MomentSDKPackageTests";
       };
       "MomentSDK::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_343";
+         buildConfigurationList = "OBJ_347";
          buildPhases = (
-            "OBJ_346"
+            "OBJ_350"
          );
          dependencies = (
          );
@@ -2130,32 +2132,37 @@
             "OBJ_262",
             "OBJ_263",
             "OBJ_264",
-            "OBJ_265"
+            "OBJ_265",
+            "OBJ_266"
          );
       };
       "OBJ_262" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerRepository::Product";
+         fileRef = "Alamofire::Alamofire::Product";
       };
       "OBJ_263" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerView::Product";
+         fileRef = "MomentSDK::MomentPlayerRepository::Product";
       };
       "OBJ_264" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
+         fileRef = "MomentSDK::MomentPlayerView::Product";
       };
       "OBJ_265" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
+         fileRef = "MomentSDK::MomentPlayerDomain::Product";
       };
       "OBJ_266" = {
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentCommonUtil::Product";
+      };
+      "OBJ_267" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerRepository";
+         target = "Alamofire::Alamofire";
       };
       "OBJ_268" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerView";
+         target = "MomentSDK::MomentPlayerRepository";
       };
       "OBJ_27" = {
          isa = "PBXFileReference";
@@ -2164,22 +2171,26 @@
       };
       "OBJ_270" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomain";
+         target = "MomentSDK::MomentPlayerView";
       };
       "OBJ_272" = {
          isa = "PBXTargetDependency";
+         target = "MomentSDK::MomentPlayerDomain";
+      };
+      "OBJ_274" = {
+         isa = "PBXTargetDependency";
          target = "MomentSDK::MomentCommonUtil";
       };
-      "OBJ_273" = {
+      "OBJ_275" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_274",
-            "OBJ_275"
+            "OBJ_276",
+            "OBJ_277"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_274" = {
+      "OBJ_276" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -2220,7 +2231,7 @@
          };
          name = "Debug";
       };
-      "OBJ_275" = {
+      "OBJ_277" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -2261,25 +2272,15 @@
          };
          name = "Release";
       };
-      "OBJ_276" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_277"
-         );
-      };
-      "OBJ_277" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_23";
-      };
       "OBJ_278" = {
-         isa = "PBXFrameworksBuildPhase";
+         isa = "PBXSourcesBuildPhase";
          files = (
             "OBJ_279"
          );
       };
       "OBJ_279" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
+         fileRef = "OBJ_23";
       };
       "OBJ_28" = {
          isa = "PBXGroup";
@@ -2296,19 +2297,29 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_280" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_281"
+         );
+      };
+      "OBJ_281" = {
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentCommonUtil::Product";
+      };
+      "OBJ_282" = {
          isa = "PBXTargetDependency";
          target = "MomentSDK::MomentCommonUtil";
       };
-      "OBJ_282" = {
+      "OBJ_284" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_283",
-            "OBJ_284"
+            "OBJ_285",
+            "OBJ_286"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_283" = {
+      "OBJ_285" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             CLANG_ENABLE_MODULES = "YES";
@@ -2347,7 +2358,7 @@
          };
          name = "Debug";
       };
-      "OBJ_284" = {
+      "OBJ_286" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             CLANG_ENABLE_MODULES = "YES";
@@ -2386,30 +2397,22 @@
          };
          name = "Release";
       };
-      "OBJ_285" = {
+      "OBJ_287" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_286"
-         );
-      };
-      "OBJ_286" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_36";
-      };
-      "OBJ_287" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_288",
-            "OBJ_289"
+            "OBJ_288"
          );
       };
       "OBJ_288" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
+         fileRef = "OBJ_36";
       };
       "OBJ_289" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_290",
+            "OBJ_291"
+         );
       };
       "OBJ_29" = {
          isa = "PBXGroup";
@@ -2421,23 +2424,31 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_290" = {
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentPlayerDomain::Product";
+      };
+      "OBJ_291" = {
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentCommonUtil::Product";
+      };
+      "OBJ_292" = {
          isa = "PBXTargetDependency";
          target = "MomentSDK::MomentPlayerDomain";
       };
-      "OBJ_291" = {
+      "OBJ_293" = {
          isa = "PBXTargetDependency";
          target = "MomentSDK::MomentCommonUtil";
       };
-      "OBJ_292" = {
+      "OBJ_294" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_293",
-            "OBJ_294"
+            "OBJ_295",
+            "OBJ_296"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_293" = {
+      "OBJ_295" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -2478,7 +2489,7 @@
          };
          name = "Debug";
       };
-      "OBJ_294" = {
+      "OBJ_296" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -2519,30 +2530,22 @@
          };
          name = "Release";
       };
-      "OBJ_295" = {
+      "OBJ_297" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_296"
-         );
-      };
-      "OBJ_296" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_25";
-      };
-      "OBJ_297" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_298",
-            "OBJ_299"
+            "OBJ_298"
          );
       };
       "OBJ_298" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
+         fileRef = "OBJ_25";
       };
       "OBJ_299" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_300",
+            "OBJ_301"
+         );
       };
       "OBJ_3" = {
          isa = "XCBuildConfiguration";
@@ -2592,23 +2595,31 @@
          sourceTree = "<group>";
       };
       "OBJ_300" = {
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentPlayerDomain::Product";
+      };
+      "OBJ_301" = {
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentCommonUtil::Product";
+      };
+      "OBJ_302" = {
          isa = "PBXTargetDependency";
          target = "MomentSDK::MomentPlayerDomain";
       };
-      "OBJ_301" = {
+      "OBJ_303" = {
          isa = "PBXTargetDependency";
          target = "MomentSDK::MomentCommonUtil";
       };
-      "OBJ_303" = {
+      "OBJ_305" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_304",
-            "OBJ_305"
+            "OBJ_306",
+            "OBJ_307"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_304" = {
+      "OBJ_306" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             CLANG_ENABLE_MODULES = "YES";
@@ -2647,7 +2658,7 @@
          };
          name = "Debug";
       };
-      "OBJ_305" = {
+      "OBJ_307" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             CLANG_ENABLE_MODULES = "YES";
@@ -2686,27 +2697,15 @@
          };
          name = "Release";
       };
-      "OBJ_306" = {
+      "OBJ_308" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_307"
-         );
-      };
-      "OBJ_307" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_38";
-      };
-      "OBJ_308" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_309",
-            "OBJ_310",
-            "OBJ_311"
+            "OBJ_309"
          );
       };
       "OBJ_309" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerRepository::Product";
+         fileRef = "OBJ_38";
       };
       "OBJ_31" = {
          isa = "PBXGroup";
@@ -2718,35 +2717,47 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_310" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_311",
+            "OBJ_312",
+            "OBJ_313"
+         );
       };
       "OBJ_311" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
+         fileRef = "MomentSDK::MomentPlayerRepository::Product";
       };
       "OBJ_312" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerRepository";
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentPlayerDomain::Product";
       };
       "OBJ_313" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomain";
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentCommonUtil::Product";
       };
       "OBJ_314" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
+         target = "MomentSDK::MomentPlayerRepository";
+      };
+      "OBJ_315" = {
+         isa = "PBXTargetDependency";
+         target = "MomentSDK::MomentPlayerDomain";
       };
       "OBJ_316" = {
+         isa = "PBXTargetDependency";
+         target = "MomentSDK::MomentCommonUtil";
+      };
+      "OBJ_318" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_317",
-            "OBJ_318"
+            "OBJ_319",
+            "OBJ_320"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_317" = {
+      "OBJ_319" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             CLANG_ENABLE_MODULES = "YES";
@@ -2785,7 +2796,12 @@
          };
          name = "Debug";
       };
-      "OBJ_318" = {
+      "OBJ_32" = {
+         isa = "PBXFileReference";
+         path = "ActualRepositoryTests.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_320" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             CLANG_ENABLE_MODULES = "YES";
@@ -2824,62 +2840,50 @@
          };
          name = "Release";
       };
-      "OBJ_319" = {
+      "OBJ_321" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_320"
-         );
-      };
-      "OBJ_32" = {
-         isa = "PBXFileReference";
-         path = "ActualRepositoryTests.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_320" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_40";
-      };
-      "OBJ_321" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_322",
-            "OBJ_323",
-            "OBJ_324",
-            "OBJ_325",
-            "OBJ_326"
+            "OBJ_322"
          );
       };
       "OBJ_322" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayer::Product";
+         fileRef = "OBJ_40";
       };
       "OBJ_323" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerRepository::Product";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_324",
+            "OBJ_325",
+            "OBJ_326",
+            "OBJ_327",
+            "OBJ_328",
+            "OBJ_329"
+         );
       };
       "OBJ_324" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerView::Product";
+         fileRef = "MomentSDK::MomentPlayer::Product";
       };
       "OBJ_325" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
+         fileRef = "Alamofire::Alamofire::Product";
       };
       "OBJ_326" = {
          isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
+         fileRef = "MomentSDK::MomentPlayerRepository::Product";
       };
       "OBJ_327" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayer";
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentPlayerView::Product";
       };
       "OBJ_328" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerRepository";
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentPlayerDomain::Product";
       };
       "OBJ_329" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerView";
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentCommonUtil::Product";
       };
       "OBJ_33" = {
          isa = "PBXGroup";
@@ -2892,22 +2896,38 @@
       };
       "OBJ_330" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomain";
+         target = "MomentSDK::MomentPlayer";
       };
       "OBJ_331" = {
          isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
+         target = "Alamofire::Alamofire";
       };
       "OBJ_332" = {
+         isa = "PBXTargetDependency";
+         target = "MomentSDK::MomentPlayerRepository";
+      };
+      "OBJ_333" = {
+         isa = "PBXTargetDependency";
+         target = "MomentSDK::MomentPlayerView";
+      };
+      "OBJ_334" = {
+         isa = "PBXTargetDependency";
+         target = "MomentSDK::MomentPlayerDomain";
+      };
+      "OBJ_335" = {
+         isa = "PBXTargetDependency";
+         target = "MomentSDK::MomentCommonUtil";
+      };
+      "OBJ_336" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_333",
-            "OBJ_334"
+            "OBJ_337",
+            "OBJ_338"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_333" = {
+      "OBJ_337" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -2948,7 +2968,7 @@
          };
          name = "Debug";
       };
-      "OBJ_334" = {
+      "OBJ_338" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -2989,30 +3009,11 @@
          };
          name = "Release";
       };
-      "OBJ_335" = {
+      "OBJ_339" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_336"
+            "OBJ_340"
          );
-      };
-      "OBJ_336" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_27";
-      };
-      "OBJ_337" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_338",
-            "OBJ_339"
-         );
-      };
-      "OBJ_338" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
-      };
-      "OBJ_339" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
       };
       "OBJ_34" = {
          isa = "PBXFileReference";
@@ -3020,23 +3021,42 @@
          sourceTree = "<group>";
       };
       "OBJ_340" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
+      };
+      "OBJ_341" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_342",
+            "OBJ_343"
+         );
+      };
+      "OBJ_342" = {
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentPlayerDomain::Product";
+      };
+      "OBJ_343" = {
+         isa = "PBXBuildFile";
+         fileRef = "MomentSDK::MomentCommonUtil::Product";
+      };
+      "OBJ_344" = {
          isa = "PBXTargetDependency";
          target = "MomentSDK::MomentPlayerDomain";
       };
-      "OBJ_341" = {
+      "OBJ_345" = {
          isa = "PBXTargetDependency";
          target = "MomentSDK::MomentCommonUtil";
       };
-      "OBJ_343" = {
+      "OBJ_347" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_344",
-            "OBJ_345"
+            "OBJ_348",
+            "OBJ_349"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_344" = {
+      "OBJ_348" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -3056,7 +3076,7 @@
          };
          name = "Debug";
       };
-      "OBJ_345" = {
+      "OBJ_349" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             LD = "/usr/bin/true";
@@ -3075,25 +3095,6 @@
             SWIFT_VERSION = "5.0";
          };
          name = "Release";
-      };
-      "OBJ_346" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_347"
-         );
-      };
-      "OBJ_347" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
-      "OBJ_349" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_350",
-            "OBJ_351"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
       };
       "OBJ_35" = {
          isa = "PBXGroup";
@@ -3105,45 +3106,64 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_350" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_351"
+         );
+      };
+      "OBJ_351" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_6";
+      };
+      "OBJ_353" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_354",
+            "OBJ_355"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_354" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
          };
          name = "Debug";
       };
-      "OBJ_351" = {
+      "OBJ_355" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
          };
          name = "Release";
       };
-      "OBJ_352" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerTests";
-      };
-      "OBJ_353" = {
+      "OBJ_356" = {
          isa = "PBXTargetDependency";
          target = "MomentSDK::MomentPlayerDomainTests";
       };
-      "OBJ_354" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorRepositoryTests";
-      };
-      "OBJ_355" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerRepositoryTests";
-      };
-      "OBJ_356" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorDomainTests";
-      };
       "OBJ_357" = {
          isa = "PBXTargetDependency";
+         target = "MomentSDK::MomentPlayerTests";
+      };
+      "OBJ_358" = {
+         isa = "PBXTargetDependency";
          target = "MomentSDK::MomentEditorTests";
+      };
+      "OBJ_359" = {
+         isa = "PBXTargetDependency";
+         target = "MomentSDK::MomentEditorDomainTests";
       };
       "OBJ_36" = {
          isa = "PBXFileReference";
          path = "EntityTests.swift";
          sourceTree = "<group>";
+      };
+      "OBJ_360" = {
+         isa = "PBXTargetDependency";
+         target = "MomentSDK::MomentEditorRepositoryTests";
+      };
+      "OBJ_361" = {
+         isa = "PBXTargetDependency";
+         target = "MomentSDK::MomentPlayerRepositoryTests";
       };
       "OBJ_37" = {
          isa = "PBXGroup";
@@ -3485,23 +3505,23 @@
       "OBJ_79" = {
          isa = "PBXGroup";
          children = (
-            "MomentSDK::MomentPlayerTests::Product",
-            "MomentSDK::MomentCommonUtil::Product",
-            "MomentSDK::MomentEditorView::Product",
-            "MomentSDK::MomentCommon::Product",
-            "MomentSDK::MomentPlayerView::Product",
+            "MomentSDK::MomentPlayerDomainTests::Product",
+            "MomentSDK::MomentPlayerRepository::Product",
             "MomentSDK::MomentPlayer::Product",
             "MomentSDK::MomentEditorTests::Product",
-            "MomentSDK::MomentEditorRepository::Product",
-            "MomentSDK::MomentPlayerRepositoryTests::Product",
-            "MomentSDK::MomentPlayerRepository::Product",
             "MomentSDK::MomentEditorDomainTests::Product",
-            "Alamofire::Alamofire::Product",
-            "MomentSDK::MomentPlayerDomainTests::Product",
-            "MomentSDK::MomentEditor::Product",
-            "MomentSDK::MomentEditorRepositoryTests::Product",
             "MomentSDK::MomentPlayerDomain::Product",
-            "MomentSDK::MomentEditorDomain::Product"
+            "MomentSDK::MomentPlayerView::Product",
+            "MomentSDK::MomentEditorRepository::Product",
+            "Alamofire::Alamofire::Product",
+            "MomentSDK::MomentCommonUtil::Product",
+            "MomentSDK::MomentPlayerRepositoryTests::Product",
+            "MomentSDK::MomentCommon::Product",
+            "MomentSDK::MomentEditorRepositoryTests::Product",
+            "MomentSDK::MomentEditor::Product",
+            "MomentSDK::MomentEditorView::Product",
+            "MomentSDK::MomentEditorDomain::Product",
+            "MomentSDK::MomentPlayerTests::Product"
          );
          name = "Products";
          path = "";

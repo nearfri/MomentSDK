@@ -14,34 +14,6 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MomentSDK::MomentPlayer"
-               BuildableName = "MomentPlayer.framework"
-               BlueprintName = "MomentPlayer"
-               ReferencedContainer = "container:MomentSDK.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MomentSDK::MomentCommonUtil"
-               BuildableName = "MomentCommonUtil.framework"
-               BlueprintName = "MomentCommonUtil"
-               ReferencedContainer = "container:MomentSDK.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "MomentSDK::MomentPlayerView"
                BuildableName = "MomentPlayerView.framework"
                BlueprintName = "MomentPlayerView"
@@ -56,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MomentSDK::MomentEditor"
-               BuildableName = "MomentEditor.framework"
-               BlueprintName = "MomentEditor"
+               BlueprintIdentifier = "MomentSDK::MomentPlayer"
+               BuildableName = "MomentPlayer.framework"
+               BlueprintName = "MomentPlayer"
                ReferencedContainer = "container:MomentSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -70,9 +42,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MomentSDK::MomentPlayerDomain"
-               BuildableName = "MomentPlayerDomain.framework"
-               BlueprintName = "MomentPlayerDomain"
+               BlueprintIdentifier = "MomentSDK::MomentEditorDomain"
+               BuildableName = "MomentEditorDomain.framework"
+               BlueprintName = "MomentEditorDomain"
                ReferencedContainer = "container:MomentSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -98,23 +70,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MomentSDK::MomentPlayerRepository"
-               BuildableName = "MomentPlayerRepository.framework"
-               BlueprintName = "MomentPlayerRepository"
-               ReferencedContainer = "container:MomentSDK.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MomentSDK::MomentEditorView"
-               BuildableName = "MomentEditorView.framework"
-               BlueprintName = "MomentEditorView"
+               BlueprintIdentifier = "MomentSDK::MomentPlayerDomain"
+               BuildableName = "MomentPlayerDomain.framework"
+               BlueprintName = "MomentPlayerDomain"
                ReferencedContainer = "container:MomentSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -140,9 +98,51 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MomentSDK::MomentEditorDomain"
-               BuildableName = "MomentEditorDomain.framework"
-               BlueprintName = "MomentEditorDomain"
+               BlueprintIdentifier = "MomentSDK::MomentEditor"
+               BuildableName = "MomentEditor.framework"
+               BlueprintName = "MomentEditor"
+               ReferencedContainer = "container:MomentSDK.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "MomentSDK::MomentCommonUtil"
+               BuildableName = "MomentCommonUtil.framework"
+               BlueprintName = "MomentCommonUtil"
+               ReferencedContainer = "container:MomentSDK.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "MomentSDK::MomentEditorView"
+               BuildableName = "MomentEditorView.framework"
+               BlueprintName = "MomentEditorView"
+               ReferencedContainer = "container:MomentSDK.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "MomentSDK::MomentPlayerRepository"
+               BuildableName = "MomentPlayerRepository.framework"
+               BlueprintName = "MomentPlayerRepository"
                ReferencedContainer = "container:MomentSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -158,39 +158,19 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MomentSDK::MomentEditorTests"
-               BuildableName = "MomentEditorTests.xctest"
-               BlueprintName = "MomentEditorTests"
-               ReferencedContainer = "container:MomentSDK.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MomentSDK::MomentPlayerTests"
-               BuildableName = "MomentPlayerTests.xctest"
-               BlueprintName = "MomentPlayerTests"
-               ReferencedContainer = "container:MomentSDK.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MomentSDK::MomentEditorDomainTests"
-               BuildableName = "MomentEditorDomainTests.xctest"
-               BlueprintName = "MomentEditorDomainTests"
-               ReferencedContainer = "container:MomentSDK.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
                BlueprintIdentifier = "MomentSDK::MomentEditorRepositoryTests"
                BuildableName = "MomentEditorRepositoryTests.xctest"
                BlueprintName = "MomentEditorRepositoryTests"
+               ReferencedContainer = "container:MomentSDK.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "MomentSDK::MomentPlayerRepositoryTests"
+               BuildableName = "MomentPlayerRepositoryTests.xctest"
+               BlueprintName = "MomentPlayerRepositoryTests"
                ReferencedContainer = "container:MomentSDK.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -208,9 +188,29 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "MomentSDK::MomentPlayerRepositoryTests"
-               BuildableName = "MomentPlayerRepositoryTests.xctest"
-               BlueprintName = "MomentPlayerRepositoryTests"
+               BlueprintIdentifier = "MomentSDK::MomentPlayerTests"
+               BuildableName = "MomentPlayerTests.xctest"
+               BlueprintName = "MomentPlayerTests"
+               ReferencedContainer = "container:MomentSDK.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "MomentSDK::MomentEditorTests"
+               BuildableName = "MomentEditorTests.xctest"
+               BlueprintName = "MomentEditorTests"
+               ReferencedContainer = "container:MomentSDK.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "MomentSDK::MomentEditorDomainTests"
+               BuildableName = "MomentEditorDomainTests.xctest"
+               BlueprintName = "MomentEditorDomainTests"
                ReferencedContainer = "container:MomentSDK.xcodeproj">
             </BuildableReference>
          </TestableReference>
