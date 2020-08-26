@@ -18,6 +18,19 @@ targets:
     settings:
       base:
         INFOPLIST_FILE: Supporting Files/Info.plist
+    scheme:
+      testTargets:
+        - MomentCommonTests
+  MomentCommonTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: MomentCommon
+    sources:
+      - path: Tests/Common/MomentCommonTests
+    settings:
+      base:
+        INFOPLIST_FILE: Supporting Files/Info.plist
   MomentCommonUtil:
     type: library.static
     platform: iOS

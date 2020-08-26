@@ -21,6 +21,7 @@
 		34FF22F63A8E62024CE737F3 /* ActualRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738F6576652CA1A5DBA53273 /* ActualRepository.swift */; };
 		369BBBEE0EEAB36A0324459F /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE1A4C971DD871035A78564 /* Foo.swift */; };
 		4FE05087D9FAFD4E586DD0E0 /* ActualRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC67196A92FFDA9EDFD684 /* ActualRepositoryTests.swift */; };
+		565A1E7C0985E877CC28A427 /* MomentCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C50595B356D18910CB0ED0A /* MomentCommon.framework */; };
 		5AAF3A32A9789ABBE110300F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D789E2A870E0A00904FC5757 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		63A2FD53153CD6AE2356400A /* MomentPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCD8B03FC4474A37D1189C25 /* MomentPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		6A61E07BB0E935C636C71271 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D789E2A870E0A00904FC5757 /* Alamofire.framework */; };
@@ -38,10 +39,12 @@
 		D553977C077451216E5F7B23 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5C10D354B11FF493FA734 /* Entity.swift */; };
 		D93B2B13541C0BB723CD536D /* EntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730F5172E8D1718FD560EB /* EntityTests.swift */; };
 		DFA0E279837AB17F936DCF30 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456B252C7D2B6F7E689E289 /* Utility.swift */; };
+		EB0691B0A3BB96E9858DBFFA /* FooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 299D9580EFA401C3DB9BF55C /* FooTests.swift */; };
 		EBCDA113ED0CBD4DFA371000 /* libMomentCommonUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6238E4E0E4A96D5CD2700B /* libMomentCommonUtil.a */; };
 		F0A73506D00DDBFEC9367439 /* ActualRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA1DD32AD593C431429DA04 /* ActualRepository.swift */; };
 		F56DCA0F57195FA3E1EA54F6 /* MomentDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E12402F927352CB05F19CA /* MomentDataTests.swift */; };
 		F8D302543D00D14BA5F7336D /* MomentPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD8B03FC4474A37D1189C25 /* MomentPlayer.framework */; };
+		FA44ACD957B25049780B277F /* MomentCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7C50595B356D18910CB0ED0A /* MomentCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF426BA9D5319FBD6AB63A2B /* libMomentPlayerDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3ED6E7BAF38A3F908538DB2 /* libMomentPlayerDomain.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +76,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 26A459E122714162D8FA1259;
 			remoteInfo = MomentCommonUtil;
+		};
+		66371F28350795C1750F1E95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3C1DB5EC23A8ACCE0FE8DD;
+			remoteInfo = MomentCommon;
 		};
 		6BB971782BA5A720000B3761 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -224,9 +234,21 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA34A350ACAC4790C021BF41 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FA44ACD957B25049780B277F /* MomentCommon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		003946A52A113F130A99A5A2 /* MomentCommonTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EA6B4AB52393DB4F84D247 /* MomentPlayerRepositoryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentPlayerRepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F3B4634F473A7B296F0FB6B /* ViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewData.swift; sourceTree = "<group>"; };
 		1B9DF7ECE76F7EEA5DB36DD9 /* MomentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentData.swift; sourceTree = "<group>"; };
@@ -234,6 +256,7 @@
 		20CC67196A92FFDA9EDFD684 /* ActualRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRepositoryTests.swift; sourceTree = "<group>"; };
 		20E12402F927352CB05F19CA /* MomentDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDataTests.swift; sourceTree = "<group>"; };
 		2456B252C7D2B6F7E689E289 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		299D9580EFA401C3DB9BF55C /* FooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooTests.swift; sourceTree = "<group>"; };
 		31AA819124F9C87DD10C9E1F /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		3D584CCF2EAAB5B1137ECA90 /* libMomentEditorView.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentEditorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E2E73EBE9AF06C83795675F /* MomentPlayerDomainTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentPlayerDomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -341,6 +364,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E8D5F8A2BA1C021195ECF263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				565A1E7C0985E877CC28A427 /* MomentCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -366,6 +397,14 @@
 				738F6576652CA1A5DBA53273 /* ActualRepository.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		1B4C6DD5E92FB5D3E837F786 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				DC64910D6389EDD4A821B0AA /* MomentCommonTests */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		1E056D4E1EBA6963D4EA8231 /* Util */ = {
@@ -474,6 +513,7 @@
 				1FB26307D594E86896B5C183 /* libMomentPlayerRepository.a */,
 				5366DA7B3E10BEF9DD9BAD7F /* libMomentPlayerView.a */,
 				7C50595B356D18910CB0ED0A /* MomentCommon.framework */,
+				003946A52A113F130A99A5A2 /* MomentCommonTests.xctest */,
 				C79AF5A1BD170EDDE73FDFC1 /* MomentEditor.framework */,
 				AA4C9CE9D14E2CDF560E75DC /* MomentEditorDomainTests.xctest */,
 				8574DB3285F13DA83A8039C1 /* MomentEditorRepositoryTests.xctest */,
@@ -514,6 +554,7 @@
 		87DDD55E21280E32ABBDC3DB /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				1B4C6DD5E92FB5D3E837F786 /* Common */,
 				F624379D574A9FD57B9EAE78 /* Editor */,
 				D36712089DD0C10B842ABA1C /* Player */,
 			);
@@ -561,6 +602,14 @@
 				840318BD7C9DD4E12BB82094 /* RepositoryTests */,
 			);
 			path = Player;
+			sourceTree = "<group>";
+		};
+		DC64910D6389EDD4A821B0AA /* MomentCommonTests */ = {
+			isa = PBXGroup;
+			children = (
+				299D9580EFA401C3DB9BF55C /* FooTests.swift */,
+			);
+			path = MomentCommonTests;
 			sourceTree = "<group>";
 		};
 		E567662C6C00DA3509F3D383 /* Editor */ = {
@@ -831,6 +880,24 @@
 			productReference = 5366DA7B3E10BEF9DD9BAD7F /* libMomentPlayerView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		A23450F83F0FA408AF4737BD /* MomentCommonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 345B6D9A23717D5977DC4A42 /* Build configuration list for PBXNativeTarget "MomentCommonTests" */;
+			buildPhases = (
+				87DCBCCE10D12C1D1143CDBF /* Sources */,
+				E8D5F8A2BA1C021195ECF263 /* Frameworks */,
+				EA34A350ACAC4790C021BF41 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B0835C7ECD04EDF07D759D3 /* PBXTargetDependency */,
+			);
+			name = MomentCommonTests;
+			productName = MomentCommonTests;
+			productReference = 003946A52A113F130A99A5A2 /* MomentCommonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		CC227DD09E6E11369A9A5E71 /* MomentPlayerRepository */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1A0F7BC3FB77616543828B4B /* Build configuration list for PBXNativeTarget "MomentPlayerRepository" */;
@@ -904,6 +971,7 @@
 			projectRoot = "";
 			targets = (
 				1A3C1DB5EC23A8ACCE0FE8DD /* MomentCommon */,
+				A23450F83F0FA408AF4737BD /* MomentCommonTests */,
 				26A459E122714162D8FA1259 /* MomentCommonUtil */,
 				2E595DE4BE063DCC6B8F85AC /* MomentEditor */,
 				85A496B8E9F15E4FDDC5C7AD /* MomentEditorDomain */,
@@ -1135,6 +1203,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		87DCBCCE10D12C1D1143CDBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB0691B0A3BB96E9858DBFFA /* FooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B96FBA18F5B239BB219E84C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1184,6 +1260,11 @@
 			isa = PBXTargetDependency;
 			target = 63CB3C4E9651FB9CA80AF732 /* MomentEditorRepository */;
 			targetProxy = B4ACCEBAAB9D5CC093F9F613 /* PBXContainerItemProxy */;
+		};
+		2B0835C7ECD04EDF07D759D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A3C1DB5EC23A8ACCE0FE8DD /* MomentCommon */;
+			targetProxy = 66371F28350795C1750F1E95 /* PBXContainerItemProxy */;
 		};
 		2E896B6120367E08F3AB6397 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1746,6 +1827,22 @@
 			};
 			name = Release;
 		};
+		A377A367A28044FC155C8066 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommonTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		A84AF31421587EC67DC8F849 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2005,6 +2102,22 @@
 			};
 			name = Debug;
 		};
+		F4D6F28387FF9B93B0BE047B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommonTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		FC028C165A85CEF3AA9E813C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2067,6 +2180,15 @@
 			buildConfigurations = (
 				8FACE6A369569C7A9D479ED5 /* Debug */,
 				D68212A8140EE4757513FFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		345B6D9A23717D5977DC4A42 /* Build configuration list for PBXNativeTarget "MomentCommonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A377A367A28044FC155C8066 /* Debug */,
+				F4D6F28387FF9B93B0BE047B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

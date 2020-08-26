@@ -33,7 +33,10 @@ let package = Package(
             name: "MomentCommon",
             dependencies: ["MomentCommonUtil"],
             path: "Sources/Common/MomentCommon"),
-        
+        .testTarget(
+            name: "MomentCommonTests",
+            dependencies: ["MomentCommon"],
+            path: "Tests/Common/MomentCommonTests"),
         .target(
             name: "MomentCommonUtil",
             dependencies: [],
