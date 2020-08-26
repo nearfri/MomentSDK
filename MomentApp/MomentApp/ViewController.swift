@@ -1,15 +1,8 @@
-//
-//  ViewController.swift
-//  MomentApp
-//
-//  Created by Ukjeong Lee on 2020/08/21.
-//  Copyright © 2020 Ukjeong Lee. All rights reserved.
-//
-
 import UIKit
 import MomentEditor
 import MomentEditorRepository
 import MomentPlayer
+import MomentEditorView
 
 class ViewController: UIViewController {
 
@@ -23,6 +16,13 @@ class ViewController: UIViewController {
         
     }
 
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            let vc = EditorViewController()
+            self.present(vc, animated: true, completion: nil)
+        }
+    }
 }
 

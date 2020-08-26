@@ -1,10 +1,11 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
     name: "MomentSDK",
+    defaultLocalization: "en",
     platforms: [.iOS(.v13)],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -65,7 +66,10 @@ let package = Package(
         .target(
             name: "MomentEditorView",
             dependencies: ["MomentEditorDomain", "MomentCommonUtil"],
-            path: "Sources/Editor/View"),
+            path: "Sources/Editor/View",
+            resources: [
+                .process("Resources")
+            ]),
         .target(
             name: "MomentEditorRepository",
             dependencies: ["MomentEditorDomain", "Alamofire"],
