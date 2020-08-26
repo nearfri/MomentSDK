@@ -36,6 +36,7 @@
 		8272FBD923A4895ADA50453C /* iPhone_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 87B4CE2483C72BC206C1D634 /* iPhone_11.png */; };
 		896349A440191A5A1E9AB088 /* EditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F886EB013069477D1BAD3544 /* EditorViewController.xib */; };
 		9166D4C0441F8203F655C448 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD6F1344C6169D6D7E8D5BD /* EditorViewController.swift */; };
+		98F7735BD18E24CEDCA371E4 /* resource_bundle_accessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F361CA69B23697FDB47654 /* resource_bundle_accessor.swift */; };
 		9C48330703FEAB99EF4F22B0 /* libMomentEditorRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA61705D7EFD5F3431433985 /* libMomentEditorRepository.a */; };
 		A0006FA55DC3690070D2887F /* EntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57F454EAAF8FEB0CF4C3957 /* EntityTests.swift */; };
 		A4F92B3F1B77ED82B0A591CF /* libMomentPlayerRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB26307D594E86896B5C183 /* libMomentPlayerRepository.a */; };
@@ -279,6 +280,7 @@
 		20CC67196A92FFDA9EDFD684 /* ActualRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRepositoryTests.swift; sourceTree = "<group>"; };
 		20E12402F927352CB05F19CA /* MomentDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDataTests.swift; sourceTree = "<group>"; };
 		2456B252C7D2B6F7E689E289 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		27F361CA69B23697FDB47654 /* resource_bundle_accessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resource_bundle_accessor.swift; sourceTree = "<group>"; };
 		299D9580EFA401C3DB9BF55C /* FooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooTests.swift; sourceTree = "<group>"; };
 		31AA819124F9C87DD10C9E1F /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		3D584CCF2EAAB5B1137ECA90 /* libMomentEditorView.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentEditorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -508,6 +510,7 @@
 				D2F9D121F899DCDCE144BB75 /* Localizable.strings */,
 				54134C523B0D8A055537CB93 /* Lorem ipsum.txt */,
 				774D642E479CDDAFECAC18D1 /* Media.xcassets */,
+				27F361CA69B23697FDB47654 /* resource_bundle_accessor.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -1292,6 +1295,7 @@
 			files = (
 				9166D4C0441F8203F655C448 /* EditorViewController.swift in Sources */,
 				0E665BF7A82B581709CF8DDA /* ViewData.swift in Sources */,
+				98F7735BD18E24CEDCA371E4 /* resource_bundle_accessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
