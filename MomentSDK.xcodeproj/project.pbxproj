@@ -1,3598 +1,2185 @@
 // !$*UTF8*$!
 {
-   archiveVersion = "1";
-   objectVersion = "46";
-   objects = {
-      "Alamofire::Alamofire" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_98";
-         buildPhases = (
-            "OBJ_101",
-            "OBJ_137"
-         );
-         dependencies = (
-         );
-         name = "Alamofire";
-         productName = "Alamofire";
-         productReference = "Alamofire::Alamofire::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "Alamofire::Alamofire::Product" = {
-         isa = "PBXFileReference";
-         path = "Alamofire.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "Alamofire::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_139";
-         buildPhases = (
-            "OBJ_142"
-         );
-         dependencies = (
-         );
-         name = "AlamofirePackageDescription";
-         productName = "AlamofirePackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-      "MomentSDK::MomentCommon" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_145";
-         buildPhases = (
-            "OBJ_148",
-            "OBJ_150"
-         );
-         dependencies = (
-            "OBJ_152"
-         );
-         name = "MomentCommon";
-         productName = "MomentCommon";
-         productReference = "MomentSDK::MomentCommon::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "MomentSDK::MomentCommon::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentCommon.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentCommonUtil" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_154";
-         buildPhases = (
-            "OBJ_157",
-            "OBJ_159"
-         );
-         dependencies = (
-         );
-         name = "MomentCommonUtil";
-         productName = "MomentCommonUtil";
-         productReference = "MomentSDK::MomentCommonUtil::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "MomentSDK::MomentCommonUtil::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentCommonUtil.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentEditor" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_161";
-         buildPhases = (
-            "OBJ_164",
-            "OBJ_166"
-         );
-         dependencies = (
-            "OBJ_172",
-            "OBJ_174",
-            "OBJ_175",
-            "OBJ_177",
-            "OBJ_179"
-         );
-         name = "MomentEditor";
-         productName = "MomentEditor";
-         productReference = "MomentSDK::MomentEditor::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "MomentSDK::MomentEditor::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentEditor.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentEditorDomain" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_180";
-         buildPhases = (
-            "OBJ_183",
-            "OBJ_185"
-         );
-         dependencies = (
-            "OBJ_187"
-         );
-         name = "MomentEditorDomain";
-         productName = "MomentEditorDomain";
-         productReference = "MomentSDK::MomentEditorDomain::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "MomentSDK::MomentEditorDomain::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentEditorDomain.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentEditorDomainTests" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_189";
-         buildPhases = (
-            "OBJ_192",
-            "OBJ_194"
-         );
-         dependencies = (
-            "OBJ_197",
-            "OBJ_198"
-         );
-         name = "MomentEditorDomainTests";
-         productName = "MomentEditorDomainTests";
-         productReference = "MomentSDK::MomentEditorDomainTests::Product";
-         productType = "com.apple.product-type.bundle.unit-test";
-      };
-      "MomentSDK::MomentEditorDomainTests::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentEditorDomainTests.xctest";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentEditorRepository" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_199";
-         buildPhases = (
-            "OBJ_202",
-            "OBJ_204"
-         );
-         dependencies = (
-            "OBJ_208",
-            "OBJ_209",
-            "OBJ_210"
-         );
-         name = "MomentEditorRepository";
-         productName = "MomentEditorRepository";
-         productReference = "MomentSDK::MomentEditorRepository::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "MomentSDK::MomentEditorRepository::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentEditorRepository.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentEditorRepositoryTests" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_212";
-         buildPhases = (
-            "OBJ_215",
-            "OBJ_217"
-         );
-         dependencies = (
-            "OBJ_222",
-            "OBJ_223",
-            "OBJ_224",
-            "OBJ_225"
-         );
-         name = "MomentEditorRepositoryTests";
-         productName = "MomentEditorRepositoryTests";
-         productReference = "MomentSDK::MomentEditorRepositoryTests::Product";
-         productType = "com.apple.product-type.bundle.unit-test";
-      };
-      "MomentSDK::MomentEditorRepositoryTests::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentEditorRepositoryTests.xctest";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentEditorTests" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_227";
-         buildPhases = (
-            "OBJ_230",
-            "OBJ_232"
-         );
-         dependencies = (
-            "OBJ_239",
-            "OBJ_240",
-            "OBJ_241",
-            "OBJ_242",
-            "OBJ_243",
-            "OBJ_244"
-         );
-         name = "MomentEditorTests";
-         productName = "MomentEditorTests";
-         productReference = "MomentSDK::MomentEditorTests::Product";
-         productType = "com.apple.product-type.bundle.unit-test";
-      };
-      "MomentSDK::MomentEditorTests::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentEditorTests.xctest";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentEditorView" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_245";
-         buildPhases = (
-            "OBJ_248",
-            "OBJ_250"
-         );
-         dependencies = (
-            "OBJ_253",
-            "OBJ_254"
-         );
-         name = "MomentEditorView";
-         productName = "MomentEditorView";
-         productReference = "MomentSDK::MomentEditorView::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "MomentSDK::MomentEditorView::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentEditorView.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentPlayer" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_256";
-         buildPhases = (
-            "OBJ_259",
-            "OBJ_261"
-         );
-         dependencies = (
-            "OBJ_267",
-            "OBJ_268",
-            "OBJ_270",
-            "OBJ_272",
-            "OBJ_274"
-         );
-         name = "MomentPlayer";
-         productName = "MomentPlayer";
-         productReference = "MomentSDK::MomentPlayer::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "MomentSDK::MomentPlayer::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentPlayer.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentPlayerDomain" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_275";
-         buildPhases = (
-            "OBJ_278",
-            "OBJ_280"
-         );
-         dependencies = (
-            "OBJ_282"
-         );
-         name = "MomentPlayerDomain";
-         productName = "MomentPlayerDomain";
-         productReference = "MomentSDK::MomentPlayerDomain::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "MomentSDK::MomentPlayerDomain::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentPlayerDomain.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentPlayerDomainTests" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_284";
-         buildPhases = (
-            "OBJ_287",
-            "OBJ_289"
-         );
-         dependencies = (
-            "OBJ_292",
-            "OBJ_293"
-         );
-         name = "MomentPlayerDomainTests";
-         productName = "MomentPlayerDomainTests";
-         productReference = "MomentSDK::MomentPlayerDomainTests::Product";
-         productType = "com.apple.product-type.bundle.unit-test";
-      };
-      "MomentSDK::MomentPlayerDomainTests::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentPlayerDomainTests.xctest";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentPlayerRepository" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_294";
-         buildPhases = (
-            "OBJ_297",
-            "OBJ_299"
-         );
-         dependencies = (
-            "OBJ_302",
-            "OBJ_303"
-         );
-         name = "MomentPlayerRepository";
-         productName = "MomentPlayerRepository";
-         productReference = "MomentSDK::MomentPlayerRepository::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "MomentSDK::MomentPlayerRepository::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentPlayerRepository.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentPlayerRepositoryTests" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_305";
-         buildPhases = (
-            "OBJ_308",
-            "OBJ_310"
-         );
-         dependencies = (
-            "OBJ_314",
-            "OBJ_315",
-            "OBJ_316"
-         );
-         name = "MomentPlayerRepositoryTests";
-         productName = "MomentPlayerRepositoryTests";
-         productReference = "MomentSDK::MomentPlayerRepositoryTests::Product";
-         productType = "com.apple.product-type.bundle.unit-test";
-      };
-      "MomentSDK::MomentPlayerRepositoryTests::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentPlayerRepositoryTests.xctest";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentPlayerTests" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_318";
-         buildPhases = (
-            "OBJ_321",
-            "OBJ_323"
-         );
-         dependencies = (
-            "OBJ_330",
-            "OBJ_331",
-            "OBJ_332",
-            "OBJ_333",
-            "OBJ_334",
-            "OBJ_335"
-         );
-         name = "MomentPlayerTests";
-         productName = "MomentPlayerTests";
-         productReference = "MomentSDK::MomentPlayerTests::Product";
-         productType = "com.apple.product-type.bundle.unit-test";
-      };
-      "MomentSDK::MomentPlayerTests::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentPlayerTests.xctest";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentPlayerView" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_336";
-         buildPhases = (
-            "OBJ_339",
-            "OBJ_341"
-         );
-         dependencies = (
-            "OBJ_344",
-            "OBJ_345"
-         );
-         name = "MomentPlayerView";
-         productName = "MomentPlayerView";
-         productReference = "MomentSDK::MomentPlayerView::Product";
-         productType = "com.apple.product-type.framework";
-      };
-      "MomentSDK::MomentPlayerView::Product" = {
-         isa = "PBXFileReference";
-         path = "MomentPlayerView.framework";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "MomentSDK::MomentSDKPackageTests::ProductTarget" = {
-         isa = "PBXAggregateTarget";
-         buildConfigurationList = "OBJ_353";
-         buildPhases = (
-         );
-         dependencies = (
-            "OBJ_356",
-            "OBJ_357",
-            "OBJ_358",
-            "OBJ_359",
-            "OBJ_360",
-            "OBJ_361"
-         );
-         name = "MomentSDKPackageTests";
-         productName = "MomentSDKPackageTests";
-      };
-      "MomentSDK::SwiftPMPackageDescription" = {
-         isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_347";
-         buildPhases = (
-            "OBJ_350"
-         );
-         dependencies = (
-         );
-         name = "MomentSDKPackageDescription";
-         productName = "MomentSDKPackageDescription";
-         productType = "com.apple.product-type.framework";
-      };
-      "OBJ_1" = {
-         isa = "PBXProject";
-         attributes = {
-            LastSwiftMigration = "9999";
-            LastUpgradeCheck = "9999";
-         };
-         buildConfigurationList = "OBJ_2";
-         compatibilityVersion = "Xcode 3.2";
-         developmentRegion = "en";
-         hasScannedForEncodings = "0";
-         knownRegions = (
-            "en"
-         );
-         mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_79";
-         projectDirPath = ".";
-         targets = (
-            "Alamofire::Alamofire",
-            "Alamofire::SwiftPMPackageDescription",
-            "MomentSDK::MomentCommon",
-            "MomentSDK::MomentCommonUtil",
-            "MomentSDK::MomentEditor",
-            "MomentSDK::MomentEditorDomain",
-            "MomentSDK::MomentEditorDomainTests",
-            "MomentSDK::MomentEditorRepository",
-            "MomentSDK::MomentEditorRepositoryTests",
-            "MomentSDK::MomentEditorTests",
-            "MomentSDK::MomentEditorView",
-            "MomentSDK::MomentPlayer",
-            "MomentSDK::MomentPlayerDomain",
-            "MomentSDK::MomentPlayerDomainTests",
-            "MomentSDK::MomentPlayerRepository",
-            "MomentSDK::MomentPlayerRepositoryTests",
-            "MomentSDK::MomentPlayerTests",
-            "MomentSDK::MomentPlayerView",
-            "MomentSDK::SwiftPMPackageDescription",
-            "MomentSDK::MomentSDKPackageTests::ProductTarget"
-         );
-      };
-      "OBJ_10" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_11"
-         );
-         name = "MomentCommonUtil";
-         path = "Sources/Common/Util";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_100" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/Alamofire_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "10.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.12";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)",
-               "-framework",
-               "CFNetwork"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Alamofire";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "Alamofire";
-            TVOS_DEPLOYMENT_TARGET = "10.0";
-            WATCHOS_DEPLOYMENT_TARGET = "3.0";
-         };
-         name = "Release";
-      };
-      "OBJ_101" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_102",
-            "OBJ_103",
-            "OBJ_104",
-            "OBJ_105",
-            "OBJ_106",
-            "OBJ_107",
-            "OBJ_108",
-            "OBJ_109",
-            "OBJ_110",
-            "OBJ_111",
-            "OBJ_112",
-            "OBJ_113",
-            "OBJ_114",
-            "OBJ_115",
-            "OBJ_116",
-            "OBJ_117",
-            "OBJ_118",
-            "OBJ_119",
-            "OBJ_120",
-            "OBJ_121",
-            "OBJ_122",
-            "OBJ_123",
-            "OBJ_124",
-            "OBJ_125",
-            "OBJ_126",
-            "OBJ_127",
-            "OBJ_128",
-            "OBJ_129",
-            "OBJ_130",
-            "OBJ_131",
-            "OBJ_132",
-            "OBJ_133",
-            "OBJ_134",
-            "OBJ_135",
-            "OBJ_136"
-         );
-      };
-      "OBJ_102" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_44";
-      };
-      "OBJ_103" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_45";
-      };
-      "OBJ_104" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_46";
-      };
-      "OBJ_105" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_47";
-      };
-      "OBJ_106" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_48";
-      };
-      "OBJ_107" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_49";
-      };
-      "OBJ_108" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_50";
-      };
-      "OBJ_109" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_51";
-      };
-      "OBJ_11" = {
-         isa = "PBXFileReference";
-         path = "Utility.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_110" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_52";
-      };
-      "OBJ_111" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_53";
-      };
-      "OBJ_112" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_54";
-      };
-      "OBJ_113" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_55";
-      };
-      "OBJ_114" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_56";
-      };
-      "OBJ_115" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_57";
-      };
-      "OBJ_116" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_58";
-      };
-      "OBJ_117" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_59";
-      };
-      "OBJ_118" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_60";
-      };
-      "OBJ_119" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_61";
-      };
-      "OBJ_12" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_13"
-         );
-         name = "MomentEditor";
-         path = "Sources/Editor/MomentEditor";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_120" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_62";
-      };
-      "OBJ_121" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_63";
-      };
-      "OBJ_122" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_64";
-      };
-      "OBJ_123" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_65";
-      };
-      "OBJ_124" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_66";
-      };
-      "OBJ_125" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_67";
-      };
-      "OBJ_126" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_68";
-      };
-      "OBJ_127" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_69";
-      };
-      "OBJ_128" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_70";
-      };
-      "OBJ_129" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_71";
-      };
-      "OBJ_13" = {
-         isa = "PBXFileReference";
-         path = "MomentData.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_130" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_72";
-      };
-      "OBJ_131" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_73";
-      };
-      "OBJ_132" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_74";
-      };
-      "OBJ_133" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_75";
-      };
-      "OBJ_134" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_76";
-      };
-      "OBJ_135" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_77";
-      };
-      "OBJ_136" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_78";
-      };
-      "OBJ_137" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_139" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_140",
-            "OBJ_141"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_14" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_15"
-         );
-         name = "MomentEditorDomain";
-         path = "Sources/Editor/Domain";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_140" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.1.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_141" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.1.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_142" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_143"
-         );
-      };
-      "OBJ_143" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_43";
-      };
-      "OBJ_145" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_146",
-            "OBJ_147"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_146" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentCommon_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentCommon";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentCommon";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_147" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentCommon_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentCommon";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentCommon";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_148" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_149"
-         );
-      };
-      "OBJ_149" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
-      };
-      "OBJ_15" = {
-         isa = "PBXFileReference";
-         path = "Entity.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_150" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_151"
-         );
-      };
-      "OBJ_151" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_152" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_154" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_155",
-            "OBJ_156"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_155" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentCommonUtil_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentCommonUtil";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentCommonUtil";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_156" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentCommonUtil_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentCommonUtil";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentCommonUtil";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_157" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_158"
-         );
-      };
-      "OBJ_158" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_11";
-      };
-      "OBJ_159" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_16" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_17"
-         );
-         name = "MomentEditorRepository";
-         path = "Sources/Editor/Repository";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_161" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_162",
-            "OBJ_163"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_162" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditor_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentEditor";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditor";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_163" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditor_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentEditor";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditor";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_164" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_165"
-         );
-      };
-      "OBJ_165" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_13";
-      };
-      "OBJ_166" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_167",
-            "OBJ_168",
-            "OBJ_169",
-            "OBJ_170",
-            "OBJ_171"
-         );
-      };
-      "OBJ_167" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditorRepository::Product";
-      };
-      "OBJ_168" = {
-         isa = "PBXBuildFile";
-         fileRef = "Alamofire::Alamofire::Product";
-      };
-      "OBJ_169" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditorView::Product";
-      };
-      "OBJ_17" = {
-         isa = "PBXFileReference";
-         path = "ActualRepository.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_170" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditorDomain::Product";
-      };
-      "OBJ_171" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_172" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorRepository";
-      };
-      "OBJ_174" = {
-         isa = "PBXTargetDependency";
-         target = "Alamofire::Alamofire";
-      };
-      "OBJ_175" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorView";
-      };
-      "OBJ_177" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorDomain";
-      };
-      "OBJ_179" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_18" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_19"
-         );
-         name = "MomentEditorView";
-         path = "Sources/Editor/View";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_180" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_181",
-            "OBJ_182"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_181" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorDomain_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentEditorDomain";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorDomain";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_182" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorDomain_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentEditorDomain";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorDomain";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_183" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_184"
-         );
-      };
-      "OBJ_184" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_15";
-      };
-      "OBJ_185" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_186"
-         );
-      };
-      "OBJ_186" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_187" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_189" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_190",
-            "OBJ_191"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_19" = {
-         isa = "PBXFileReference";
-         path = "ViewData.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_190" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorDomainTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorDomainTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_191" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorDomainTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorDomainTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_192" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_193"
-         );
-      };
-      "OBJ_193" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_30";
-      };
-      "OBJ_194" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_195",
-            "OBJ_196"
-         );
-      };
-      "OBJ_195" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditorDomain::Product";
-      };
-      "OBJ_196" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_197" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorDomain";
-      };
-      "OBJ_198" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_199" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_200",
-            "OBJ_201"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_2" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_3",
-            "OBJ_4"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_20" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_21"
-         );
-         name = "MomentPlayer";
-         path = "Sources/Player/MomentPlayer";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_200" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorRepository_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentEditorRepository";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorRepository";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_201" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorRepository_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentEditorRepository";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorRepository";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_202" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_203"
-         );
-      };
-      "OBJ_203" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_17";
-      };
-      "OBJ_204" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_205",
-            "OBJ_206",
-            "OBJ_207"
-         );
-      };
-      "OBJ_205" = {
-         isa = "PBXBuildFile";
-         fileRef = "Alamofire::Alamofire::Product";
-      };
-      "OBJ_206" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditorDomain::Product";
-      };
-      "OBJ_207" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_208" = {
-         isa = "PBXTargetDependency";
-         target = "Alamofire::Alamofire";
-      };
-      "OBJ_209" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorDomain";
-      };
-      "OBJ_21" = {
-         isa = "PBXFileReference";
-         path = "MomentData.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_210" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_212" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_213",
-            "OBJ_214"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_213" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorRepositoryTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorRepositoryTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_214" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorRepositoryTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorRepositoryTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_215" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_216"
-         );
-      };
-      "OBJ_216" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_32";
-      };
-      "OBJ_217" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_218",
-            "OBJ_219",
-            "OBJ_220",
-            "OBJ_221"
-         );
-      };
-      "OBJ_218" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditorRepository::Product";
-      };
-      "OBJ_219" = {
-         isa = "PBXBuildFile";
-         fileRef = "Alamofire::Alamofire::Product";
-      };
-      "OBJ_22" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_23"
-         );
-         name = "MomentPlayerDomain";
-         path = "Sources/Player/Domain";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_220" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditorDomain::Product";
-      };
-      "OBJ_221" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_222" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorRepository";
-      };
-      "OBJ_223" = {
-         isa = "PBXTargetDependency";
-         target = "Alamofire::Alamofire";
-      };
-      "OBJ_224" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorDomain";
-      };
-      "OBJ_225" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_227" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_228",
-            "OBJ_229"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_228" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_229" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_23" = {
-         isa = "PBXFileReference";
-         path = "Entity.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_230" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_231"
-         );
-      };
-      "OBJ_231" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_34";
-      };
-      "OBJ_232" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_233",
-            "OBJ_234",
-            "OBJ_235",
-            "OBJ_236",
-            "OBJ_237",
-            "OBJ_238"
-         );
-      };
-      "OBJ_233" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditor::Product";
-      };
-      "OBJ_234" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditorRepository::Product";
-      };
-      "OBJ_235" = {
-         isa = "PBXBuildFile";
-         fileRef = "Alamofire::Alamofire::Product";
-      };
-      "OBJ_236" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditorView::Product";
-      };
-      "OBJ_237" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditorDomain::Product";
-      };
-      "OBJ_238" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_239" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditor";
-      };
-      "OBJ_24" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_25"
-         );
-         name = "MomentPlayerRepository";
-         path = "Sources/Player/Repository";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_240" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorRepository";
-      };
-      "OBJ_241" = {
-         isa = "PBXTargetDependency";
-         target = "Alamofire::Alamofire";
-      };
-      "OBJ_242" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorView";
-      };
-      "OBJ_243" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorDomain";
-      };
-      "OBJ_244" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_245" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_246",
-            "OBJ_247"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_246" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorView_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentEditorView";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorView";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_247" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentEditorView_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentEditorView";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentEditorView";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_248" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_249"
-         );
-      };
-      "OBJ_249" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_19";
-      };
-      "OBJ_25" = {
-         isa = "PBXFileReference";
-         path = "ActualRepository.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_250" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_251",
-            "OBJ_252"
-         );
-      };
-      "OBJ_251" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentEditorDomain::Product";
-      };
-      "OBJ_252" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_253" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorDomain";
-      };
-      "OBJ_254" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_256" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_257",
-            "OBJ_258"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_257" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayer_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentPlayer";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayer";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_258" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayer_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentPlayer";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayer";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_259" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_260"
-         );
-      };
-      "OBJ_26" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_27"
-         );
-         name = "MomentPlayerView";
-         path = "Sources/Player/View";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_260" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_21";
-      };
-      "OBJ_261" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_262",
-            "OBJ_263",
-            "OBJ_264",
-            "OBJ_265",
-            "OBJ_266"
-         );
-      };
-      "OBJ_262" = {
-         isa = "PBXBuildFile";
-         fileRef = "Alamofire::Alamofire::Product";
-      };
-      "OBJ_263" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerRepository::Product";
-      };
-      "OBJ_264" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerView::Product";
-      };
-      "OBJ_265" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
-      };
-      "OBJ_266" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_267" = {
-         isa = "PBXTargetDependency";
-         target = "Alamofire::Alamofire";
-      };
-      "OBJ_268" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerRepository";
-      };
-      "OBJ_27" = {
-         isa = "PBXFileReference";
-         path = "ViewData.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_270" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerView";
-      };
-      "OBJ_272" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomain";
-      };
-      "OBJ_274" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_275" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_276",
-            "OBJ_277"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_276" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerDomain_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentPlayerDomain";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerDomain";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_277" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerDomain_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentPlayerDomain";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerDomain";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_278" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_279"
-         );
-      };
-      "OBJ_279" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_23";
-      };
-      "OBJ_28" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_29",
-            "OBJ_31",
-            "OBJ_33",
-            "OBJ_35",
-            "OBJ_37",
-            "OBJ_39"
-         );
-         name = "Tests";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_280" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_281"
-         );
-      };
-      "OBJ_281" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_282" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_284" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_285",
-            "OBJ_286"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_285" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerDomainTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerDomainTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_286" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerDomainTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerDomainTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_287" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_288"
-         );
-      };
-      "OBJ_288" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_36";
-      };
-      "OBJ_289" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_290",
-            "OBJ_291"
-         );
-      };
-      "OBJ_29" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_30"
-         );
-         name = "MomentEditorDomainTests";
-         path = "Tests/Editor/DomainTests";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_290" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
-      };
-      "OBJ_291" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_292" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomain";
-      };
-      "OBJ_293" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_294" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_295",
-            "OBJ_296"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_295" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerRepository_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentPlayerRepository";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerRepository";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_296" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerRepository_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentPlayerRepository";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerRepository";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_297" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_298"
-         );
-      };
-      "OBJ_298" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_25";
-      };
-      "OBJ_299" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_300",
-            "OBJ_301"
-         );
-      };
-      "OBJ_3" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "NO";
-            DEBUG_INFORMATION_FORMAT = "dwarf";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            ENABLE_NS_ASSERTIONS = "YES";
-            GCC_OPTIMIZATION_LEVEL = "0";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1",
-               "DEBUG=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            ONLY_ACTIVE_ARCH = "YES";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "macosx",
-               "iphoneos",
-               "iphonesimulator",
-               "appletvos",
-               "appletvsimulator",
-               "watchos",
-               "watchsimulator"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE",
-               "DEBUG"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Debug";
-      };
-      "OBJ_30" = {
-         isa = "PBXFileReference";
-         path = "EntityTests.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_300" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
-      };
-      "OBJ_301" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_302" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomain";
-      };
-      "OBJ_303" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_305" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_306",
-            "OBJ_307"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_306" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerRepositoryTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerRepositoryTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_307" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerRepositoryTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerRepositoryTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_308" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_309"
-         );
-      };
-      "OBJ_309" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_38";
-      };
-      "OBJ_31" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_32"
-         );
-         name = "MomentEditorRepositoryTests";
-         path = "Tests/Editor/RepositoryTests";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_310" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_311",
-            "OBJ_312",
-            "OBJ_313"
-         );
-      };
-      "OBJ_311" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerRepository::Product";
-      };
-      "OBJ_312" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
-      };
-      "OBJ_313" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_314" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerRepository";
-      };
-      "OBJ_315" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomain";
-      };
-      "OBJ_316" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_318" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_319",
-            "OBJ_320"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_319" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_32" = {
-         isa = "PBXFileReference";
-         path = "ActualRepositoryTests.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_320" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_MODULES = "YES";
-            EMBEDDED_CONTENT_CONTAINS_SWIFT = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerTests_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "@loader_path/../Frameworks",
-               "@loader_path/Frameworks"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerTests";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_321" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_322"
-         );
-      };
-      "OBJ_322" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_40";
-      };
-      "OBJ_323" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_324",
-            "OBJ_325",
-            "OBJ_326",
-            "OBJ_327",
-            "OBJ_328",
-            "OBJ_329"
-         );
-      };
-      "OBJ_324" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayer::Product";
-      };
-      "OBJ_325" = {
-         isa = "PBXBuildFile";
-         fileRef = "Alamofire::Alamofire::Product";
-      };
-      "OBJ_326" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerRepository::Product";
-      };
-      "OBJ_327" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerView::Product";
-      };
-      "OBJ_328" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
-      };
-      "OBJ_329" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_33" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_34"
-         );
-         name = "MomentEditorTests";
-         path = "Tests/Editor/MomentEditorTests";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_330" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayer";
-      };
-      "OBJ_331" = {
-         isa = "PBXTargetDependency";
-         target = "Alamofire::Alamofire";
-      };
-      "OBJ_332" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerRepository";
-      };
-      "OBJ_333" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerView";
-      };
-      "OBJ_334" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomain";
-      };
-      "OBJ_335" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_336" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_337",
-            "OBJ_338"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_337" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerView_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentPlayerView";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerView";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_338" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/MomentPlayerView_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "13.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "MomentPlayerView";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "MomentPlayerView";
-            TVOS_DEPLOYMENT_TARGET = "9.0";
-            WATCHOS_DEPLOYMENT_TARGET = "2.0";
-         };
-         name = "Release";
-      };
-      "OBJ_339" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_340"
-         );
-      };
-      "OBJ_34" = {
-         isa = "PBXFileReference";
-         path = "MomentDataTests.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_340" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_27";
-      };
-      "OBJ_341" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_342",
-            "OBJ_343"
-         );
-      };
-      "OBJ_342" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentPlayerDomain::Product";
-      };
-      "OBJ_343" = {
-         isa = "PBXBuildFile";
-         fileRef = "MomentSDK::MomentCommonUtil::Product";
-      };
-      "OBJ_344" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomain";
-      };
-      "OBJ_345" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentCommonUtil";
-      };
-      "OBJ_347" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_348",
-            "OBJ_349"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_348" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.2.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Debug";
-      };
-      "OBJ_349" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "5",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
-               "-package-description-version",
-               "5.2.0"
-            );
-            SWIFT_VERSION = "5.0";
-         };
-         name = "Release";
-      };
-      "OBJ_35" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_36"
-         );
-         name = "MomentPlayerDomainTests";
-         path = "Tests/Player/DomainTests";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_350" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_351"
-         );
-      };
-      "OBJ_351" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
-      "OBJ_353" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_354",
-            "OBJ_355"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_354" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Debug";
-      };
-      "OBJ_355" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-         };
-         name = "Release";
-      };
-      "OBJ_356" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerDomainTests";
-      };
-      "OBJ_357" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerTests";
-      };
-      "OBJ_358" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorTests";
-      };
-      "OBJ_359" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorDomainTests";
-      };
-      "OBJ_36" = {
-         isa = "PBXFileReference";
-         path = "EntityTests.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_360" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentEditorRepositoryTests";
-      };
-      "OBJ_361" = {
-         isa = "PBXTargetDependency";
-         target = "MomentSDK::MomentPlayerRepositoryTests";
-      };
-      "OBJ_37" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_38"
-         );
-         name = "MomentPlayerRepositoryTests";
-         path = "Tests/Player/RepositoryTests";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_38" = {
-         isa = "PBXFileReference";
-         path = "ActualRepositoryTests.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_39" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_40"
-         );
-         name = "MomentPlayerTests";
-         path = "Tests/Player/MomentPlayerTests";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_4" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            CLANG_ENABLE_OBJC_ARC = "YES";
-            COMBINE_HIDPI_IMAGES = "YES";
-            COPY_PHASE_STRIP = "YES";
-            DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-            DYLIB_INSTALL_NAME_BASE = "@rpath";
-            GCC_OPTIMIZATION_LEVEL = "s";
-            GCC_PREPROCESSOR_DEFINITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE=1"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.10";
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)",
-               "-DXcode"
-            );
-            PRODUCT_NAME = "$(TARGET_NAME)";
-            SDKROOT = "macosx";
-            SUPPORTED_PLATFORMS = (
-               "macosx",
-               "iphoneos",
-               "iphonesimulator",
-               "appletvos",
-               "appletvsimulator",
-               "watchos",
-               "watchsimulator"
-            );
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)",
-               "SWIFT_PACKAGE"
-            );
-            SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-            USE_HEADERMAP = "NO";
-         };
-         name = "Release";
-      };
-      "OBJ_40" = {
-         isa = "PBXFileReference";
-         path = "MomentDataTests.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_41" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_42"
-         );
-         name = "Dependencies";
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_42" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_43",
-            "OBJ_44",
-            "OBJ_45",
-            "OBJ_46",
-            "OBJ_47",
-            "OBJ_48",
-            "OBJ_49",
-            "OBJ_50",
-            "OBJ_51",
-            "OBJ_52",
-            "OBJ_53",
-            "OBJ_54",
-            "OBJ_55",
-            "OBJ_56",
-            "OBJ_57",
-            "OBJ_58",
-            "OBJ_59",
-            "OBJ_60",
-            "OBJ_61",
-            "OBJ_62",
-            "OBJ_63",
-            "OBJ_64",
-            "OBJ_65",
-            "OBJ_66",
-            "OBJ_67",
-            "OBJ_68",
-            "OBJ_69",
-            "OBJ_70",
-            "OBJ_71",
-            "OBJ_72",
-            "OBJ_73",
-            "OBJ_74",
-            "OBJ_75",
-            "OBJ_76",
-            "OBJ_77",
-            "OBJ_78"
-         );
-         name = "Alamofire 5.2.2";
-         path = ".build/checkouts/Alamofire/Source";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_43" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/ukjeong/Desktop/MomentSDK/.build/checkouts/Alamofire/Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_44" = {
-         isa = "PBXFileReference";
-         path = "AFError.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_45" = {
-         isa = "PBXFileReference";
-         path = "Alamofire.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_46" = {
-         isa = "PBXFileReference";
-         path = "AlamofireExtended.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_47" = {
-         isa = "PBXFileReference";
-         path = "AuthenticationInterceptor.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_48" = {
-         isa = "PBXFileReference";
-         path = "CachedResponseHandler.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_49" = {
-         isa = "PBXFileReference";
-         path = "Combine.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_5" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_6",
-            "OBJ_7",
-            "OBJ_28",
-            "OBJ_41",
-            "OBJ_79"
-         );
-         path = "";
-         sourceTree = "<group>";
-      };
-      "OBJ_50" = {
-         isa = "PBXFileReference";
-         path = "DispatchQueue+Alamofire.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_51" = {
-         isa = "PBXFileReference";
-         path = "EventMonitor.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_52" = {
-         isa = "PBXFileReference";
-         path = "HTTPHeaders.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_53" = {
-         isa = "PBXFileReference";
-         path = "HTTPMethod.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_54" = {
-         isa = "PBXFileReference";
-         path = "MultipartFormData.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_55" = {
-         isa = "PBXFileReference";
-         path = "MultipartUpload.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_56" = {
-         isa = "PBXFileReference";
-         path = "NetworkReachabilityManager.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_57" = {
-         isa = "PBXFileReference";
-         path = "Notifications.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_58" = {
-         isa = "PBXFileReference";
-         path = "OperationQueue+Alamofire.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_59" = {
-         isa = "PBXFileReference";
-         path = "ParameterEncoder.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_6" = {
-         isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         path = "Package.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_60" = {
-         isa = "PBXFileReference";
-         path = "ParameterEncoding.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_61" = {
-         isa = "PBXFileReference";
-         path = "Protected.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_62" = {
-         isa = "PBXFileReference";
-         path = "RedirectHandler.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_63" = {
-         isa = "PBXFileReference";
-         path = "Request.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_64" = {
-         isa = "PBXFileReference";
-         path = "RequestInterceptor.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_65" = {
-         isa = "PBXFileReference";
-         path = "RequestTaskMap.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_66" = {
-         isa = "PBXFileReference";
-         path = "Response.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_67" = {
-         isa = "PBXFileReference";
-         path = "ResponseSerialization.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_68" = {
-         isa = "PBXFileReference";
-         path = "Result+Alamofire.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_69" = {
-         isa = "PBXFileReference";
-         path = "RetryPolicy.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_7" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_8",
-            "OBJ_10",
-            "OBJ_12",
-            "OBJ_14",
-            "OBJ_16",
-            "OBJ_18",
-            "OBJ_20",
-            "OBJ_22",
-            "OBJ_24",
-            "OBJ_26"
-         );
-         name = "Sources";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_70" = {
-         isa = "PBXFileReference";
-         path = "ServerTrustEvaluation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_71" = {
-         isa = "PBXFileReference";
-         path = "Session.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_72" = {
-         isa = "PBXFileReference";
-         path = "SessionDelegate.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_73" = {
-         isa = "PBXFileReference";
-         path = "StringEncoding+Alamofire.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_74" = {
-         isa = "PBXFileReference";
-         path = "URLConvertible+URLRequestConvertible.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_75" = {
-         isa = "PBXFileReference";
-         path = "URLEncodedFormEncoder.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_76" = {
-         isa = "PBXFileReference";
-         path = "URLRequest+Alamofire.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_77" = {
-         isa = "PBXFileReference";
-         path = "URLSessionConfiguration+Alamofire.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_78" = {
-         isa = "PBXFileReference";
-         path = "Validation.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_79" = {
-         isa = "PBXGroup";
-         children = (
-            "MomentSDK::MomentPlayerDomainTests::Product",
-            "MomentSDK::MomentPlayerRepository::Product",
-            "MomentSDK::MomentPlayer::Product",
-            "MomentSDK::MomentEditorTests::Product",
-            "MomentSDK::MomentEditorDomainTests::Product",
-            "MomentSDK::MomentPlayerDomain::Product",
-            "MomentSDK::MomentPlayerView::Product",
-            "MomentSDK::MomentEditorRepository::Product",
-            "Alamofire::Alamofire::Product",
-            "MomentSDK::MomentCommonUtil::Product",
-            "MomentSDK::MomentPlayerRepositoryTests::Product",
-            "MomentSDK::MomentCommon::Product",
-            "MomentSDK::MomentEditorRepositoryTests::Product",
-            "MomentSDK::MomentEditor::Product",
-            "MomentSDK::MomentEditorView::Product",
-            "MomentSDK::MomentEditorDomain::Product",
-            "MomentSDK::MomentPlayerTests::Product"
-         );
-         name = "Products";
-         path = "";
-         sourceTree = "BUILT_PRODUCTS_DIR";
-      };
-      "OBJ_8" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_9"
-         );
-         name = "MomentCommon";
-         path = "Sources/Common/MomentCommon";
-         sourceTree = "SOURCE_ROOT";
-      };
-      "OBJ_9" = {
-         isa = "PBXFileReference";
-         path = "Foo.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_98" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_99",
-            "OBJ_100"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_99" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "MomentSDK.xcodeproj/Alamofire_Info.plist";
-            IPHONEOS_DEPLOYMENT_TARGET = "10.0";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            MACOSX_DEPLOYMENT_TARGET = "10.12";
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)",
-               "-framework",
-               "CFNetwork"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Alamofire";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "5.0";
-            TARGET_NAME = "Alamofire";
-            TVOS_DEPLOYMENT_TARGET = "10.0";
-            WATCHOS_DEPLOYMENT_TARGET = "3.0";
-         };
-         name = "Debug";
-      };
-   };
-   rootObject = "OBJ_1";
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01594BEA216C7B2688887309 /* libMomentPlayerRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB26307D594E86896B5C183 /* libMomentPlayerRepository.a */; };
+		05E88048576BB70C6A94308D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D789E2A870E0A00904FC5757 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		07F156D17871AC9A4459A670 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D789E2A870E0A00904FC5757 /* Alamofire.framework */; };
+		0E665BF7A82B581709CF8DDA /* ViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B04821686DCC5714AC2281 /* ViewData.swift */; };
+		113E3C401B1319BE07F72FA1 /* ActualRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68980BC83DE2E2DA8725A25F /* ActualRepositoryTests.swift */; };
+		15534C0824A3D35061625AB4 /* libMomentEditorDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EA27AD4A97F0CA5F20B5BE /* libMomentEditorDomain.a */; };
+		192E801AFB7A5C1C9A512815 /* libMomentPlayerDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3ED6E7BAF38A3F908538DB2 /* libMomentPlayerDomain.a */; };
+		234BCF027D783EEB7651DE54 /* MomentEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C79AF5A1BD170EDDE73FDFC1 /* MomentEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		24A60C842ADBBC1FD1DD1FC3 /* MomentEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C79AF5A1BD170EDDE73FDFC1 /* MomentEditor.framework */; };
+		28A2EE7E96CE2DDB7D45AA24 /* MomentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9CEFDFE640FAA1C0860A6E7 /* MomentData.swift */; };
+		2EACBC6F59C61E52BF33F487 /* libMomentPlayerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5366DA7B3E10BEF9DD9BAD7F /* libMomentPlayerView.a */; };
+		34FF22F63A8E62024CE737F3 /* ActualRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738F6576652CA1A5DBA53273 /* ActualRepository.swift */; };
+		369BBBEE0EEAB36A0324459F /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE1A4C971DD871035A78564 /* Foo.swift */; };
+		4FE05087D9FAFD4E586DD0E0 /* ActualRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CC67196A92FFDA9EDFD684 /* ActualRepositoryTests.swift */; };
+		5AAF3A32A9789ABBE110300F /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D789E2A870E0A00904FC5757 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63A2FD53153CD6AE2356400A /* MomentPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = DCD8B03FC4474A37D1189C25 /* MomentPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		6A61E07BB0E935C636C71271 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D789E2A870E0A00904FC5757 /* Alamofire.framework */; };
+		6E87931F07D1D12603D96307 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AA819124F9C87DD10C9E1F /* Entity.swift */; };
+		7B2D0886378F40F08297809E /* ViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F3B4634F473A7B296F0FB6B /* ViewData.swift */; };
+		7D4887ABB100C26DD2CDBD30 /* libMomentEditorView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D584CCF2EAAB5B1137ECA90 /* libMomentEditorView.a */; };
+		7F05A64F0811B39595A3F73F /* MomentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9DF7ECE76F7EEA5DB36DD9 /* MomentData.swift */; };
+		9C48330703FEAB99EF4F22B0 /* libMomentEditorRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA61705D7EFD5F3431433985 /* libMomentEditorRepository.a */; };
+		A0006FA55DC3690070D2887F /* EntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57F454EAAF8FEB0CF4C3957 /* EntityTests.swift */; };
+		A4F92B3F1B77ED82B0A591CF /* libMomentPlayerRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FB26307D594E86896B5C183 /* libMomentPlayerRepository.a */; };
+		BBD49E76CC87A521AB9B9C30 /* MomentDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87B07AC6F2E08342FA425A4 /* MomentDataTests.swift */; };
+		C0CA0C36C7BAF464B9703C1B /* libMomentEditorRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA61705D7EFD5F3431433985 /* libMomentEditorRepository.a */; };
+		CCE217479BCD6B02ED67B47D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D789E2A870E0A00904FC5757 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D2CC8943E25F7CC425E5582D /* libMomentEditorDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72EA27AD4A97F0CA5F20B5BE /* libMomentEditorDomain.a */; };
+		D553977C077451216E5F7B23 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF5C10D354B11FF493FA734 /* Entity.swift */; };
+		D93B2B13541C0BB723CD536D /* EntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0730F5172E8D1718FD560EB /* EntityTests.swift */; };
+		DFA0E279837AB17F936DCF30 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2456B252C7D2B6F7E689E289 /* Utility.swift */; };
+		EBCDA113ED0CBD4DFA371000 /* libMomentCommonUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A6238E4E0E4A96D5CD2700B /* libMomentCommonUtil.a */; };
+		F0A73506D00DDBFEC9367439 /* ActualRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA1DD32AD593C431429DA04 /* ActualRepository.swift */; };
+		F56DCA0F57195FA3E1EA54F6 /* MomentDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E12402F927352CB05F19CA /* MomentDataTests.swift */; };
+		F8D302543D00D14BA5F7336D /* MomentPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCD8B03FC4474A37D1189C25 /* MomentPlayer.framework */; };
+		FF426BA9D5319FBD6AB63A2B /* libMomentPlayerDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3ED6E7BAF38A3F908538DB2 /* libMomentPlayerDomain.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09D0AF9F2EB32BB1454A7297 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB953EE41E839E34A71C7108;
+			remoteInfo = MomentEditorView;
+		};
+		22CC2A0953081D085A1DCAB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8ECCCEF42A3D9BAD4D23A798;
+			remoteInfo = MomentPlayerView;
+		};
+		3554C83716ED80990806154F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0A88EE36E1936C0F963BE1;
+			remoteInfo = MomentPlayerDomain;
+		};
+		39D6B25F31DC580CDEE810C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A459E122714162D8FA1259;
+			remoteInfo = MomentCommonUtil;
+		};
+		6BB971782BA5A720000B3761 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A459E122714162D8FA1259;
+			remoteInfo = MomentCommonUtil;
+		};
+		79D44CFA0EAB9E2592031AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A459E122714162D8FA1259;
+			remoteInfo = MomentCommonUtil;
+		};
+		7FF39C7040955EEA3111C3F6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC227DD09E6E11369A9A5E71;
+			remoteInfo = MomentPlayerRepository;
+		};
+		8143EBD8684EE69B5E230F02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A496B8E9F15E4FDDC5C7AD;
+			remoteInfo = MomentEditorDomain;
+		};
+		9657C283C250B86F620B981C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0A88EE36E1936C0F963BE1;
+			remoteInfo = MomentPlayerDomain;
+		};
+		9AEEB00562984D198F6721EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0A88EE36E1936C0F963BE1;
+			remoteInfo = MomentPlayerDomain;
+		};
+		9FB64B0F73E2BCBD0750102C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC227DD09E6E11369A9A5E71;
+			remoteInfo = MomentPlayerRepository;
+		};
+		A48A82CD12626CF64C40F301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A496B8E9F15E4FDDC5C7AD;
+			remoteInfo = MomentEditorDomain;
+		};
+		A53B0C12E5C2782BD2F37306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A496B8E9F15E4FDDC5C7AD;
+			remoteInfo = MomentEditorDomain;
+		};
+		B4ACCEBAAB9D5CC093F9F613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CB3C4E9651FB9CA80AF732;
+			remoteInfo = MomentEditorRepository;
+		};
+		C863FC70EF9A7697F1E7F48D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 26A459E122714162D8FA1259;
+			remoteInfo = MomentCommonUtil;
+		};
+		D4677EF306DCEE20FA75C22F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0481610BD95FE386C3F6CE21;
+			remoteInfo = MomentPlayer;
+		};
+		DF8A005ABEE6D67224532237 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85A496B8E9F15E4FDDC5C7AD;
+			remoteInfo = MomentEditorDomain;
+		};
+		E3EBCD089536833F3311E75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA0A88EE36E1936C0F963BE1;
+			remoteInfo = MomentPlayerDomain;
+		};
+		E5FAA27DC5B20EC996A55431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63CB3C4E9651FB9CA80AF732;
+			remoteInfo = MomentEditorRepository;
+		};
+		F176C9EBBF0B072EA1802C00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8CB9146C73E33A0219E47EF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E595DE4BE063DCC6B8F85AC;
+			remoteInfo = MomentEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		41790CB18AB3FD331DA416CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				234BCF027D783EEB7651DE54 /* MomentEditor.framework in Embed Frameworks */,
+				5AAF3A32A9789ABBE110300F /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D237AF18D625FF102FFF8BC7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CCE217479BCD6B02ED67B47D /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6AE427D69BEC1D106A332D3 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63A2FD53153CD6AE2356400A /* MomentPlayer.framework in Embed Frameworks */,
+				05E88048576BB70C6A94308D /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		02EA6B4AB52393DB4F84D247 /* MomentPlayerRepositoryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentPlayerRepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F3B4634F473A7B296F0FB6B /* ViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewData.swift; sourceTree = "<group>"; };
+		1B9DF7ECE76F7EEA5DB36DD9 /* MomentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentData.swift; sourceTree = "<group>"; };
+		1FB26307D594E86896B5C183 /* libMomentPlayerRepository.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentPlayerRepository.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		20CC67196A92FFDA9EDFD684 /* ActualRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRepositoryTests.swift; sourceTree = "<group>"; };
+		20E12402F927352CB05F19CA /* MomentDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDataTests.swift; sourceTree = "<group>"; };
+		2456B252C7D2B6F7E689E289 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		31AA819124F9C87DD10C9E1F /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		3D584CCF2EAAB5B1137ECA90 /* libMomentEditorView.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentEditorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2E73EBE9AF06C83795675F /* MomentPlayerDomainTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentPlayerDomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5366DA7B3E10BEF9DD9BAD7F /* libMomentPlayerView.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentPlayerView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A6238E4E0E4A96D5CD2700B /* libMomentCommonUtil.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentCommonUtil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		68980BC83DE2E2DA8725A25F /* ActualRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRepositoryTests.swift; sourceTree = "<group>"; };
+		6BA98157079400AA70AF2DFC /* MomentPlayerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72EA27AD4A97F0CA5F20B5BE /* libMomentEditorDomain.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentEditorDomain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		738F6576652CA1A5DBA53273 /* ActualRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRepository.swift; sourceTree = "<group>"; };
+		79F729378D2C81E9CF9D5D07 /* MomentEditorTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AA1DD32AD593C431429DA04 /* ActualRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRepository.swift; sourceTree = "<group>"; };
+		7C50595B356D18910CB0ED0A /* MomentCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MomentCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8574DB3285F13DA83A8039C1 /* MomentEditorRepositoryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentEditorRepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF5C10D354B11FF493FA734 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		A87B07AC6F2E08342FA425A4 /* MomentDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDataTests.swift; sourceTree = "<group>"; };
+		AA4C9CE9D14E2CDF560E75DC /* MomentEditorDomainTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentEditorDomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57F454EAAF8FEB0CF4C3957 /* EntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTests.swift; sourceTree = "<group>"; };
+		C79AF5A1BD170EDDE73FDFC1 /* MomentEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MomentEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B04821686DCC5714AC2281 /* ViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewData.swift; sourceTree = "<group>"; };
+		D0730F5172E8D1718FD560EB /* EntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTests.swift; sourceTree = "<group>"; };
+		D3ED6E7BAF38A3F908538DB2 /* libMomentPlayerDomain.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentPlayerDomain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D789E2A870E0A00904FC5757 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		DA61705D7EFD5F3431433985 /* libMomentEditorRepository.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentEditorRepository.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD8B03FC4474A37D1189C25 /* MomentPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MomentPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9CEFDFE640FAA1C0860A6E7 /* MomentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentData.swift; sourceTree = "<group>"; };
+		FEE1A4C971DD871035A78564 /* Foo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		409F9EF5EAB91FC72769F78D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4F92B3F1B77ED82B0A591CF /* libMomentPlayerRepository.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4FB934191AB0F9EEC25DE9E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8D302543D00D14BA5F7336D /* MomentPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A85C4FB9982E138BEF0717D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24A60C842ADBBC1FD1DD1FC3 /* MomentEditor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7211F5AA1C90335EC545501C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				192E801AFB7A5C1C9A512815 /* libMomentPlayerDomain.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95A04731163FDDA56455579F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15534C0824A3D35061625AB4 /* libMomentEditorDomain.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFEAC2A563F740B4A6C3003 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2CC8943E25F7CC425E5582D /* libMomentEditorDomain.a in Frameworks */,
+				7D4887ABB100C26DD2CDBD30 /* libMomentEditorView.a in Frameworks */,
+				C0CA0C36C7BAF464B9703C1B /* libMomentEditorRepository.a in Frameworks */,
+				6A61E07BB0E935C636C71271 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D411BA735A7F051DE46A6577 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF426BA9D5319FBD6AB63A2B /* libMomentPlayerDomain.a in Frameworks */,
+				2EACBC6F59C61E52BF33F487 /* libMomentPlayerView.a in Frameworks */,
+				01594BEA216C7B2688887309 /* libMomentPlayerRepository.a in Frameworks */,
+				07F156D17871AC9A4459A670 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB450C4FA1E1D3149695846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C48330703FEAB99EF4F22B0 /* libMomentEditorRepository.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4F3FC5A88BA864302050E63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBCDA113ED0CBD4DFA371000 /* libMomentCommonUtil.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EA7781F0F87A258646B7754 /* RepositoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				68980BC83DE2E2DA8725A25F /* ActualRepositoryTests.swift */,
+			);
+			path = RepositoryTests;
+			sourceTree = "<group>";
+		};
+		1907338355CF395C9E4B6CCF /* MomentEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				A87B07AC6F2E08342FA425A4 /* MomentDataTests.swift */,
+			);
+			path = MomentEditorTests;
+			sourceTree = "<group>";
+		};
+		1A991127CBBF2A2074301FBB /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				738F6576652CA1A5DBA53273 /* ActualRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		1E056D4E1EBA6963D4EA8231 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2456B252C7D2B6F7E689E289 /* Utility.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		22340E5869C6AC212CB9B3D5 /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				EC331873723ABFC5DEA89DE4 /* Domain */,
+				9FF3D11F69EE0BDF6DE493A3 /* MomentPlayer */,
+				2801E5CDC1FE53DD380E40DA /* Repository */,
+				E83ADF0BE8B0CF817341BBC8 /* View */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		2801E5CDC1FE53DD380E40DA /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				7AA1DD32AD593C431429DA04 /* ActualRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		2B50138B02BFD96AC9462920 = {
+			isa = PBXGroup;
+			children = (
+				30A2C15AC3B0EF2CCA0AFCAC /* Sources */,
+				87DDD55E21280E32ABBDC3DB /* Tests */,
+				C7DD13BA289256E3E0FFF130 /* Frameworks */,
+				7DF7752A741843D491BB1C08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F0B5E446C899D2C2833364A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D789E2A870E0A00904FC5757 /* Alamofire.framework */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		30A2C15AC3B0EF2CCA0AFCAC /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				83B73CBE17FDF9E24D322FE6 /* Common */,
+				E567662C6C00DA3509F3D383 /* Editor */,
+				22340E5869C6AC212CB9B3D5 /* Player */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		477935A9211FD42C08796D11 /* DomainTests */ = {
+			isa = PBXGroup;
+			children = (
+				C57F454EAAF8FEB0CF4C3957 /* EntityTests.swift */,
+			);
+			path = DomainTests;
+			sourceTree = "<group>";
+		};
+		5BA87A7BEF74B5F1D550A4BE /* MomentEditor */ = {
+			isa = PBXGroup;
+			children = (
+				F9CEFDFE640FAA1C0860A6E7 /* MomentData.swift */,
+			);
+			path = MomentEditor;
+			sourceTree = "<group>";
+		};
+		60AEE75DCAC0983B3B9A53FC /* DomainTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0730F5172E8D1718FD560EB /* EntityTests.swift */,
+			);
+			path = DomainTests;
+			sourceTree = "<group>";
+		};
+		64F3DE1E7A7B795C4A98A74C /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				8CF5C10D354B11FF493FA734 /* Entity.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		6B89D67819CA1EF450E77D02 /* MomentPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				20E12402F927352CB05F19CA /* MomentDataTests.swift */,
+			);
+			path = MomentPlayerTests;
+			sourceTree = "<group>";
+		};
+		7DF7752A741843D491BB1C08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A6238E4E0E4A96D5CD2700B /* libMomentCommonUtil.a */,
+				72EA27AD4A97F0CA5F20B5BE /* libMomentEditorDomain.a */,
+				DA61705D7EFD5F3431433985 /* libMomentEditorRepository.a */,
+				3D584CCF2EAAB5B1137ECA90 /* libMomentEditorView.a */,
+				D3ED6E7BAF38A3F908538DB2 /* libMomentPlayerDomain.a */,
+				1FB26307D594E86896B5C183 /* libMomentPlayerRepository.a */,
+				5366DA7B3E10BEF9DD9BAD7F /* libMomentPlayerView.a */,
+				7C50595B356D18910CB0ED0A /* MomentCommon.framework */,
+				C79AF5A1BD170EDDE73FDFC1 /* MomentEditor.framework */,
+				AA4C9CE9D14E2CDF560E75DC /* MomentEditorDomainTests.xctest */,
+				8574DB3285F13DA83A8039C1 /* MomentEditorRepositoryTests.xctest */,
+				79F729378D2C81E9CF9D5D07 /* MomentEditorTests.xctest */,
+				DCD8B03FC4474A37D1189C25 /* MomentPlayer.framework */,
+				4E2E73EBE9AF06C83795675F /* MomentPlayerDomainTests.xctest */,
+				02EA6B4AB52393DB4F84D247 /* MomentPlayerRepositoryTests.xctest */,
+				6BA98157079400AA70AF2DFC /* MomentPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81A4D3231C3F9728AAD10440 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7B04821686DCC5714AC2281 /* ViewData.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		83B73CBE17FDF9E24D322FE6 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8A87E56482BA3F8B9470FD9C /* MomentCommon */,
+				1E056D4E1EBA6963D4EA8231 /* Util */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		840318BD7C9DD4E12BB82094 /* RepositoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				20CC67196A92FFDA9EDFD684 /* ActualRepositoryTests.swift */,
+			);
+			path = RepositoryTests;
+			sourceTree = "<group>";
+		};
+		87DDD55E21280E32ABBDC3DB /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F624379D574A9FD57B9EAE78 /* Editor */,
+				D36712089DD0C10B842ABA1C /* Player */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		8A87E56482BA3F8B9470FD9C /* MomentCommon */ = {
+			isa = PBXGroup;
+			children = (
+				FEE1A4C971DD871035A78564 /* Foo.swift */,
+			);
+			path = MomentCommon;
+			sourceTree = "<group>";
+		};
+		8B0247D8A94F25DAC774B033 /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				2F0B5E446C899D2C2833364A /* iOS */,
+			);
+			name = Carthage;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		9FF3D11F69EE0BDF6DE493A3 /* MomentPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				1B9DF7ECE76F7EEA5DB36DD9 /* MomentData.swift */,
+			);
+			path = MomentPlayer;
+			sourceTree = "<group>";
+		};
+		C7DD13BA289256E3E0FFF130 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B0247D8A94F25DAC774B033 /* Carthage */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D36712089DD0C10B842ABA1C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				477935A9211FD42C08796D11 /* DomainTests */,
+				6B89D67819CA1EF450E77D02 /* MomentPlayerTests */,
+				840318BD7C9DD4E12BB82094 /* RepositoryTests */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		E567662C6C00DA3509F3D383 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				64F3DE1E7A7B795C4A98A74C /* Domain */,
+				5BA87A7BEF74B5F1D550A4BE /* MomentEditor */,
+				1A991127CBBF2A2074301FBB /* Repository */,
+				81A4D3231C3F9728AAD10440 /* View */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		E83ADF0BE8B0CF817341BBC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F3B4634F473A7B296F0FB6B /* ViewData.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC331873723ABFC5DEA89DE4 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				31AA819124F9C87DD10C9E1F /* Entity.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F624379D574A9FD57B9EAE78 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				60AEE75DCAC0983B3B9A53FC /* DomainTests */,
+				1907338355CF395C9E4B6CCF /* MomentEditorTests */,
+				0EA7781F0F87A258646B7754 /* RepositoryTests */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0481610BD95FE386C3F6CE21 /* MomentPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 256C597A4041DC1CCB307707 /* Build configuration list for PBXNativeTarget "MomentPlayer" */;
+			buildPhases = (
+				12C3D2EA77235FBA8EEEFF5D /* Sources */,
+				D411BA735A7F051DE46A6577 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E679F5DFD19B194E7E85C7C7 /* PBXTargetDependency */,
+				0333F7628AFA5B76773E4634 /* PBXTargetDependency */,
+				91E8E5ACBCBCE27BE2CF0650 /* PBXTargetDependency */,
+			);
+			name = MomentPlayer;
+			productName = MomentPlayer;
+			productReference = DCD8B03FC4474A37D1189C25 /* MomentPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		1264CE8D785B004B7E883C4E /* MomentEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33C61B3051BFBF9E1F05B372 /* Build configuration list for PBXNativeTarget "MomentEditorTests" */;
+			buildPhases = (
+				DDCAF2A89B2F90700597FDEC /* Sources */,
+				6A85C4FB9982E138BEF0717D /* Frameworks */,
+				41790CB18AB3FD331DA416CB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				607A6E43D60F18FEA109798E /* PBXTargetDependency */,
+			);
+			name = MomentEditorTests;
+			productName = MomentEditorTests;
+			productReference = 79F729378D2C81E9CF9D5D07 /* MomentEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A3C1DB5EC23A8ACCE0FE8DD /* MomentCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99B85AA6AC8295EAB51436D /* Build configuration list for PBXNativeTarget "MomentCommon" */;
+			buildPhases = (
+				6506BC5D0351DFBCA83D8FD6 /* Sources */,
+				E4F3FC5A88BA864302050E63 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71A42E944356925D5114069E /* PBXTargetDependency */,
+			);
+			name = MomentCommon;
+			productName = MomentCommon;
+			productReference = 7C50595B356D18910CB0ED0A /* MomentCommon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		26A459E122714162D8FA1259 /* MomentCommonUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61D6766586E6D25145188A41 /* Build configuration list for PBXNativeTarget "MomentCommonUtil" */;
+			buildPhases = (
+				5E7A68CDAECC1F61AEC17AF3 /* Sources */,
+				EA57B77C84A9D93D9541A12A /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentCommonUtil;
+			productName = MomentCommonUtil;
+			productReference = 5A6238E4E0E4A96D5CD2700B /* libMomentCommonUtil.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2E595DE4BE063DCC6B8F85AC /* MomentEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6FFEC450196FD6F67E37B58A /* Build configuration list for PBXNativeTarget "MomentEditor" */;
+			buildPhases = (
+				2E8884B5DBB7000D2E738189 /* Sources */,
+				ADFEAC2A563F740B4A6C3003 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AF53DFF5612F560848065A3 /* PBXTargetDependency */,
+				2E896B6120367E08F3AB6397 /* PBXTargetDependency */,
+				B4D2749ED1505A4579B9C2CF /* PBXTargetDependency */,
+			);
+			name = MomentEditor;
+			productName = MomentEditor;
+			productReference = C79AF5A1BD170EDDE73FDFC1 /* MomentEditor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4A4247C779CFEF1308F0F3CA /* MomentPlayerDomainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4559BFCBC42F954F46F2D1E2 /* Build configuration list for PBXNativeTarget "MomentPlayerDomainTests" */;
+			buildPhases = (
+				D47D15E0163A5DB91FAB4ED8 /* Sources */,
+				7211F5AA1C90335EC545501C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95F03D42B0D1AF804B3EE20E /* PBXTargetDependency */,
+			);
+			name = MomentPlayerDomainTests;
+			productName = MomentPlayerDomainTests;
+			productReference = 4E2E73EBE9AF06C83795675F /* MomentPlayerDomainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52F1C64370D6B5EB8F73A39B /* MomentPlayerRepositoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B878C535C25480D678A77863 /* Build configuration list for PBXNativeTarget "MomentPlayerRepositoryTests" */;
+			buildPhases = (
+				155CFCA063DE25158A6E904B /* Sources */,
+				409F9EF5EAB91FC72769F78D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8314DF246EA7BE2667DC2A19 /* PBXTargetDependency */,
+			);
+			name = MomentPlayerRepositoryTests;
+			productName = MomentPlayerRepositoryTests;
+			productReference = 02EA6B4AB52393DB4F84D247 /* MomentPlayerRepositoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58181A47DCF6CA93D4B1047C /* MomentEditorDomainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7F559EDB42D63DC1497BA8E /* Build configuration list for PBXNativeTarget "MomentEditorDomainTests" */;
+			buildPhases = (
+				3B3CBD7A76A9318631B06B7C /* Sources */,
+				95A04731163FDDA56455579F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02E7209E15BAEA974A3B3F19 /* PBXTargetDependency */,
+			);
+			name = MomentEditorDomainTests;
+			productName = MomentEditorDomainTests;
+			productReference = AA4C9CE9D14E2CDF560E75DC /* MomentEditorDomainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63CB3C4E9651FB9CA80AF732 /* MomentEditorRepository */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 440111B38242EEBAB2E8D30F /* Build configuration list for PBXNativeTarget "MomentEditorRepository" */;
+			buildPhases = (
+				60DD0FE26302AEB9BD6F142E /* Sources */,
+				8EB7799190AD7D7B96F41D41 /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC425ED258E5E6AA3FCCC008 /* PBXTargetDependency */,
+			);
+			name = MomentEditorRepository;
+			productName = MomentEditorRepository;
+			productReference = DA61705D7EFD5F3431433985 /* libMomentEditorRepository.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		65FA019AE9E5F502FE62294E /* MomentPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6FA12386ECFCE1F90A71158 /* Build configuration list for PBXNativeTarget "MomentPlayerTests" */;
+			buildPhases = (
+				3A3C7821C2F63FB9333B5563 /* Sources */,
+				4FB934191AB0F9EEC25DE9E9 /* Frameworks */,
+				E6AE427D69BEC1D106A332D3 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80DEB52509B96E26D5BDADD3 /* PBXTargetDependency */,
+			);
+			name = MomentPlayerTests;
+			productName = MomentPlayerTests;
+			productReference = 6BA98157079400AA70AF2DFC /* MomentPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E69E6BFB376C544F3664814 /* MomentEditorRepositoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7731E6726CEFDF0ABD62DB7 /* Build configuration list for PBXNativeTarget "MomentEditorRepositoryTests" */;
+			buildPhases = (
+				0EC276B51FD04F8976A31E59 /* Sources */,
+				DBB450C4FA1E1D3149695846 /* Frameworks */,
+				D237AF18D625FF102FFF8BC7 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				173F57E1070C00106C11EE21 /* PBXTargetDependency */,
+			);
+			name = MomentEditorRepositoryTests;
+			productName = MomentEditorRepositoryTests;
+			productReference = 8574DB3285F13DA83A8039C1 /* MomentEditorRepositoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85A496B8E9F15E4FDDC5C7AD /* MomentEditorDomain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8605A7429A40D81D8D9EDAD /* Build configuration list for PBXNativeTarget "MomentEditorDomain" */;
+			buildPhases = (
+				662EC1454D09009F5A169CF2 /* Sources */,
+				27BA5FBA634C0C92498C9234 /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63F0D98CBAFD9DB7761251B9 /* PBXTargetDependency */,
+			);
+			name = MomentEditorDomain;
+			productName = MomentEditorDomain;
+			productReference = 72EA27AD4A97F0CA5F20B5BE /* libMomentEditorDomain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8ECCCEF42A3D9BAD4D23A798 /* MomentPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3CD2DBD9E77B0242B64645 /* Build configuration list for PBXNativeTarget "MomentPlayerView" */;
+			buildPhases = (
+				C845A045613E201556BC6FA0 /* Sources */,
+				3336D1398049FE6036DEC3F7 /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6939B4DB9CE6A4C689280003 /* PBXTargetDependency */,
+				3DD6FE56F10AAE387E606BDD /* PBXTargetDependency */,
+			);
+			name = MomentPlayerView;
+			productName = MomentPlayerView;
+			productReference = 5366DA7B3E10BEF9DD9BAD7F /* libMomentPlayerView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC227DD09E6E11369A9A5E71 /* MomentPlayerRepository */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A0F7BC3FB77616543828B4B /* Build configuration list for PBXNativeTarget "MomentPlayerRepository" */;
+			buildPhases = (
+				53E14429FD62C150746D1DAE /* Sources */,
+				1C86313C8ACF2B82CC95D049 /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF185B682268D3D635D9EFC3 /* PBXTargetDependency */,
+			);
+			name = MomentPlayerRepository;
+			productName = MomentPlayerRepository;
+			productReference = 1FB26307D594E86896B5C183 /* libMomentPlayerRepository.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DA0A88EE36E1936C0F963BE1 /* MomentPlayerDomain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D5FD4F18E2D2DD1B4F96E8C /* Build configuration list for PBXNativeTarget "MomentPlayerDomain" */;
+			buildPhases = (
+				B96FBA18F5B239BB219E84C3 /* Sources */,
+				27BF3AF4B1C3BBCAA332ABEF /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentPlayerDomain;
+			productName = MomentPlayerDomain;
+			productReference = D3ED6E7BAF38A3F908538DB2 /* libMomentPlayerDomain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EB953EE41E839E34A71C7108 /* MomentEditorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82835096722AE98D71A06261 /* Build configuration list for PBXNativeTarget "MomentEditorView" */;
+			buildPhases = (
+				6B707AF5B282713F94249E6C /* Sources */,
+				A7EE5589E008A5DB11451319 /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4BCBACB6CA94607D24D2BED /* PBXTargetDependency */,
+				928DA2743892AD7E4CD9CA3B /* PBXTargetDependency */,
+			);
+			name = MomentEditorView;
+			productName = MomentEditorView;
+			productReference = 3D584CCF2EAAB5B1137ECA90 /* libMomentEditorView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8CB9146C73E33A0219E47EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 0295CD4A2CB67E377202C6A0 /* Build configuration list for PBXProject "MomentSDK" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B50138B02BFD96AC9462920;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A3C1DB5EC23A8ACCE0FE8DD /* MomentCommon */,
+				26A459E122714162D8FA1259 /* MomentCommonUtil */,
+				2E595DE4BE063DCC6B8F85AC /* MomentEditor */,
+				85A496B8E9F15E4FDDC5C7AD /* MomentEditorDomain */,
+				58181A47DCF6CA93D4B1047C /* MomentEditorDomainTests */,
+				63CB3C4E9651FB9CA80AF732 /* MomentEditorRepository */,
+				7E69E6BFB376C544F3664814 /* MomentEditorRepositoryTests */,
+				1264CE8D785B004B7E883C4E /* MomentEditorTests */,
+				EB953EE41E839E34A71C7108 /* MomentEditorView */,
+				0481610BD95FE386C3F6CE21 /* MomentPlayer */,
+				DA0A88EE36E1936C0F963BE1 /* MomentPlayerDomain */,
+				4A4247C779CFEF1308F0F3CA /* MomentPlayerDomainTests */,
+				CC227DD09E6E11369A9A5E71 /* MomentPlayerRepository */,
+				52F1C64370D6B5EB8F73A39B /* MomentPlayerRepositoryTests */,
+				65FA019AE9E5F502FE62294E /* MomentPlayerTests */,
+				8ECCCEF42A3D9BAD4D23A798 /* MomentPlayerView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C86313C8ACF2B82CC95D049 /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		27BA5FBA634C0C92498C9234 /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		27BF3AF4B1C3BBCAA332ABEF /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		3336D1398049FE6036DEC3F7 /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		8EB7799190AD7D7B96F41D41 /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		A7EE5589E008A5DB11451319 /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		EA57B77C84A9D93D9541A12A /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EC276B51FD04F8976A31E59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113E3C401B1319BE07F72FA1 /* ActualRepositoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12C3D2EA77235FBA8EEEFF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F05A64F0811B39595A3F73F /* MomentData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155CFCA063DE25158A6E904B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FE05087D9FAFD4E586DD0E0 /* ActualRepositoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E8884B5DBB7000D2E738189 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28A2EE7E96CE2DDB7D45AA24 /* MomentData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A3C7821C2F63FB9333B5563 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F56DCA0F57195FA3E1EA54F6 /* MomentDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3CBD7A76A9318631B06B7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93B2B13541C0BB723CD536D /* EntityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53E14429FD62C150746D1DAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0A73506D00DDBFEC9367439 /* ActualRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E7A68CDAECC1F61AEC17AF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFA0E279837AB17F936DCF30 /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60DD0FE26302AEB9BD6F142E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34FF22F63A8E62024CE737F3 /* ActualRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6506BC5D0351DFBCA83D8FD6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369BBBEE0EEAB36A0324459F /* Foo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662EC1454D09009F5A169CF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D553977C077451216E5F7B23 /* Entity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B707AF5B282713F94249E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E665BF7A82B581709CF8DDA /* ViewData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B96FBA18F5B239BB219E84C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E87931F07D1D12603D96307 /* Entity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C845A045613E201556BC6FA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B2D0886378F40F08297809E /* ViewData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47D15E0163A5DB91FAB4ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0006FA55DC3690070D2887F /* EntityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCAF2A89B2F90700597FDEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD49E76CC87A521AB9B9C30 /* MomentDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02E7209E15BAEA974A3B3F19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A496B8E9F15E4FDDC5C7AD /* MomentEditorDomain */;
+			targetProxy = 8143EBD8684EE69B5E230F02 /* PBXContainerItemProxy */;
+		};
+		0333F7628AFA5B76773E4634 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8ECCCEF42A3D9BAD4D23A798 /* MomentPlayerView */;
+			targetProxy = 22CC2A0953081D085A1DCAB2 /* PBXContainerItemProxy */;
+		};
+		173F57E1070C00106C11EE21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CB3C4E9651FB9CA80AF732 /* MomentEditorRepository */;
+			targetProxy = B4ACCEBAAB9D5CC093F9F613 /* PBXContainerItemProxy */;
+		};
+		2E896B6120367E08F3AB6397 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB953EE41E839E34A71C7108 /* MomentEditorView */;
+			targetProxy = 09D0AF9F2EB32BB1454A7297 /* PBXContainerItemProxy */;
+		};
+		3DD6FE56F10AAE387E606BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A459E122714162D8FA1259 /* MomentCommonUtil */;
+			targetProxy = C863FC70EF9A7697F1E7F48D /* PBXContainerItemProxy */;
+		};
+		607A6E43D60F18FEA109798E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E595DE4BE063DCC6B8F85AC /* MomentEditor */;
+			targetProxy = F176C9EBBF0B072EA1802C00 /* PBXContainerItemProxy */;
+		};
+		63F0D98CBAFD9DB7761251B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A459E122714162D8FA1259 /* MomentCommonUtil */;
+			targetProxy = 79D44CFA0EAB9E2592031AC2 /* PBXContainerItemProxy */;
+		};
+		6939B4DB9CE6A4C689280003 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA0A88EE36E1936C0F963BE1 /* MomentPlayerDomain */;
+			targetProxy = 3554C83716ED80990806154F /* PBXContainerItemProxy */;
+		};
+		71A42E944356925D5114069E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A459E122714162D8FA1259 /* MomentCommonUtil */;
+			targetProxy = 6BB971782BA5A720000B3761 /* PBXContainerItemProxy */;
+		};
+		80DEB52509B96E26D5BDADD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0481610BD95FE386C3F6CE21 /* MomentPlayer */;
+			targetProxy = D4677EF306DCEE20FA75C22F /* PBXContainerItemProxy */;
+		};
+		8314DF246EA7BE2667DC2A19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC227DD09E6E11369A9A5E71 /* MomentPlayerRepository */;
+			targetProxy = 9FB64B0F73E2BCBD0750102C /* PBXContainerItemProxy */;
+		};
+		91E8E5ACBCBCE27BE2CF0650 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC227DD09E6E11369A9A5E71 /* MomentPlayerRepository */;
+			targetProxy = 7FF39C7040955EEA3111C3F6 /* PBXContainerItemProxy */;
+		};
+		928DA2743892AD7E4CD9CA3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 26A459E122714162D8FA1259 /* MomentCommonUtil */;
+			targetProxy = 39D6B25F31DC580CDEE810C6 /* PBXContainerItemProxy */;
+		};
+		95F03D42B0D1AF804B3EE20E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA0A88EE36E1936C0F963BE1 /* MomentPlayerDomain */;
+			targetProxy = 9657C283C250B86F620B981C /* PBXContainerItemProxy */;
+		};
+		9AF53DFF5612F560848065A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A496B8E9F15E4FDDC5C7AD /* MomentEditorDomain */;
+			targetProxy = DF8A005ABEE6D67224532237 /* PBXContainerItemProxy */;
+		};
+		A4BCBACB6CA94607D24D2BED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A496B8E9F15E4FDDC5C7AD /* MomentEditorDomain */;
+			targetProxy = A48A82CD12626CF64C40F301 /* PBXContainerItemProxy */;
+		};
+		B4D2749ED1505A4579B9C2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63CB3C4E9651FB9CA80AF732 /* MomentEditorRepository */;
+			targetProxy = E5FAA27DC5B20EC996A55431 /* PBXContainerItemProxy */;
+		};
+		DC425ED258E5E6AA3FCCC008 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85A496B8E9F15E4FDDC5C7AD /* MomentEditorDomain */;
+			targetProxy = A53B0C12E5C2782BD2F37306 /* PBXContainerItemProxy */;
+		};
+		DF185B682268D3D635D9EFC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA0A88EE36E1936C0F963BE1 /* MomentPlayerDomain */;
+			targetProxy = E3EBCD089536833F3311E75A /* PBXContainerItemProxy */;
+		};
+		E679F5DFD19B194E7E85C7C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA0A88EE36E1936C0F963BE1 /* MomentPlayerDomain */;
+			targetProxy = 9AEEB00562984D198F6721EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14EC06F3DB3007B8CEB835FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerRepositoryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16A353AFBE0DDE7CFD600777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		170E4AC26E4CC5D80E85CFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerRepository;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1724132AB1AEC956CE36530B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D9B743D440CE6167B8EE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorRepositoryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		26CF84D2A1988A09489B9210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2784FCF418F5ED209F0D83BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerRepository;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2A4BE65101548E4D317AD158 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D5184F698438E2BF0095308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FB4A7877772B18BE0F8F3C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		318F0A03F53787D627AC0387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommonUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3272F806ECAEB3E80A4164FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorDomainTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		337549FB6197DF3B42D28039 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		363644A30B5E9F448D9EB58B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C25FB3A26385910E0C686F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		4C6FB8607AD6D40EB67F411D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommonUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6AB656E373107216C8094382 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerDomainTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		737D9F0CEE8436DD8BFFBFA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		748E4635B1334093283187C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorDomainTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7DA665D31E01CC019BD50594 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerDomainTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8CEABDC2C2AEF75B54B298ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FACE6A369569C7A9D479ED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E77E1773DA8058483B8B513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorRepository;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A84AF31421587EC67DC8F849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A87EDDA86974D99BB2499CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerRepositoryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AAD43B56C3AEB29D46551A46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		B319A08E809E48D5B9070E34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B45D6AFC179E0F30F7106960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		BFE7F9777C8500045DA34F76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorRepositoryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D68212A8140EE4757513FFE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9E20A558ADF6984891C323A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		E23646535F366820334ACCA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F2E3BBBCCBAB7159B36F77EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC028C165A85CEF3AA9E813C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorRepository;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0295CD4A2CB67E377202C6A0 /* Build configuration list for PBXProject "MomentSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B319A08E809E48D5B9070E34 /* Debug */,
+				26CF84D2A1988A09489B9210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1A0F7BC3FB77616543828B4B /* Build configuration list for PBXNativeTarget "MomentPlayerRepository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2784FCF418F5ED209F0D83BB /* Debug */,
+				170E4AC26E4CC5D80E85CFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		256C597A4041DC1CCB307707 /* Build configuration list for PBXNativeTarget "MomentPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C25FB3A26385910E0C686F8 /* Debug */,
+				737D9F0CEE8436DD8BFFBFA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2D5FD4F18E2D2DD1B4F96E8C /* Build configuration list for PBXNativeTarget "MomentPlayerDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1724132AB1AEC956CE36530B /* Debug */,
+				A84AF31421587EC67DC8F849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		33C61B3051BFBF9E1F05B372 /* Build configuration list for PBXNativeTarget "MomentEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FACE6A369569C7A9D479ED5 /* Debug */,
+				D68212A8140EE4757513FFE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		440111B38242EEBAB2E8D30F /* Build configuration list for PBXNativeTarget "MomentEditorRepository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC028C165A85CEF3AA9E813C /* Debug */,
+				9E77E1773DA8058483B8B513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4559BFCBC42F954F46F2D1E2 /* Build configuration list for PBXNativeTarget "MomentPlayerDomainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DA665D31E01CC019BD50594 /* Debug */,
+				6AB656E373107216C8094382 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		61D6766586E6D25145188A41 /* Build configuration list for PBXNativeTarget "MomentCommonUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				318F0A03F53787D627AC0387 /* Debug */,
+				4C6FB8607AD6D40EB67F411D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6FFEC450196FD6F67E37B58A /* Build configuration list for PBXNativeTarget "MomentEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45D6AFC179E0F30F7106960 /* Debug */,
+				D9E20A558ADF6984891C323A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		82835096722AE98D71A06261 /* Build configuration list for PBXNativeTarget "MomentEditorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A4BE65101548E4D317AD158 /* Debug */,
+				E23646535F366820334ACCA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AA3CD2DBD9E77B0242B64645 /* Build configuration list for PBXNativeTarget "MomentPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D5184F698438E2BF0095308 /* Debug */,
+				8CEABDC2C2AEF75B54B298ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B6FA12386ECFCE1F90A71158 /* Build configuration list for PBXNativeTarget "MomentPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				363644A30B5E9F448D9EB58B /* Debug */,
+				337549FB6197DF3B42D28039 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B7F559EDB42D63DC1497BA8E /* Build configuration list for PBXNativeTarget "MomentEditorDomainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3272F806ECAEB3E80A4164FF /* Debug */,
+				748E4635B1334093283187C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B8605A7429A40D81D8D9EDAD /* Build configuration list for PBXNativeTarget "MomentEditorDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2E3BBBCCBAB7159B36F77EE /* Debug */,
+				2FB4A7877772B18BE0F8F3C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B878C535C25480D678A77863 /* Build configuration list for PBXNativeTarget "MomentPlayerRepositoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14EC06F3DB3007B8CEB835FD /* Debug */,
+				A87EDDA86974D99BB2499CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D7731E6726CEFDF0ABD62DB7 /* Build configuration list for PBXNativeTarget "MomentEditorRepositoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFE7F9777C8500045DA34F76 /* Debug */,
+				18D9B743D440CE6167B8EE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D99B85AA6AC8295EAB51436D /* Build configuration list for PBXNativeTarget "MomentCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16A353AFBE0DDE7CFD600777 /* Debug */,
+				AAD43B56C3AEB29D46551A46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8CB9146C73E33A0219E47EF /* Project object */;
 }

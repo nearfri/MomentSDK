@@ -1,0 +1,181 @@
+name: MomentSDK
+options:
+  bundleIdPrefix: com.navercorp
+  deploymentTarget:
+    iOS: 11.0
+  findCarthageFrameworks: true
+  createIntermediateGroups: true
+targets:
+  # Common
+  MomentCommon:
+    type: framework
+    platform: iOS
+    dependencies:
+      - target: MomentCommonUtil
+        link: true
+    sources:
+      - path: Sources/Common/MomentCommon
+    settings:
+      base:
+        INFOPLIST_FILE: Supporting Files/Info.plist
+  MomentCommonUtil:
+    type: library.static
+    platform: iOS
+    sources:
+      - path: Sources/Common/Util
+  # Editor
+  MomentEditor:
+    type: framework
+    platform: iOS
+    dependencies:
+      - target: MomentEditorDomain
+        link: true
+      - target: MomentEditorView
+        link: true
+      - target: MomentEditorRepository
+        link: true
+      - carthage: Alamofire
+    sources:
+      - path: Sources/Editor/MomentEditor
+    settings:
+      base:
+        INFOPLIST_FILE: Supporting Files/Info.plist
+    scheme:
+      testTargets:
+        - MomentEditorTests
+  MomentEditorTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: MomentEditor
+    sources:
+      - path: Tests/Editor/MomentEditorTests
+    settings:
+      base:
+        INFOPLIST_FILE: Supporting Files/Info.plist
+  MomentEditorDomain:
+    type: library.static
+    platform: iOS
+    dependencies:
+      - target: MomentCommonUtil
+    sources:
+      - path: Sources/Editor/Domain
+    scheme:
+      testTargets:
+        - MomentEditorDomainTests
+  MomentEditorDomainTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: MomentEditorDomain
+    sources:
+      - path: Tests/Editor/DomainTests
+    settings:
+      base:
+        INFOPLIST_FILE: Supporting Files/Info.plist
+  MomentEditorView:
+    type: library.static
+    platform: iOS
+    dependencies:
+      - target: MomentEditorDomain
+      - target: MomentCommonUtil
+      - carthage: Alamofire
+    sources:
+      - path: Sources/Editor/View
+  MomentEditorRepository:
+    type: library.static
+    platform: iOS
+    dependencies:
+      - target: MomentEditorDomain
+      - carthage: Alamofire
+    sources:
+      - path: Sources/Editor/Repository
+    scheme:
+      testTargets:
+        - MomentEditorRepositoryTests
+  MomentEditorRepositoryTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: MomentEditorRepository
+    sources:
+      - path: Tests/Editor/RepositoryTests
+    settings:
+      base:
+        INFOPLIST_FILE: Supporting Files/Info.plist
+  # Player
+  MomentPlayer:
+    type: framework
+    platform: iOS
+    dependencies:
+      - target: MomentPlayerDomain
+        link: true
+      - target: MomentPlayerView
+        link: true
+      - target: MomentPlayerRepository
+        link: true
+      - carthage: Alamofire
+    sources:
+      - path: Sources/Player/MomentPlayer
+    settings:
+      base:
+        INFOPLIST_FILE: Supporting Files/Info.plist
+    scheme:
+      testTargets:
+        - MomentPlayerTests
+  MomentPlayerTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests/Player/MomentPlayerTests
+    dependencies:
+      - target: MomentPlayer
+    settings:
+      base:
+        INFOPLIST_FILE: Supporting Files/Info.plist
+  MomentPlayerDomain:
+    type: library.static
+    platform: iOS
+    sources:
+      - path: Sources/Player/Domain
+    scheme:
+      testTargets:
+        - MomentPlayerDomainTests
+  MomentPlayerDomainTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: MomentPlayerDomain
+    sources:
+      - path: Tests/Player/DomainTests
+    settings:
+      base:
+        INFOPLIST_FILE: Supporting Files/Info.plist
+  MomentPlayerView:
+    type: library.static
+    platform: iOS
+    dependencies:
+      - target: MomentPlayerDomain
+      - target: MomentCommonUtil
+    sources:
+      - path: Sources/Player/View
+  MomentPlayerRepository:
+    type: library.static
+    platform: iOS
+    dependencies:
+      - target: MomentPlayerDomain
+    sources:
+      - path: Sources/Player/Repository
+    scheme:
+      testTargets:
+        - MomentPlayerRepositoryTests
+  MomentPlayerRepositoryTests:
+    type: bundle.unit-test
+    platform: iOS
+    dependencies:
+      - target: MomentPlayerRepository
+    sources:
+      - path: Tests/Player/RepositoryTests
+    settings:
+      base:
+        INFOPLIST_FILE: Supporting Files/Info.plist
