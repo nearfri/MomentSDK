@@ -1,3 +1,6 @@
+reference1: &allCodeFiles
+  - "**/*.swift"
+
 name: MomentSDK
 options:
   bundleIdPrefix: com.navercorp
@@ -17,7 +20,7 @@ targets:
       - path: Sources/Common/MomentCommon
     settings:
       base:
-        INFOPLIST_FILE: Supporting Files/Info.plist
+        INFOPLIST_FILE: Supporting Files/Framework_Info.plist
     scheme:
       testTargets:
         - MomentCommonTests
@@ -30,7 +33,7 @@ targets:
       - path: Tests/Common/MomentCommonTests
     settings:
       base:
-        INFOPLIST_FILE: Supporting Files/Info.plist
+        INFOPLIST_FILE: Supporting Files/Framework_Info.plist
   MomentCommonUtil:
     type: library.static
     platform: iOS
@@ -47,12 +50,14 @@ targets:
         link: true
       - target: MomentEditorRepository
         link: true
+      - target: MomentSDK_MomentEditorView
+        embed: true
       - carthage: Alamofire
     sources:
       - path: Sources/Editor/MomentEditor
     settings:
       base:
-        INFOPLIST_FILE: Supporting Files/Info.plist
+        INFOPLIST_FILE: Supporting Files/Framework_Info.plist
     scheme:
       testTargets:
         - MomentEditorTests
@@ -65,7 +70,7 @@ targets:
       - path: Tests/Editor/MomentEditorTests
     settings:
       base:
-        INFOPLIST_FILE: Supporting Files/Info.plist
+        INFOPLIST_FILE: Supporting Files/Framework_Info.plist
   MomentEditorDomain:
     type: library.static
     platform: iOS
@@ -85,16 +90,27 @@ targets:
       - path: Tests/Editor/DomainTests
     settings:
       base:
-        INFOPLIST_FILE: Supporting Files/Info.plist
+        INFOPLIST_FILE: Supporting Files/Framework_Info.plist
   MomentEditorView:
     type: library.static
     platform: iOS
     dependencies:
       - target: MomentEditorDomain
       - target: MomentCommonUtil
+      - target: MomentSDK_MomentEditorView
       - carthage: Alamofire
     sources:
       - path: Sources/Editor/View
+        includes: *allCodeFiles
+  MomentSDK_MomentEditorView:
+    type: bundle
+    platform: iOS
+    sources:
+      - path: Sources/Editor/View
+        excludes: *allCodeFiles
+    settings:
+      base:
+        INFOPLIST_FILE: Supporting Files/Bundle_Info.plist
   MomentEditorRepository:
     type: library.static
     platform: iOS
@@ -115,7 +131,7 @@ targets:
       - path: Tests/Editor/RepositoryTests
     settings:
       base:
-        INFOPLIST_FILE: Supporting Files/Info.plist
+        INFOPLIST_FILE: Supporting Files/Framework_Info.plist
   # Player
   MomentPlayer:
     type: framework
@@ -132,7 +148,7 @@ targets:
       - path: Sources/Player/MomentPlayer
     settings:
       base:
-        INFOPLIST_FILE: Supporting Files/Info.plist
+        INFOPLIST_FILE: Supporting Files/Framework_Info.plist
     scheme:
       testTargets:
         - MomentPlayerTests
@@ -145,7 +161,7 @@ targets:
       - target: MomentPlayer
     settings:
       base:
-        INFOPLIST_FILE: Supporting Files/Info.plist
+        INFOPLIST_FILE: Supporting Files/Framework_Info.plist
   MomentPlayerDomain:
     type: library.static
     platform: iOS
@@ -163,7 +179,7 @@ targets:
       - path: Tests/Player/DomainTests
     settings:
       base:
-        INFOPLIST_FILE: Supporting Files/Info.plist
+        INFOPLIST_FILE: Supporting Files/Framework_Info.plist
   MomentPlayerView:
     type: library.static
     platform: iOS
@@ -191,4 +207,4 @@ targets:
       - path: Tests/Player/RepositoryTests
     settings:
       base:
-        INFOPLIST_FILE: Supporting Files/Info.plist
+        INFOPLIST_FILE: Supporting Files/Framework_Info.plist
