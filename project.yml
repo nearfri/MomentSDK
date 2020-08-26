@@ -8,6 +8,9 @@ options:
     iOS: 11.0
   findCarthageFrameworks: true
   createIntermediateGroups: true
+settings:
+  base:
+    CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED: true
 targets:
   # Common
   MomentCommon:
