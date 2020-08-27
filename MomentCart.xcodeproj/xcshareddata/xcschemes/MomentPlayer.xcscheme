@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1A3C1DB5EC23A8ACCE0FE8DD"
-               BuildableName = "MomentCommon.framework"
-               BlueprintName = "MomentCommon"
-               ReferencedContainer = "container:MomentSDK.xcodeproj">
+               BlueprintIdentifier = "76E1076E5C722BEC0F581327"
+               BuildableName = "MomentPlayer.framework"
+               BlueprintName = "MomentPlayer"
+               ReferencedContainer = "container:MomentCart.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,20 +33,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A23450F83F0FA408AF4737BD"
-               BuildableName = "MomentCommonTests.xctest"
-               BlueprintName = "MomentCommonTests"
-               ReferencedContainer = "container:MomentSDK.xcodeproj">
+               BlueprintIdentifier = "F6D95C942A3ABF921C329B20"
+               BuildableName = "MomentPlayerTests.xctest"
+               BlueprintName = "MomentPlayerTests"
+               ReferencedContainer = "container:MomentCart.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A3C1DB5EC23A8ACCE0FE8DD"
-            BuildableName = "MomentCommon.framework"
-            BlueprintName = "MomentCommon"
-            ReferencedContainer = "container:MomentSDK.xcodeproj">
+            BlueprintIdentifier = "76E1076E5C722BEC0F581327"
+            BuildableName = "MomentPlayer.framework"
+            BlueprintName = "MomentPlayer"
+            ReferencedContainer = "container:MomentCart.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -65,10 +65,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A3C1DB5EC23A8ACCE0FE8DD"
-            BuildableName = "MomentCommon.framework"
-            BlueprintName = "MomentCommon"
-            ReferencedContainer = "container:MomentSDK.xcodeproj">
+            BlueprintIdentifier = "76E1076E5C722BEC0F581327"
+            BuildableName = "MomentPlayer.framework"
+            BlueprintName = "MomentPlayer"
+            ReferencedContainer = "container:MomentCart.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -84,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1A3C1DB5EC23A8ACCE0FE8DD"
-            BuildableName = "MomentCommon.framework"
-            BlueprintName = "MomentCommon"
-            ReferencedContainer = "container:MomentSDK.xcodeproj">
+            BlueprintIdentifier = "76E1076E5C722BEC0F581327"
+            BuildableName = "MomentPlayer.framework"
+            BlueprintName = "MomentPlayer"
+            ReferencedContainer = "container:MomentCart.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>

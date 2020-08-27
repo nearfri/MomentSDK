@@ -1,7 +1,7 @@
 reference1: &allCodeFiles
   - "**/*.swift"
 
-name: MomentSDK
+name: MomentCart
 options:
   bundleIdPrefix: com.navercorp
   deploymentTarget:

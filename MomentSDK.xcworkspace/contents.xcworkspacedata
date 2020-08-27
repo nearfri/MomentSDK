@@ -7,4 +7,7 @@
    <FileRef
       location = "group:MomentApp/MomentApp.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:MomentCart.xcodeproj">
+   </FileRef>
 </Workspace>

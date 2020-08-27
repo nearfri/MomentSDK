@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DA0A88EE36E1936C0F963BE1"
-               BuildableName = "libMomentPlayerDomain.a"
-               BlueprintName = "MomentPlayerDomain"
-               ReferencedContainer = "container:MomentSDK.xcodeproj">
+               BlueprintIdentifier = "6ADBA55EACF2EB54AF3059EC"
+               BuildableName = "libMomentEditorRepository.a"
+               BlueprintName = "MomentEditorRepository"
+               ReferencedContainer = "container:MomentCart.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,20 +33,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4A4247C779CFEF1308F0F3CA"
-               BuildableName = "MomentPlayerDomainTests.xctest"
-               BlueprintName = "MomentPlayerDomainTests"
-               ReferencedContainer = "container:MomentSDK.xcodeproj">
+               BlueprintIdentifier = "01DDE7CCD3EF44776B4F4C26"
+               BuildableName = "MomentEditorRepositoryTests.xctest"
+               BlueprintName = "MomentEditorRepositoryTests"
+               ReferencedContainer = "container:MomentCart.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DA0A88EE36E1936C0F963BE1"
-            BuildableName = "libMomentPlayerDomain.a"
-            BlueprintName = "MomentPlayerDomain"
-            ReferencedContainer = "container:MomentSDK.xcodeproj">
+            BlueprintIdentifier = "6ADBA55EACF2EB54AF3059EC"
+            BuildableName = "libMomentEditorRepository.a"
+            BlueprintName = "MomentEditorRepository"
+            ReferencedContainer = "container:MomentCart.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -65,10 +65,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DA0A88EE36E1936C0F963BE1"
-            BuildableName = "libMomentPlayerDomain.a"
-            BlueprintName = "MomentPlayerDomain"
-            ReferencedContainer = "container:MomentSDK.xcodeproj">
+            BlueprintIdentifier = "6ADBA55EACF2EB54AF3059EC"
+            BuildableName = "libMomentEditorRepository.a"
+            BlueprintName = "MomentEditorRepository"
+            ReferencedContainer = "container:MomentCart.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <CommandLineArguments>
@@ -84,10 +84,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DA0A88EE36E1936C0F963BE1"
-            BuildableName = "libMomentPlayerDomain.a"
-            BlueprintName = "MomentPlayerDomain"
-            ReferencedContainer = "container:MomentSDK.xcodeproj">
+            BlueprintIdentifier = "6ADBA55EACF2EB54AF3059EC"
+            BuildableName = "libMomentEditorRepository.a"
+            BlueprintName = "MomentEditorRepository"
+            ReferencedContainer = "container:MomentCart.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
