@@ -12,6 +12,22 @@ settings:
   base:
     CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED: true
 targets:
+  # App
+  MomentApp:
+    type: application
+    platform: iOS
+    deploymentTarget: 13.0
+    dependencies:
+      - target: MomentCommon
+      - target: MomentEditor
+      - target: MomentPlayer
+      - carthage: Alamofire
+    sources:
+      - path: MomentApp/MomentApp
+        createIntermediateGroups: false
+    settings:
+      base:
+        DEVELOPMENT_TEAM: K4WL5WK33A
   # Common
   MomentCommon:
     type: framework
