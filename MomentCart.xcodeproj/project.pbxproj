@@ -1,0 +1,2698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		053D5D7EA35B47BB7485F285 /* Foo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D0E87C20E77653F0C23A9C /* Foo.swift */; };
+		098803E801C5AFBE723FB8A5 /* libMomentEditorRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C96F4B7A4A7995638AA95C /* libMomentEditorRepository.a */; };
+		0BECE12A7B10899735BA5279 /* ViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F207B63358D8FB3B5C5F2AB /* ViewData.swift */; };
+		0C3EB596BFBEE50EC3FC3B97 /* libMomentPlayerRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A22A9365C2FF6C8A363D65 /* libMomentPlayerRepository.a */; };
+		0DDA10069CC5F14102593E62 /* libMomentPlayerRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A22A9365C2FF6C8A363D65 /* libMomentPlayerRepository.a */; };
+		13B8F1B0D69437E9FE7234E1 /* MomentCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		147CA3F975F873301E81F6DF /* MomentPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E574A5CB60FADAD252AD954 /* MomentPlayer.framework */; };
+		1D5B916261CDC1DF16287B2E /* libMomentEditorRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C96F4B7A4A7995638AA95C /* libMomentEditorRepository.a */; };
+		1DBD10A16EFEDCA91CB4026D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35991BEE42D3EC940985CB7C /* Main.storyboard */; };
+		214816DCF6AF6F0DBF3233B5 /* MomentSDK_MomentEditorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C92A04F4BB9CD2D44941C4E /* MomentSDK_MomentEditorView.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		219D415DB0DD7F26B7EA877A /* MomentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38295762CB5B44D6EB3E1C7 /* MomentData.swift */; };
+		30E1C395455AFA67AC4CE7C4 /* MomentPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E574A5CB60FADAD252AD954 /* MomentPlayer.framework */; };
+		35CC077E511C0F5FC7E4528A /* EditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC3B775FF8B7843869A11597 /* EditorViewController.xib */; };
+		3A5D118392093F0EC263DEB2 /* MomentCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */; };
+		3BEF689F54EA6718B8255097 /* FooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF633C77EA74CB97BF27A1C /* FooTests.swift */; };
+		3FD1EBF4FFF5E9063EC3C9D8 /* ActualRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89569E868B3B9CED2EB88A /* ActualRepository.swift */; };
+		41C775ECF80AB6B5164F1944 /* MomentEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		43A56579EBE2976D80607EA6 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9626CFBF2B869D7C30AD971 /* EditorViewController.swift */; };
+		489CF2FCC4249E4BABA5BE41 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; };
+		4F0A926A70A164BCF063938C /* MomentCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */; };
+		520DE887CBB12854E90E5AF0 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5DF1757FADCEBC8CB88FB97B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BEC61B03565E10F0119A24 /* ViewController.swift */; };
+		620156974E066CF07B90CBFA /* libMomentEditorDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A086C8E933683F3105B06167 /* libMomentEditorDomain.a */; };
+		655BE1C59C721E309F0E38D0 /* MomentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032A5949ADE156025682FCEB /* MomentData.swift */; };
+		69F0C20848E92F41F887830D /* resource_bundle_accessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D55BDC51015275366AEA7C /* resource_bundle_accessor.swift */; };
+		72611743E46A9737F6A2B2C4 /* MomentEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */; };
+		76A56100D64D592658723063 /* MomentCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7BEE5F391785B54863BB819C /* MomentDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352883F9B1EF44A2CB0DF8CC /* MomentDataTests.swift */; };
+		83C4E9A70C0992075265B7B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CCC27ECC0FFD3DE4DACE51D /* LaunchScreen.storyboard */; };
+		83F7F79D0A312C9EBEC2B2CB /* libMomentEditorDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A086C8E933683F3105B06167 /* libMomentEditorDomain.a */; };
+		87329F8FFD0835EC7CB76EC6 /* libMomentEditorView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5615AB7360CB8EA705DD5F7E /* libMomentEditorView.a */; };
+		8D9484E29238EDA435A6C748 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29649345F4325D104ACC6DF7 /* Utility.swift */; };
+		8F37C3B782FB289667D76A67 /* Dice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52294124A41698E6EFCF25D4 /* Dice.swift */; };
+		910CA76BC7F07353F7CB56E2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3B2C3267D13579CAC1C16DD /* Localizable.strings */; };
+		9373540DA2CF614E7945CECC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862BCA061EB35DE48A72F8D1 /* SceneDelegate.swift */; };
+		95D06AE394EA361B5804E9E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0871D53C2913DEE297D73ED9 /* AppDelegate.swift */; };
+		9720B1E38BBEEF240EAD2DEF /* Lorem ipsum.txt in Resources */ = {isa = PBXBuildFile; fileRef = B685CA1E03D3D5040C02906F /* Lorem ipsum.txt */; };
+		9A4E33EEC711AA11BE56FB05 /* ActualRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44536DA996B9F650B36FD3B4 /* ActualRepositoryTests.swift */; };
+		9BB0AC66C12AD1F724A29FCB /* MomentPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E574A5CB60FADAD252AD954 /* MomentPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9C43B3CE147F14E42C80D0FD /* libMomentPlayerDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F26D5114D9005782931E5C46 /* libMomentPlayerDomain.a */; };
+		A5BA8384D907AEE84BF402E3 /* MomentPlayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2E574A5CB60FADAD252AD954 /* MomentPlayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A684E458F9103380D8E80C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E9A1F5A6BA87D6B0D86D07 /* Assets.xcassets */; };
+		A95F156086BAACDC75BB9CAA /* ViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30853246C15AAD9CCE6D66AD /* ViewData.swift */; };
+		B0BC1D58A2E0CE576EC26C78 /* MomentEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */; };
+		BF68E045B041CF4CC1D3FD4C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C24B7D2A53B881C1CBBB488E /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FF269DD381AC7AA8FE50C6 /* Entity.swift */; };
+		C59036D800429C301AF831DB /* libMomentCommonUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F64521DAD467426FFF49E0A6 /* libMomentCommonUtil.a */; };
+		C742A781CD08E5C1614EF936 /* MomentEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C91DA2F4143C1E53D0143CB5 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31368A8CDFE6E7C480CCBED /* Media.xcassets */; };
+		CDD921D6504955467C7F310F /* iPhone_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F4C5495BEBD427AF100B64 /* iPhone_11.png */; };
+		CE270E3212B973B0E35FA888 /* ActualRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB921304029166B85050FF94 /* ActualRepositoryTests.swift */; };
+		D1CA5CCFD5F0A3FB05E9AE20 /* libMomentPlayerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A82B5940A6AEB39CB3D72261 /* libMomentPlayerView.a */; };
+		D497AB2C96B3871DCD740B72 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D95E649942EB61C4B302D0CB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; };
+		DC0A4AFF92E84412D9CC038D /* EntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E669B2B66A7BAD6A813B128 /* EntityTests.swift */; };
+		E34DADD47081BBB768078C3F /* MomentDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625FB15510887BAE5EB959D /* MomentDataTests.swift */; };
+		F02CE706AC60F3B9B702ECA9 /* libMomentPlayerDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F26D5114D9005782931E5C46 /* libMomentPlayerDomain.a */; };
+		F9A2EAB500EE91DAC719D853 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3CDBEE8A98727CB0F1902 /* Entity.swift */; };
+		FD48F76B0476391DB57A6A5C /* EntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA369A6D7601917CF034925 /* EntityTests.swift */; };
+		FD84CF9A04990E6E826DDB7D /* ActualRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B3DC05710ABE3D3FC182BB /* ActualRepository.swift */; };
+		FF7FC689D9D0145FCC69ADD3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		006B212F8901D7E9E6C43C1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADBA55EACF2EB54AF3059EC;
+			remoteInfo = MomentEditorRepository;
+		};
+		15D8FC75254543392735A37D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A297EEC093481A70E7D53F;
+			remoteInfo = MomentPlayerDomain;
+		};
+		23ACB68F8CC23369FC8D359A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28709A8B8AB46D7D09B5AF9;
+			remoteInfo = MomentSDK_MomentEditorView;
+		};
+		2F49978DA4809DFF64D6B60C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E1076E5C722BEC0F581327;
+			remoteInfo = MomentPlayer;
+		};
+		331304F8FD744C3C5EF6524D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F461E2719F481D62A7FFFF1;
+			remoteInfo = MomentPlayerRepository;
+		};
+		357A3BF9607AF90DBE31284E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE6C08C1AB9CF3FC1AAD101;
+			remoteInfo = MomentCommonUtil;
+		};
+		45365A5A478A197F4AF18B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE6C08C1AB9CF3FC1AAD101;
+			remoteInfo = MomentCommonUtil;
+		};
+		45B171A85906D3501F85A5E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1DE5031F1D170CF1C5BB64;
+			remoteInfo = MomentCommon;
+		};
+		5B33E8316CA68BFD824FCC1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1DE5031F1D170CF1C5BB64;
+			remoteInfo = MomentCommon;
+		};
+		624336F9B74B2D887E00FCD6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B67001E77D8B2CF74E036A;
+			remoteInfo = MomentEditor;
+		};
+		74AE9FE44E71D511C3A986B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F461E2719F481D62A7FFFF1;
+			remoteInfo = MomentPlayerRepository;
+		};
+		772C6D3CCF68D30772958953 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A297EEC093481A70E7D53F;
+			remoteInfo = MomentPlayerDomain;
+		};
+		7EEA241FCD4B4749AE5839AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A297EEC093481A70E7D53F;
+			remoteInfo = MomentPlayerDomain;
+		};
+		85FB813D2D74ADF44C80483F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0D1617B3559952B18391F99;
+			remoteInfo = MomentEditorView;
+		};
+		860D19D59D49F8D99CD774CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B67001E77D8B2CF74E036A;
+			remoteInfo = MomentEditor;
+		};
+		863A661EA441683B993702AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6ADBA55EACF2EB54AF3059EC;
+			remoteInfo = MomentEditorRepository;
+		};
+		8AFD08B56B9E89DEA9C94AF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0A297EEC093481A70E7D53F;
+			remoteInfo = MomentPlayerDomain;
+		};
+		A092BED9AF0F1693E448B63D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D9E1216E0168160AABF3EF9;
+			remoteInfo = MomentPlayerView;
+		};
+		B58167A893E368C1E62B160E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE6C08C1AB9CF3FC1AAD101;
+			remoteInfo = MomentCommonUtil;
+		};
+		C82F04749825B5E4FC686DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09AEE954FF1E4878F13AD584;
+			remoteInfo = MomentEditorDomain;
+		};
+		C8ACD525A3597AFD7DB7B993 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FE6C08C1AB9CF3FC1AAD101;
+			remoteInfo = MomentCommonUtil;
+		};
+		D14680B6F4AE0DFCFBC1BA1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09AEE954FF1E4878F13AD584;
+			remoteInfo = MomentEditorDomain;
+		};
+		D6A904C515EEF83C4690F2D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09AEE954FF1E4878F13AD584;
+			remoteInfo = MomentEditorDomain;
+		};
+		DB939CDB30DE69EF7D317440 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B28709A8B8AB46D7D09B5AF9;
+			remoteInfo = MomentSDK_MomentEditorView;
+		};
+		DC53CF66A45120744AA35351 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76E1076E5C722BEC0F581327;
+			remoteInfo = MomentPlayer;
+		};
+		EE28CB0F5B5AAD76C9CC9CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 492358E722D3508BA6373DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09AEE954FF1E4878F13AD584;
+			remoteInfo = MomentEditorDomain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		18219E08A394840121E51DE1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				76A56100D64D592658723063 /* MomentCommon.framework in Embed Frameworks */,
+				41C775ECF80AB6B5164F1944 /* MomentEditor.framework in Embed Frameworks */,
+				9BB0AC66C12AD1F724A29FCB /* MomentPlayer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FF74C2B2D7C2A4685CA9FD1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				13B8F1B0D69437E9FE7234E1 /* MomentCommon.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7484431E1E0B8B13DC8509CC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A5BA8384D907AEE84BF402E3 /* MomentPlayer.framework in Embed Frameworks */,
+				520DE887CBB12854E90E5AF0 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799237B9CCC04EF0EEC57424 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C742A781CD08E5C1614EF936 /* MomentEditor.framework in Embed Frameworks */,
+				D497AB2C96B3871DCD740B72 /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		838F227F47B857EE87B7B366 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BF68E045B041CF4CC1D3FD4C /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		032A5949ADE156025682FCEB /* MomentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentData.swift; sourceTree = "<group>"; };
+		05E9A1F5A6BA87D6B0D86D07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0871D53C2913DEE297D73ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0DFA1CD1815A9E176CC591CF /* MomentPlayerRepositoryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentPlayerRepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1731C890A8F9C3C738C925F7 /* MomentApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MomentApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA369A6D7601917CF034925 /* EntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTests.swift; sourceTree = "<group>"; };
+		29649345F4325D104ACC6DF7 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		2E574A5CB60FADAD252AD954 /* MomentPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MomentPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30853246C15AAD9CCE6D66AD /* ViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewData.swift; sourceTree = "<group>"; };
+		352883F9B1EF44A2CB0DF8CC /* MomentDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDataTests.swift; sourceTree = "<group>"; };
+		3625FB15510887BAE5EB959D /* MomentDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDataTests.swift; sourceTree = "<group>"; };
+		38F4C5495BEBD427AF100B64 /* iPhone_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhone_11.png; sourceTree = "<group>"; };
+		41B3BDF596EC4B58FB9F5160 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		42FF269DD381AC7AA8FE50C6 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		44536DA996B9F650B36FD3B4 /* ActualRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRepositoryTests.swift; sourceTree = "<group>"; };
+		44FCBAF9CEC8F09C57EFF103 /* MomentPlayerDomainTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentPlayerDomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1E2CD8CB3C5E9D5F201073 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MomentEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		52294124A41698E6EFCF25D4 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
+		5615AB7360CB8EA705DD5F7E /* libMomentEditorView.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentEditorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C92A04F4BB9CD2D44941C4E /* MomentSDK_MomentEditorView.bundle */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.plug-in"; path = MomentSDK_MomentEditorView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DAE20D4BAD025F77EB07F9D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		71750BB7B15C794C0DB4B0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76C96F4B7A4A7995638AA95C /* libMomentEditorRepository.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentEditorRepository.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0155542E19791D3079E146 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
+		7E669B2B66A7BAD6A813B128 /* EntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTests.swift; sourceTree = "<group>"; };
+		80D0E87C20E77653F0C23A9C /* Foo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
+		862BCA061EB35DE48A72F8D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8C89F321BC99C4D12DDF1534 /* MomentCommonTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentCommonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F207B63358D8FB3B5C5F2AB /* ViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewData.swift; sourceTree = "<group>"; };
+		95A22A9365C2FF6C8A363D65 /* libMomentPlayerRepository.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentPlayerRepository.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F89569E868B3B9CED2EB88A /* ActualRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRepository.swift; sourceTree = "<group>"; };
+		A086C8E933683F3105B06167 /* libMomentEditorDomain.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentEditorDomain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0B3DC05710ABE3D3FC182BB /* ActualRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRepository.swift; sourceTree = "<group>"; };
+		A3BEC61B03565E10F0119A24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A64070CF2C9514DC1C0F3828 /* MomentPlayerTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82B5940A6AEB39CB3D72261 /* libMomentPlayerView.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentPlayerView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9626CFBF2B869D7C30AD971 /* EditorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorViewController.swift; sourceTree = "<group>"; };
+		AB921304029166B85050FF94 /* ActualRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualRepositoryTests.swift; sourceTree = "<group>"; };
+		B31368A8CDFE6E7C480CCBED /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		B367B80CD1F1DF6B1A1914F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B38295762CB5B44D6EB3E1C7 /* MomentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentData.swift; sourceTree = "<group>"; };
+		B685CA1E03D3D5040C02906F /* Lorem ipsum.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Lorem ipsum.txt"; sourceTree = "<group>"; };
+		B7D55BDC51015275366AEA7C /* resource_bundle_accessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resource_bundle_accessor.swift; sourceTree = "<group>"; };
+		BBF633C77EA74CB97BF27A1C /* FooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooTests.swift; sourceTree = "<group>"; };
+		BC077C2207DD06AABA578ADC /* MomentEditorTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC3B775FF8B7843869A11597 /* EditorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditorViewController.xib; sourceTree = "<group>"; };
+		EC9E2FDF34B9664CDC116D26 /* MomentEditorRepositoryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentEditorRepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED9FE3D7C3EC93A40CF2C673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDD3CDBEE8A98727CB0F1902 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		EFC71E5F1B65EF70C9C13E65 /* MomentEditorDomainTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentEditorDomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26D5114D9005782931E5C46 /* libMomentPlayerDomain.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentPlayerDomain.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F64521DAD467426FFF49E0A6 /* libMomentCommonUtil.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentCommonUtil.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MomentCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC044B307F3D01857FEE5DE5 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		054B14DFB259C31D22F7B1E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C59036D800429C301AF831DB /* libMomentCommonUtil.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1248AF3171F270FBB3F7D33A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F0A926A70A164BCF063938C /* MomentCommon.framework in Frameworks */,
+				72611743E46A9737F6A2B2C4 /* MomentEditor.framework in Frameworks */,
+				147CA3F975F873301E81F6DF /* MomentPlayer.framework in Frameworks */,
+				FF7FC689D9D0145FCC69ADD3 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A9AB5FD78703118A8B81D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0BC1D58A2E0CE576EC26C78 /* MomentEditor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D55FFFD43265069EB13987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DDA10069CC5F14102593E62 /* libMomentPlayerRepository.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8667413A8277E6AF9665577B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5D118392093F0EC263DEB2 /* MomentCommon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9C1A46FDAF4A3C8363FDA2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83F7F79D0A312C9EBEC2B2CB /* libMomentEditorDomain.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6B26F524EB0325CD6052559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5B916261CDC1DF16287B2E /* libMomentEditorRepository.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE38BDFB6502F3080FE088E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620156974E066CF07B90CBFA /* libMomentEditorDomain.a in Frameworks */,
+				87329F8FFD0835EC7CB76EC6 /* libMomentEditorView.a in Frameworks */,
+				098803E801C5AFBE723FB8A5 /* libMomentEditorRepository.a in Frameworks */,
+				489CF2FCC4249E4BABA5BE41 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA59E0608F9088095772D2E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F02CE706AC60F3B9B702ECA9 /* libMomentPlayerDomain.a in Frameworks */,
+				D1CA5CCFD5F0A3FB05E9AE20 /* libMomentPlayerView.a in Frameworks */,
+				0C3EB596BFBEE50EC3FC3B97 /* libMomentPlayerRepository.a in Frameworks */,
+				D95E649942EB61C4B302D0CB /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC90F908A564613A0CD88702 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30E1C395455AFA67AC4CE7C4 /* MomentPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD23FF6BA2E41AD7F032EFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C43B3CE147F14E42C80D0FD /* libMomentPlayerDomain.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C64897A8A152D0883B4E84F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAF1CFB0D1D87DFD8F7BE9AC /* Carthage */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D7922BB5898C727E5D95CFB /* MomentApp */ = {
+			isa = PBXGroup;
+			children = (
+				0871D53C2913DEE297D73ED9 /* AppDelegate.swift */,
+				05E9A1F5A6BA87D6B0D86D07 /* Assets.xcassets */,
+				41B3BDF596EC4B58FB9F5160 /* Info.plist */,
+				0CCC27ECC0FFD3DE4DACE51D /* LaunchScreen.storyboard */,
+				35991BEE42D3EC940985CB7C /* Main.storyboard */,
+				862BCA061EB35DE48A72F8D1 /* SceneDelegate.swift */,
+				A3BEC61B03565E10F0119A24 /* ViewController.swift */,
+			);
+			name = MomentApp;
+			path = MomentApp/MomentApp;
+			sourceTree = "<group>";
+		};
+		20E966511BCBAD61E16DD2AB /* MomentPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				3625FB15510887BAE5EB959D /* MomentDataTests.swift */,
+			);
+			path = MomentPlayerTests;
+			sourceTree = "<group>";
+		};
+		3458377BCCF1BA9C432279CE /* MomentCommonTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBF633C77EA74CB97BF27A1C /* FooTests.swift */,
+			);
+			path = MomentCommonTests;
+			sourceTree = "<group>";
+		};
+		3ED8285B60DB8090F169D26E /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				FB2AA455680AE241B9938373 /* DomainTests */,
+				20E966511BCBAD61E16DD2AB /* MomentPlayerTests */,
+				E2CC36FF95FEF19439A120AA /* RepositoryTests */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		4DC084B187308C0FC4ECD55A = {
+			isa = PBXGroup;
+			children = (
+				0D7922BB5898C727E5D95CFB /* MomentApp */,
+				76B8331719098B430ECAA828 /* Sources */,
+				D009221B2E22DBD796622954 /* Tests */,
+				0C64897A8A152D0883B4E84F /* Frameworks */,
+				63E5458FA635745A1B502B4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F4D6A1DF5F610A3A13F4516 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				38F4C5495BEBD427AF100B64 /* iPhone_11.png */,
+				A3B2C3267D13579CAC1C16DD /* Localizable.strings */,
+				B685CA1E03D3D5040C02906F /* Lorem ipsum.txt */,
+				B31368A8CDFE6E7C480CCBED /* Media.xcassets */,
+				B7D55BDC51015275366AEA7C /* resource_bundle_accessor.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		566E69E38E0EC84F57D39300 /* MomentCommon */ = {
+			isa = PBXGroup;
+			children = (
+				80D0E87C20E77653F0C23A9C /* Foo.swift */,
+			);
+			path = MomentCommon;
+			sourceTree = "<group>";
+		};
+		63E5458FA635745A1B502B4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F64521DAD467426FFF49E0A6 /* libMomentCommonUtil.a */,
+				A086C8E933683F3105B06167 /* libMomentEditorDomain.a */,
+				76C96F4B7A4A7995638AA95C /* libMomentEditorRepository.a */,
+				5615AB7360CB8EA705DD5F7E /* libMomentEditorView.a */,
+				F26D5114D9005782931E5C46 /* libMomentPlayerDomain.a */,
+				95A22A9365C2FF6C8A363D65 /* libMomentPlayerRepository.a */,
+				A82B5940A6AEB39CB3D72261 /* libMomentPlayerView.a */,
+				1731C890A8F9C3C738C925F7 /* MomentApp.app */,
+				FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */,
+				8C89F321BC99C4D12DDF1534 /* MomentCommonTests.xctest */,
+				4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */,
+				EFC71E5F1B65EF70C9C13E65 /* MomentEditorDomainTests.xctest */,
+				EC9E2FDF34B9664CDC116D26 /* MomentEditorRepositoryTests.xctest */,
+				BC077C2207DD06AABA578ADC /* MomentEditorTests.xctest */,
+				2E574A5CB60FADAD252AD954 /* MomentPlayer.framework */,
+				44FCBAF9CEC8F09C57EFF103 /* MomentPlayerDomainTests.xctest */,
+				0DFA1CD1815A9E176CC591CF /* MomentPlayerRepositoryTests.xctest */,
+				A64070CF2C9514DC1C0F3828 /* MomentPlayerTests.xctest */,
+				6C92A04F4BB9CD2D44941C4E /* MomentSDK_MomentEditorView.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76B8331719098B430ECAA828 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E0A276FD15F51E59B47915DF /* Common */,
+				CC09C1823E5F935C16CF6B07 /* Editor */,
+				B3219D4AA44874DB02F1753C /* Player */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		780A161420EEB4F5EDA2AC68 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				A0B3DC05710ABE3D3FC182BB /* ActualRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		85739C79B549533C042B050C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7A0155542E19791D3079E146 /* Alamofire.framework */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		8BE53790CD7B00BCF2D90235 /* RepositoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				44536DA996B9F650B36FD3B4 /* ActualRepositoryTests.swift */,
+			);
+			path = RepositoryTests;
+			sourceTree = "<group>";
+		};
+		8D9B8C17E02724A30AFB7D0F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				9F89569E868B3B9CED2EB88A /* ActualRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		90F35EED2B09584084332829 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8F207B63358D8FB3B5C5F2AB /* ViewData.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97C8945AD4934A93307DE09B /* DomainTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E669B2B66A7BAD6A813B128 /* EntityTests.swift */,
+			);
+			path = DomainTests;
+			sourceTree = "<group>";
+		};
+		9C67E83E4D2B0CE9E1210D05 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				52294124A41698E6EFCF25D4 /* Dice.swift */,
+				42FF269DD381AC7AA8FE50C6 /* Entity.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A269B0D0C60814AF6736B786 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9626CFBF2B869D7C30AD971 /* EditorViewController.swift */,
+				DC3B775FF8B7843869A11597 /* EditorViewController.xib */,
+				30853246C15AAD9CCE6D66AD /* ViewData.swift */,
+				4F4D6A1DF5F610A3A13F4516 /* Resources */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A2FB455586B1631B51766FB3 /* MomentEditor */ = {
+			isa = PBXGroup;
+			children = (
+				B38295762CB5B44D6EB3E1C7 /* MomentData.swift */,
+			);
+			path = MomentEditor;
+			sourceTree = "<group>";
+		};
+		B3219D4AA44874DB02F1753C /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				D328F65E3802F47542A78CEB /* Domain */,
+				FC3A9346216DD4B31899CD14 /* MomentPlayer */,
+				8D9B8C17E02724A30AFB7D0F /* Repository */,
+				90F35EED2B09584084332829 /* View */,
+			);
+			path = Player;
+			sourceTree = "<group>";
+		};
+		BAF1CFB0D1D87DFD8F7BE9AC /* Carthage */ = {
+			isa = PBXGroup;
+			children = (
+				85739C79B549533C042B050C /* iOS */,
+			);
+			name = Carthage;
+			path = Carthage/Build;
+			sourceTree = "<group>";
+		};
+		C2140ED53CC9F1AA71297415 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3458377BCCF1BA9C432279CE /* MomentCommonTests */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CC09C1823E5F935C16CF6B07 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				9C67E83E4D2B0CE9E1210D05 /* Domain */,
+				A2FB455586B1631B51766FB3 /* MomentEditor */,
+				780A161420EEB4F5EDA2AC68 /* Repository */,
+				A269B0D0C60814AF6736B786 /* View */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		D009221B2E22DBD796622954 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2140ED53CC9F1AA71297415 /* Common */,
+				E2EC1018BFCD21A7E63EA878 /* Editor */,
+				3ED8285B60DB8090F169D26E /* Player */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		D328F65E3802F47542A78CEB /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EDD3CDBEE8A98727CB0F1902 /* Entity.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		DA8D76BCE201EE89F143C86A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				29649345F4325D104ACC6DF7 /* Utility.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		E0A276FD15F51E59B47915DF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				566E69E38E0EC84F57D39300 /* MomentCommon */,
+				DA8D76BCE201EE89F143C86A /* Util */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E2CC36FF95FEF19439A120AA /* RepositoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB921304029166B85050FF94 /* ActualRepositoryTests.swift */,
+			);
+			path = RepositoryTests;
+			sourceTree = "<group>";
+		};
+		E2EC1018BFCD21A7E63EA878 /* Editor */ = {
+			isa = PBXGroup;
+			children = (
+				97C8945AD4934A93307DE09B /* DomainTests */,
+				EE47B977A007D251482FF139 /* MomentEditorTests */,
+				8BE53790CD7B00BCF2D90235 /* RepositoryTests */,
+			);
+			path = Editor;
+			sourceTree = "<group>";
+		};
+		EE47B977A007D251482FF139 /* MomentEditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				352883F9B1EF44A2CB0DF8CC /* MomentDataTests.swift */,
+			);
+			path = MomentEditorTests;
+			sourceTree = "<group>";
+		};
+		FB2AA455680AE241B9938373 /* DomainTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DA369A6D7601917CF034925 /* EntityTests.swift */,
+			);
+			path = DomainTests;
+			sourceTree = "<group>";
+		};
+		FC3A9346216DD4B31899CD14 /* MomentPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				032A5949ADE156025682FCEB /* MomentData.swift */,
+			);
+			path = MomentPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01DDE7CCD3EF44776B4F4C26 /* MomentEditorRepositoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00A67F0129798715A1B373D /* Build configuration list for PBXNativeTarget "MomentEditorRepositoryTests" */;
+			buildPhases = (
+				D24C9CAED76364D3C86E0FFE /* Sources */,
+				C6B26F524EB0325CD6052559 /* Frameworks */,
+				838F227F47B857EE87B7B366 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				106A291D6AD10B252759EE1F /* PBXTargetDependency */,
+			);
+			name = MomentEditorRepositoryTests;
+			productName = MomentEditorRepositoryTests;
+			productReference = EC9E2FDF34B9664CDC116D26 /* MomentEditorRepositoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09AEE954FF1E4878F13AD584 /* MomentEditorDomain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A732CC81C6C9FBBA6CF46831 /* Build configuration list for PBXNativeTarget "MomentEditorDomain" */;
+			buildPhases = (
+				96CB956304D069A828A9F070 /* Sources */,
+				D2597264106519C5B238DDD5 /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF44720311E980FF14282DE7 /* PBXTargetDependency */,
+			);
+			name = MomentEditorDomain;
+			productName = MomentEditorDomain;
+			productReference = A086C8E933683F3105B06167 /* libMomentEditorDomain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		125E8BB551ED2F02D0D4338B /* MomentApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D4D416F677DC1E1B99DD4B7 /* Build configuration list for PBXNativeTarget "MomentApp" */;
+			buildPhases = (
+				482F25EBA9BD48EEAEFFB89A /* Sources */,
+				F647752750A0BB0B9E500056 /* Resources */,
+				BA49C34800372A4F92772FBA /* Carthage */,
+				1248AF3171F270FBB3F7D33A /* Frameworks */,
+				18219E08A394840121E51DE1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4AE38700202433AE36C61A2D /* PBXTargetDependency */,
+				315DD13D5436A1EF44764A75 /* PBXTargetDependency */,
+				0EDA136F316E13B1E214BEBD /* PBXTargetDependency */,
+			);
+			name = MomentApp;
+			productName = MomentApp;
+			productReference = 1731C890A8F9C3C738C925F7 /* MomentApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FE6C08C1AB9CF3FC1AAD101 /* MomentCommonUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F8C3300DB3E5D589DC09790 /* Build configuration list for PBXNativeTarget "MomentCommonUtil" */;
+			buildPhases = (
+				3D4A7E5E543C532B11E4E27D /* Sources */,
+				EBBFD0050904D5462AFE679B /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentCommonUtil;
+			productName = MomentCommonUtil;
+			productReference = F64521DAD467426FFF49E0A6 /* libMomentCommonUtil.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		36C9985859AA9956416B4E5F /* MomentPlayerDomainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427E0A943D4F2C647F8F2299 /* Build configuration list for PBXNativeTarget "MomentPlayerDomainTests" */;
+			buildPhases = (
+				C1CFB82CB95F587A0416A906 /* Sources */,
+				FD23FF6BA2E41AD7F032EFFA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBF246A109FCFB7124F64AC9 /* PBXTargetDependency */,
+			);
+			name = MomentPlayerDomainTests;
+			productName = MomentPlayerDomainTests;
+			productReference = 44FCBAF9CEC8F09C57EFF103 /* MomentPlayerDomainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4AC5D5CD439AA3DFB50C6712 /* MomentCommonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 869CE58AC7B84C089FD97AD7 /* Build configuration list for PBXNativeTarget "MomentCommonTests" */;
+			buildPhases = (
+				06CA4564D05F13750F0AC026 /* Sources */,
+				8667413A8277E6AF9665577B /* Frameworks */,
+				6FF74C2B2D7C2A4685CA9FD1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8F88E09B7CE86246B57B9AE /* PBXTargetDependency */,
+			);
+			name = MomentCommonTests;
+			productName = MomentCommonTests;
+			productReference = 8C89F321BC99C4D12DDF1534 /* MomentCommonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F461E2719F481D62A7FFFF1 /* MomentPlayerRepository */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32EC17EC68817E198D3CE182 /* Build configuration list for PBXNativeTarget "MomentPlayerRepository" */;
+			buildPhases = (
+				62ECDCD2A6D889DC2FB66776 /* Sources */,
+				422E8147216B8648EFA0800B /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4191503CDFCC6E62FA844DBB /* PBXTargetDependency */,
+			);
+			name = MomentPlayerRepository;
+			productName = MomentPlayerRepository;
+			productReference = 95A22A9365C2FF6C8A363D65 /* libMomentPlayerRepository.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5FBD09875B042BE2DA461D5B /* MomentPlayerRepositoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAE5A8FEC17C5DF14FCC55F /* Build configuration list for PBXNativeTarget "MomentPlayerRepositoryTests" */;
+			buildPhases = (
+				82059171064F3F7378F24014 /* Sources */,
+				79D55FFFD43265069EB13987 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				144F597A88AC63294EDC507D /* PBXTargetDependency */,
+			);
+			name = MomentPlayerRepositoryTests;
+			productName = MomentPlayerRepositoryTests;
+			productReference = 0DFA1CD1815A9E176CC591CF /* MomentPlayerRepositoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6ADBA55EACF2EB54AF3059EC /* MomentEditorRepository */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6015A74797421F94C951F0C /* Build configuration list for PBXNativeTarget "MomentEditorRepository" */;
+			buildPhases = (
+				3020C1B2A18343A39FDB71D1 /* Sources */,
+				D47B2F3199F7F625A6522973 /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55B9A4A8B353898A5625F365 /* PBXTargetDependency */,
+			);
+			name = MomentEditorRepository;
+			productName = MomentEditorRepository;
+			productReference = 76C96F4B7A4A7995638AA95C /* libMomentEditorRepository.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		76E1076E5C722BEC0F581327 /* MomentPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555DC526123F52E04691F99E /* Build configuration list for PBXNativeTarget "MomentPlayer" */;
+			buildPhases = (
+				C6A0DBDF7A049EC7F6555014 /* Sources */,
+				EA59E0608F9088095772D2E3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24FCD0024EA428634CA9AFD7 /* PBXTargetDependency */,
+				A4A90B0737AB6A4227A030B8 /* PBXTargetDependency */,
+				0FF599573D2D4FFFD14D3AD3 /* PBXTargetDependency */,
+			);
+			name = MomentPlayer;
+			productName = MomentPlayer;
+			productReference = 2E574A5CB60FADAD252AD954 /* MomentPlayer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7D9E1216E0168160AABF3EF9 /* MomentPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB023E3D072025E9ADEF164B /* Build configuration list for PBXNativeTarget "MomentPlayerView" */;
+			buildPhases = (
+				3D980ED6DD1574A0FC0E8E92 /* Sources */,
+				12C458C052B6C41427149A64 /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				671555B5A148007DCE31133D /* PBXTargetDependency */,
+				FEB977F749141F75B3656B34 /* PBXTargetDependency */,
+			);
+			name = MomentPlayerView;
+			productName = MomentPlayerView;
+			productReference = A82B5940A6AEB39CB3D72261 /* libMomentPlayerView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		84B67001E77D8B2CF74E036A /* MomentEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB2CDA154AC589672BD1EBC /* Build configuration list for PBXNativeTarget "MomentEditor" */;
+			buildPhases = (
+				BF93221F8EB92331A277AE5C /* Sources */,
+				9C9618588F1665C0C1D1D489 /* Resources */,
+				DBE38BDFB6502F3080FE088E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6D27901D0690125E7667EDCA /* PBXTargetDependency */,
+				6C9249D844A7D4F0DD1CBD4D /* PBXTargetDependency */,
+				9D0EB168246E01C41B50EA25 /* PBXTargetDependency */,
+				F44216224886A5FF57891DC7 /* PBXTargetDependency */,
+			);
+			name = MomentEditor;
+			productName = MomentEditor;
+			productReference = 4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8D1DE5031F1D170CF1C5BB64 /* MomentCommon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82637B5E6C6E9EAC4757C2F6 /* Build configuration list for PBXNativeTarget "MomentCommon" */;
+			buildPhases = (
+				AC23B52F1EA05016348824CD /* Sources */,
+				054B14DFB259C31D22F7B1E2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AEE3CE49DFA2709F9CB4EA5 /* PBXTargetDependency */,
+			);
+			name = MomentCommon;
+			productName = MomentCommon;
+			productReference = FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFF18ED9837889B7C59A54FF /* MomentEditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54EF542A11A0AD1755A90E42 /* Build configuration list for PBXNativeTarget "MomentEditorTests" */;
+			buildPhases = (
+				7DB55E31D30D5670A11D99D3 /* Sources */,
+				4A9AB5FD78703118A8B81D7E /* Frameworks */,
+				799237B9CCC04EF0EEC57424 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBD3AFE3DEC3851EFFEAF740 /* PBXTargetDependency */,
+			);
+			name = MomentEditorTests;
+			productName = MomentEditorTests;
+			productReference = BC077C2207DD06AABA578ADC /* MomentEditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0D1617B3559952B18391F99 /* MomentEditorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1498756C054FC1032B87CF9 /* Build configuration list for PBXNativeTarget "MomentEditorView" */;
+			buildPhases = (
+				9EFD13992BD1080B73D793C9 /* Sources */,
+				FC0E5FB42A056E314AB983C2 /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4BAB366C943BF025312BFF /* PBXTargetDependency */,
+				788AAAABB401E0815EF2A233 /* PBXTargetDependency */,
+				DE0FE948BAD735B3D1167F90 /* PBXTargetDependency */,
+			);
+			name = MomentEditorView;
+			productName = MomentEditorView;
+			productReference = 5615AB7360CB8EA705DD5F7E /* libMomentEditorView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B28709A8B8AB46D7D09B5AF9 /* MomentSDK_MomentEditorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A311172CF7CE2F94F1529E4 /* Build configuration list for PBXNativeTarget "MomentSDK_MomentEditorView" */;
+			buildPhases = (
+				AD5DB14D0DF0B6206AA2B50B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentSDK_MomentEditorView;
+			productName = MomentSDK_MomentEditorView;
+			productReference = 6C92A04F4BB9CD2D44941C4E /* MomentSDK_MomentEditorView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C4259132A45C5BA858BC7AB7 /* MomentEditorDomainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19BDEE35CB58BA890836F017 /* Build configuration list for PBXNativeTarget "MomentEditorDomainTests" */;
+			buildPhases = (
+				44B690170A511EBB5D30C0A5 /* Sources */,
+				B9C1A46FDAF4A3C8363FDA2C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72A969794390D1495D5C0BB4 /* PBXTargetDependency */,
+			);
+			name = MomentEditorDomainTests;
+			productName = MomentEditorDomainTests;
+			productReference = EFC71E5F1B65EF70C9C13E65 /* MomentEditorDomainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0A297EEC093481A70E7D53F /* MomentPlayerDomain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41B8ABFF0EAAAD6553B32AEE /* Build configuration list for PBXNativeTarget "MomentPlayerDomain" */;
+			buildPhases = (
+				83162C68B718DDC122B45668 /* Sources */,
+				24C124030F556EC7142E2B0D /* Copy Swift Objective-C Interface Header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MomentPlayerDomain;
+			productName = MomentPlayerDomain;
+			productReference = F26D5114D9005782931E5C46 /* libMomentPlayerDomain.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F6D95C942A3ABF921C329B20 /* MomentPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDBA6A4B7FC17F59F20290CA /* Build configuration list for PBXNativeTarget "MomentPlayerTests" */;
+			buildPhases = (
+				E9B979A27A72A0C4D0255764 /* Sources */,
+				EC90F908A564613A0CD88702 /* Frameworks */,
+				7484431E1E0B8B13DC8509CC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4778D794F56072C0E1AC94E2 /* PBXTargetDependency */,
+			);
+			name = MomentPlayerTests;
+			productName = MomentPlayerTests;
+			productReference = A64070CF2C9514DC1C0F3828 /* MomentPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		492358E722D3508BA6373DB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					125E8BB551ED2F02D0D4338B = {
+						DevelopmentTeam = K4WL5WK33A;
+					};
+				};
+			};
+			buildConfigurationList = D42B0FE4548E31948EA3FA31 /* Build configuration list for PBXProject "MomentCart" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ko,
+			);
+			mainGroup = 4DC084B187308C0FC4ECD55A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				125E8BB551ED2F02D0D4338B /* MomentApp */,
+				8D1DE5031F1D170CF1C5BB64 /* MomentCommon */,
+				4AC5D5CD439AA3DFB50C6712 /* MomentCommonTests */,
+				1FE6C08C1AB9CF3FC1AAD101 /* MomentCommonUtil */,
+				84B67001E77D8B2CF74E036A /* MomentEditor */,
+				09AEE954FF1E4878F13AD584 /* MomentEditorDomain */,
+				C4259132A45C5BA858BC7AB7 /* MomentEditorDomainTests */,
+				6ADBA55EACF2EB54AF3059EC /* MomentEditorRepository */,
+				01DDE7CCD3EF44776B4F4C26 /* MomentEditorRepositoryTests */,
+				AFF18ED9837889B7C59A54FF /* MomentEditorTests */,
+				B0D1617B3559952B18391F99 /* MomentEditorView */,
+				76E1076E5C722BEC0F581327 /* MomentPlayer */,
+				E0A297EEC093481A70E7D53F /* MomentPlayerDomain */,
+				36C9985859AA9956416B4E5F /* MomentPlayerDomainTests */,
+				5F461E2719F481D62A7FFFF1 /* MomentPlayerRepository */,
+				5FBD09875B042BE2DA461D5B /* MomentPlayerRepositoryTests */,
+				F6D95C942A3ABF921C329B20 /* MomentPlayerTests */,
+				7D9E1216E0168160AABF3EF9 /* MomentPlayerView */,
+				B28709A8B8AB46D7D09B5AF9 /* MomentSDK_MomentEditorView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C9618588F1665C0C1D1D489 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				214816DCF6AF6F0DBF3233B5 /* MomentSDK_MomentEditorView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD5DB14D0DF0B6206AA2B50B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35CC077E511C0F5FC7E4528A /* EditorViewController.xib in Resources */,
+				910CA76BC7F07353F7CB56E2 /* Localizable.strings in Resources */,
+				9720B1E38BBEEF240EAD2DEF /* Lorem ipsum.txt in Resources */,
+				C91DA2F4143C1E53D0143CB5 /* Media.xcassets in Resources */,
+				CDD921D6504955467C7F310F /* iPhone_11.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F647752750A0BB0B9E500056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A684E458F9103380D8E80C1A /* Assets.xcassets in Resources */,
+				83C4E9A70C0992075265B7B4 /* LaunchScreen.storyboard in Resources */,
+				1DBD10A16EFEDCA91CB4026D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12C458C052B6C41427149A64 /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		24C124030F556EC7142E2B0D /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		422E8147216B8648EFA0800B /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		BA49C34800372A4F92772FBA /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "carthage copy-frameworks\n";
+		};
+		D2597264106519C5B238DDD5 /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		D47B2F3199F7F625A6522973 /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		EBBFD0050904D5462AFE679B /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+		FC0E5FB42A056E314AB983C2 /* Copy Swift Objective-C Interface Header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(DERIVED_SOURCES_DIR)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			name = "Copy Swift Objective-C Interface Header";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/include/$(PRODUCT_MODULE_NAME)/$(SWIFT_OBJC_INTERFACE_HEADER_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06CA4564D05F13750F0AC026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEF689F54EA6718B8255097 /* FooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3020C1B2A18343A39FDB71D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD84CF9A04990E6E826DDB7D /* ActualRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D4A7E5E543C532B11E4E27D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9484E29238EDA435A6C748 /* Utility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D980ED6DD1574A0FC0E8E92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BECE12A7B10899735BA5279 /* ViewData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44B690170A511EBB5D30C0A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0A4AFF92E84412D9CC038D /* EntityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		482F25EBA9BD48EEAEFFB89A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95D06AE394EA361B5804E9E3 /* AppDelegate.swift in Sources */,
+				9373540DA2CF614E7945CECC /* SceneDelegate.swift in Sources */,
+				5DF1757FADCEBC8CB88FB97B /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62ECDCD2A6D889DC2FB66776 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FD1EBF4FFF5E9063EC3C9D8 /* ActualRepository.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DB55E31D30D5670A11D99D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BEE5F391785B54863BB819C /* MomentDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82059171064F3F7378F24014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE270E3212B973B0E35FA888 /* ActualRepositoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83162C68B718DDC122B45668 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9A2EAB500EE91DAC719D853 /* Entity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96CB956304D069A828A9F070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F37C3B782FB289667D76A67 /* Dice.swift in Sources */,
+				C24B7D2A53B881C1CBBB488E /* Entity.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EFD13992BD1080B73D793C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A56579EBE2976D80607EA6 /* EditorViewController.swift in Sources */,
+				A95F156086BAACDC75BB9CAA /* ViewData.swift in Sources */,
+				69F0C20848E92F41F887830D /* resource_bundle_accessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC23B52F1EA05016348824CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				053D5D7EA35B47BB7485F285 /* Foo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF93221F8EB92331A277AE5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				219D415DB0DD7F26B7EA877A /* MomentData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1CFB82CB95F587A0416A906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD48F76B0476391DB57A6A5C /* EntityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6A0DBDF7A049EC7F6555014 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655BE1C59C721E309F0E38D0 /* MomentData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24C9CAED76364D3C86E0FFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A4E33EEC711AA11BE56FB05 /* ActualRepositoryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9B979A27A72A0C4D0255764 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34DADD47081BBB768078C3F /* MomentDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AEE3CE49DFA2709F9CB4EA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE6C08C1AB9CF3FC1AAD101 /* MomentCommonUtil */;
+			targetProxy = C8ACD525A3597AFD7DB7B993 /* PBXContainerItemProxy */;
+		};
+		0EDA136F316E13B1E214BEBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E1076E5C722BEC0F581327 /* MomentPlayer */;
+			targetProxy = DC53CF66A45120744AA35351 /* PBXContainerItemProxy */;
+		};
+		0FF599573D2D4FFFD14D3AD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F461E2719F481D62A7FFFF1 /* MomentPlayerRepository */;
+			targetProxy = 74AE9FE44E71D511C3A986B0 /* PBXContainerItemProxy */;
+		};
+		106A291D6AD10B252759EE1F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADBA55EACF2EB54AF3059EC /* MomentEditorRepository */;
+			targetProxy = 006B212F8901D7E9E6C43C1A /* PBXContainerItemProxy */;
+		};
+		144F597A88AC63294EDC507D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F461E2719F481D62A7FFFF1 /* MomentPlayerRepository */;
+			targetProxy = 331304F8FD744C3C5EF6524D /* PBXContainerItemProxy */;
+		};
+		24FCD0024EA428634CA9AFD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0A297EEC093481A70E7D53F /* MomentPlayerDomain */;
+			targetProxy = 15D8FC75254543392735A37D /* PBXContainerItemProxy */;
+		};
+		315DD13D5436A1EF44764A75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B67001E77D8B2CF74E036A /* MomentEditor */;
+			targetProxy = 624336F9B74B2D887E00FCD6 /* PBXContainerItemProxy */;
+		};
+		4191503CDFCC6E62FA844DBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0A297EEC093481A70E7D53F /* MomentPlayerDomain */;
+			targetProxy = 8AFD08B56B9E89DEA9C94AF4 /* PBXContainerItemProxy */;
+		};
+		4778D794F56072C0E1AC94E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76E1076E5C722BEC0F581327 /* MomentPlayer */;
+			targetProxy = 2F49978DA4809DFF64D6B60C /* PBXContainerItemProxy */;
+		};
+		4AE38700202433AE36C61A2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1DE5031F1D170CF1C5BB64 /* MomentCommon */;
+			targetProxy = 5B33E8316CA68BFD824FCC1B /* PBXContainerItemProxy */;
+		};
+		55B9A4A8B353898A5625F365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09AEE954FF1E4878F13AD584 /* MomentEditorDomain */;
+			targetProxy = D6A904C515EEF83C4690F2D4 /* PBXContainerItemProxy */;
+		};
+		671555B5A148007DCE31133D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0A297EEC093481A70E7D53F /* MomentPlayerDomain */;
+			targetProxy = 772C6D3CCF68D30772958953 /* PBXContainerItemProxy */;
+		};
+		6C4BAB366C943BF025312BFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09AEE954FF1E4878F13AD584 /* MomentEditorDomain */;
+			targetProxy = C82F04749825B5E4FC686DFE /* PBXContainerItemProxy */;
+		};
+		6C9249D844A7D4F0DD1CBD4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0D1617B3559952B18391F99 /* MomentEditorView */;
+			targetProxy = 85FB813D2D74ADF44C80483F /* PBXContainerItemProxy */;
+		};
+		6D27901D0690125E7667EDCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09AEE954FF1E4878F13AD584 /* MomentEditorDomain */;
+			targetProxy = EE28CB0F5B5AAD76C9CC9CCA /* PBXContainerItemProxy */;
+		};
+		72A969794390D1495D5C0BB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09AEE954FF1E4878F13AD584 /* MomentEditorDomain */;
+			targetProxy = D14680B6F4AE0DFCFBC1BA1A /* PBXContainerItemProxy */;
+		};
+		788AAAABB401E0815EF2A233 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE6C08C1AB9CF3FC1AAD101 /* MomentCommonUtil */;
+			targetProxy = 45365A5A478A197F4AF18B91 /* PBXContainerItemProxy */;
+		};
+		9D0EB168246E01C41B50EA25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6ADBA55EACF2EB54AF3059EC /* MomentEditorRepository */;
+			targetProxy = 863A661EA441683B993702AC /* PBXContainerItemProxy */;
+		};
+		A4A90B0737AB6A4227A030B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D9E1216E0168160AABF3EF9 /* MomentPlayerView */;
+			targetProxy = A092BED9AF0F1693E448B63D /* PBXContainerItemProxy */;
+		};
+		C8F88E09B7CE86246B57B9AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1DE5031F1D170CF1C5BB64 /* MomentCommon */;
+			targetProxy = 45B171A85906D3501F85A5E2 /* PBXContainerItemProxy */;
+		};
+		CBF246A109FCFB7124F64AC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0A297EEC093481A70E7D53F /* MomentPlayerDomain */;
+			targetProxy = 7EEA241FCD4B4749AE5839AC /* PBXContainerItemProxy */;
+		};
+		DE0FE948BAD735B3D1167F90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28709A8B8AB46D7D09B5AF9 /* MomentSDK_MomentEditorView */;
+			targetProxy = DB939CDB30DE69EF7D317440 /* PBXContainerItemProxy */;
+		};
+		EBD3AFE3DEC3851EFFEAF740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B67001E77D8B2CF74E036A /* MomentEditor */;
+			targetProxy = 860D19D59D49F8D99CD774CD /* PBXContainerItemProxy */;
+		};
+		F44216224886A5FF57891DC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B28709A8B8AB46D7D09B5AF9 /* MomentSDK_MomentEditorView */;
+			targetProxy = 23ACB68F8CC23369FC8D359A /* PBXContainerItemProxy */;
+		};
+		FEB977F749141F75B3656B34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE6C08C1AB9CF3FC1AAD101 /* MomentCommonUtil */;
+			targetProxy = B58167A893E368C1E62B160E /* PBXContainerItemProxy */;
+		};
+		FF44720311E980FF14282DE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FE6C08C1AB9CF3FC1AAD101 /* MomentCommonUtil */;
+			targetProxy = 357A3BF9607AF90DBE31284E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0CCC27ECC0FFD3DE4DACE51D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71750BB7B15C794C0DB4B0D0 /* Base */,
+				6DAE20D4BAD025F77EB07F9D /* ko */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		35991BEE42D3EC940985CB7C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED9FE3D7C3EC93A40CF2C673 /* Base */,
+				FC044B307F3D01857FEE5DE5 /* ko */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3B2C3267D13579CAC1C16DD /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B367B80CD1F1DF6B1A1914F0 /* en */,
+				4C1E2CD8CB3C5E9D5F201073 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0455B3F795780A86112241CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		15808B6FFE3C1F90B47B1F1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = K4WL5WK33A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MomentApp/MomentApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19B4009866F899EFA9B5F455 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		22400FE73574754AB0C149B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorDomainTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29271210A884BE86E664DF10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		293082997ABAE40B50506218 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2B303E6A2BBB228F2623E646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		30C774C2620A165277850EFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommonTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3AEC92DB745BC1A7839D931D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerRepository;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C280B0BB8198ECE3570E5BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Supporting Files/Bundle_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.navercorp.MomentSDK-MomentEditorView";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40B196E465B440BCB8DDE700 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerRepository;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		41C1C6EF09A47E4DF8DF41E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4358785E75524A14D6DB3A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		48CD38545D65DA2F7AD907F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D29129F0F558F88307EB5D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		4DF0A9D60EDC6C9EE534EBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Supporting Files/Bundle_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.navercorp.MomentSDK-MomentEditorView";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6F0F8BD460DCB19F348ED127 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7F0C15B97F7B05D1B4728E62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorRepository;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F5A6D294FBF64E152FE4FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorDomainTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8108EF4B754199B389015B99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B9E0366CE98157E78034554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommonUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91B2F70FC4EC8D30807FBBC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		9A79234A52D72A8AE818CB0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A39B562659E0351A3B3B8D40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerDomain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5D6A68D7AFE054161653994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA830ED2B93A16C719A14026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerDomainTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AF0C386134BBA857B92586B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = K4WL5WK33A;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = MomentApp/MomentApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentApp;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B026119CBEA323F4DD830979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B387260CDF30606F8C4033A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		BC91AB6E6AFB39747D9FA5BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C99BD2DA0C2DF54A47980D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDD827CBBAB4907629F4071A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommonTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D79AE2D1B6672B4C9039FA59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerRepositoryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7D6A2F1E2B7655221BF7040 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerRepositoryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE5276CD41A07FAD39032D07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommonUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E00920120FCB1F8E57D8C1D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentPlayerDomainTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0447166AFC7732963C3C8FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorRepositoryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F63117E86D5B639F90E7A44A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentCommon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		F825AE805F327613460A27DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorRepositoryTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F920A414D091173027E18BD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.navercorp.MomentEditorRepository;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F8C3300DB3E5D589DC09790 /* Build configuration list for PBXNativeTarget "MomentCommonUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE5276CD41A07FAD39032D07 /* Debug */,
+				8B9E0366CE98157E78034554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		19BDEE35CB58BA890836F017 /* Build configuration list for PBXNativeTarget "MomentEditorDomainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22400FE73574754AB0C149B6 /* Debug */,
+				7F5A6D294FBF64E152FE4FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1AB2CDA154AC589672BD1EBC /* Build configuration list for PBXNativeTarget "MomentEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B2F70FC4EC8D30807FBBC5 /* Debug */,
+				4D29129F0F558F88307EB5D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2A311172CF7CE2F94F1529E4 /* Build configuration list for PBXNativeTarget "MomentSDK_MomentEditorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DF0A9D60EDC6C9EE534EBC5 /* Debug */,
+				3C280B0BB8198ECE3570E5BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		32EC17EC68817E198D3CE182 /* Build configuration list for PBXNativeTarget "MomentPlayerRepository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AEC92DB745BC1A7839D931D /* Debug */,
+				40B196E465B440BCB8DDE700 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		41B8ABFF0EAAAD6553B32AEE /* Build configuration list for PBXNativeTarget "MomentPlayerDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A39B562659E0351A3B3B8D40 /* Debug */,
+				6F0F8BD460DCB19F348ED127 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		427E0A943D4F2C647F8F2299 /* Build configuration list for PBXNativeTarget "MomentPlayerDomainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00920120FCB1F8E57D8C1D9 /* Debug */,
+				AA830ED2B93A16C719A14026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		54EF542A11A0AD1755A90E42 /* Build configuration list for PBXNativeTarget "MomentEditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CD38545D65DA2F7AD907F3 /* Debug */,
+				4358785E75524A14D6DB3A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		555DC526123F52E04691F99E /* Build configuration list for PBXNativeTarget "MomentPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B303E6A2BBB228F2623E646 /* Debug */,
+				0455B3F795780A86112241CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D4D416F677DC1E1B99DD4B7 /* Build configuration list for PBXNativeTarget "MomentApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF0C386134BBA857B92586B9 /* Debug */,
+				15808B6FFE3C1F90B47B1F1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		82637B5E6C6E9EAC4757C2F6 /* Build configuration list for PBXNativeTarget "MomentCommon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F63117E86D5B639F90E7A44A /* Debug */,
+				B387260CDF30606F8C4033A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		869CE58AC7B84C089FD97AD7 /* Build configuration list for PBXNativeTarget "MomentCommonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30C774C2620A165277850EFA /* Debug */,
+				CDD827CBBAB4907629F4071A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A732CC81C6C9FBBA6CF46831 /* Build configuration list for PBXNativeTarget "MomentEditorDomain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8108EF4B754199B389015B99 /* Debug */,
+				293082997ABAE40B50506218 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1498756C054FC1032B87CF9 /* Build configuration list for PBXNativeTarget "MomentEditorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B026119CBEA323F4DD830979 /* Debug */,
+				A5D6A68D7AFE054161653994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CCAE5A8FEC17C5DF14FCC55F /* Build configuration list for PBXNativeTarget "MomentPlayerRepositoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D6A2F1E2B7655221BF7040 /* Debug */,
+				D79AE2D1B6672B4C9039FA59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CDBA6A4B7FC17F59F20290CA /* Build configuration list for PBXNativeTarget "MomentPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC91AB6E6AFB39747D9FA5BE /* Debug */,
+				9A79234A52D72A8AE818CB0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D42B0FE4548E31948EA3FA31 /* Build configuration list for PBXProject "MomentCart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B4009866F899EFA9B5F455 /* Debug */,
+				C99BD2DA0C2DF54A47980D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D6015A74797421F94C951F0C /* Build configuration list for PBXNativeTarget "MomentEditorRepository" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0C15B97F7B05D1B4728E62 /* Debug */,
+				F920A414D091173027E18BD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		EB023E3D072025E9ADEF164B /* Build configuration list for PBXNativeTarget "MomentPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C1C6EF09A47E4DF8DF41E0 /* Debug */,
+				29271210A884BE86E664DF10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F00A67F0129798715A1B373D /* Build configuration list for PBXNativeTarget "MomentEditorRepositoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0447166AFC7732963C3C8FF /* Debug */,
+				F825AE805F327613460A27DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 492358E722D3508BA6373DB2 /* Project object */;
+}
