@@ -2,12 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:">
-   </FileRef>
-   <FileRef
-      location = "group:MomentApp/MomentApp.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:MomentCart.xcodeproj">
    </FileRef>
 </Workspace>

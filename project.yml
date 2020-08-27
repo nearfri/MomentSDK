@@ -23,7 +23,7 @@ targets:
       - target: MomentPlayer
       - carthage: Alamofire
     sources:
-      - path: MomentApp/MomentApp
+      - path: Sample/MomentApp/MomentApp
         createIntermediateGroups: false
     settings:
       base:

@@ -496,7 +496,7 @@
 				A3BEC61B03565E10F0119A24 /* ViewController.swift */,
 			);
 			name = MomentApp;
-			path = MomentApp/MomentApp;
+			path = Sample/MomentApp/MomentApp;
 			sourceTree = "<group>";
 		};
 		20E966511BCBAD61E16DD2AB /* MomentPlayerTests */ = {
@@ -1694,7 +1694,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = MomentApp/MomentApp/Info.plist;
+				INFOPLIST_FILE = Sample/MomentApp/MomentApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2196,7 +2196,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
-				INFOPLIST_FILE = MomentApp/MomentApp/Info.plist;
+				INFOPLIST_FILE = Sample/MomentApp/MomentApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
