@@ -6,6 +6,7 @@ options:
   bundleIdPrefix: com.navercorp
   deploymentTarget:
     iOS: 11.0
+  carthageBuildPath: ../Carthage/Build
   findCarthageFrameworks: true
   createIntermediateGroups: true
 settings:
@@ -23,11 +24,11 @@ targets:
       - target: MomentPlayer
       - carthage: Alamofire
     sources:
-      - path: Sample/MomentApp/MomentApp
-        createIntermediateGroups: false
+      - path: MomentApp
     settings:
       base:
         DEVELOPMENT_TEAM: K4WL5WK33A
+        INFOPLIST_FILE: MomentApp/Info.plist
   # Common
   MomentCommon:
     type: framework
