@@ -11,7 +11,7 @@ options:
   createIntermediateGroups: true
 settings:
   base:
-    CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED: true
+#    CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED: true
 targets:
   # App
   MomentApp:
