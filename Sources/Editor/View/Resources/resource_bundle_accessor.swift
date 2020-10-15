@@ -1,4 +1,4 @@
-import class Foundation.Bundle
+import Foundation
 
 private class BundleFinder {}
 
