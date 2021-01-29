@@ -5,9 +5,8 @@ set -e
 cd $(dirname "$BASH_SOURCE")/..
 
 # XCFramework path
-FRAMEWORK_NAME="MomentEditor"
-FRAMEWORK_DIR_NAME="MomentEditor_XCFramework"
-FRAMEWORK_DIR="${FRAMEWORK_DIR_NAME}"
+FRAMEWORK_NAME=$1
+FRAMEWORK_DIR="MomentSDK_XCFramework/${FRAMEWORK_NAME}"
 XCFRAMEWORK_NAME="${FRAMEWORK_NAME}.xcframework"
 XCFRAMEWORK_PATH="${FRAMEWORK_DIR}/${XCFRAMEWORK_NAME}"
 DERIVED_DATA_DIR="${FRAMEWORK_DIR}/DerivedData"
@@ -20,22 +19,26 @@ IOS_DEVICE_ARCHIVE_PATH="${FRAMEWORK_DIR}/ios.xcarchive"
 IOS_SIMULATOR_ARCHIVE_PATH="${FRAMEWORK_DIR}/ios-sim.xcarchive"
 #MACOS_ARCHIVE_PATH="${FRAMEWORK_DIR}/macos.xcarchive"
 
+if [ -z "${FRAMEWORK_NAME}" ]; then
+    echo "usage: $(basename $BASH_SOURCE) <framework_name>"
+    exit 1
+fi
+
 rm -rf "${FRAMEWORK_DIR}"
 
-mkdir "${FRAMEWORK_DIR}"
+mkdir -p "${FRAMEWORK_DIR}"
 mkdir "${DERIVED_DATA_DIR}"
-mkdir "${SUBMODULES_DIR}"
-mkdir "${IOS_DEVICE_SUBMODULES_DIR}"
-mkdir "${IOS_SIMULATOR_SUBMODULES_DIR}"
+mkdir -p "${IOS_DEVICE_SUBMODULES_DIR}"
+mkdir -p "${IOS_SIMULATOR_SUBMODULES_DIR}"
 
 echo "Archiving ${FRAMEWORK_NAME}"
 xcodebuild archive -scheme ${FRAMEWORK_NAME} -derivedDataPath ${DERIVED_DATA_DIR} -destination "generic/platform=iOS" \
     -archivePath "${IOS_DEVICE_ARCHIVE_PATH}" -sdk iphoneos SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES
-find "${BUILD_PRODUCTS_PATH}/Release-iphoneos" -name "*.swiftmodule" -maxdepth 1 -type d | xargs -JFILE cp -r FILE "${IOS_DEVICE_SUBMODULES_DIR}"
+find "${BUILD_PRODUCTS_PATH}/Release-iphoneos" -name "${FRAMEWORK_NAME}*.swiftmodule" -maxdepth 1 -type d | xargs -JFILE cp -r FILE "${IOS_DEVICE_SUBMODULES_DIR}"
 
 xcodebuild archive -scheme ${FRAMEWORK_NAME} -derivedDataPath ${DERIVED_DATA_DIR} -destination="generic/platform=iOS Simulator" \
     -archivePath "${IOS_SIMULATOR_ARCHIVE_PATH}" -sdk iphonesimulator SKIP_INSTALL=NO BUILD_LIBRARY_FOR_DISTRIBUTION=YES
-find "${BUILD_PRODUCTS_PATH}/Release-iphonesimulator" -name "*.swiftmodule" -maxdepth 1 -type d | xargs -JFILE cp -r FILE "${IOS_SIMULATOR_SUBMODULES_DIR}"
+find "${BUILD_PRODUCTS_PATH}/Release-iphonesimulator" -name "${FRAMEWORK_NAME}*.swiftmodule" -maxdepth 1 -type d | xargs -JFILE cp -r FILE "${IOS_SIMULATOR_SUBMODULES_DIR}"
 
 #xcodebuild archive -scheme ${FRAMEWORK_NAME} -destination="generic/platform=macOS" -archivePath "${MACOS_ARCHIVE_PATH}" -sdk macosx SKIP_INSTALL=NO #BUILD_LIBRARY_FOR_DISTRIBUTION=YES
 
@@ -61,9 +64,10 @@ pushd "${FRAMEWORK_DIR}"
 zip -r -X "${XCFRAMEWORK_NAME}.zip" "${XCFRAMEWORK_NAME}"
 popd
 
-rm -rf "${IOS_SIMULATOR_ARCHIVE_PATH}"
-rm -rf "${IOS_DEVICE_ARCHIVE_PATH}"
-# rm -rf "${MACOS_ARCHIVE_PATH}"
-rm -rf "${DERIVED_DATA_DIR}"
+mv "${FRAMEWORK_DIR}/${XCFRAMEWORK_NAME}.zip" "${FRAMEWORK_DIR}/.."
+
+# rm -rf "${IOS_SIMULATOR_ARCHIVE_PATH}"
+# rm -rf "${IOS_DEVICE_ARCHIVE_PATH}"
+rm -rf "${FRAMEWORK_DIR}"
 
 # open "${FRAMEWORK_DIR}"
