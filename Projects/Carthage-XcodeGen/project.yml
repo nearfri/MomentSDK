@@ -5,13 +5,13 @@ name: MomentCart
 options:
   bundleIdPrefix: com.navercorp
   deploymentTarget:
-    iOS: 11.0
+    iOS: 12.0
   carthageBuildPath: ../../Carthage/Build
   findCarthageFrameworks: true
   createIntermediateGroups: true
 settings:
   base:
-#    CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED: true
+    CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED: true
 targets:
   # App
   MomentApp:
@@ -22,7 +22,7 @@ targets:
       - target: MomentCommon
       - target: MomentEditor
       - target: MomentPlayer
-      - carthage: Alamofire
+      # - carthage: Alamofire
     sources:
       - path: MomentApp
     settings:
@@ -72,7 +72,7 @@ targets:
         link: true
       - target: MomentSDK_MomentEditorView
         embed: true
-      - carthage: Alamofire
+      # - carthage: Alamofire
     sources:
       - path: Sources/Editor/MomentEditor
     settings:
@@ -118,7 +118,7 @@ targets:
       - target: MomentEditorDomain
       - target: MomentCommonUtil
       - target: MomentSDK_MomentEditorView
-      - carthage: Alamofire
+      # - carthage: Alamofire
     sources:
       - path: Sources/Editor/View
         includes: *allCodeFiles
@@ -136,7 +136,7 @@ targets:
     platform: iOS
     dependencies:
       - target: MomentEditorDomain
-      - carthage: Alamofire
+      # - carthage: Alamofire
     sources:
       - path: Sources/Editor/Repository
     scheme:
@@ -163,7 +163,7 @@ targets:
         link: true
       - target: MomentPlayerRepository
         link: true
-      - carthage: Alamofire
+      # - carthage: Alamofire
     sources:
       - path: Sources/Player/MomentPlayer
     settings:

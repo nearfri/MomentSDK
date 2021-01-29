@@ -18,6 +18,7 @@
 		1DBD10A16EFEDCA91CB4026D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35991BEE42D3EC940985CB7C /* Main.storyboard */; };
 		214816DCF6AF6F0DBF3233B5 /* MomentSDK_MomentEditorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C92A04F4BB9CD2D44941C4E /* MomentSDK_MomentEditorView.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		219D415DB0DD7F26B7EA877A /* MomentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38295762CB5B44D6EB3E1C7 /* MomentData.swift */; };
+		2B0215CEF7CF5FD4E05E4A74 /* bundle_accessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EB85368E4947916EE0EE78 /* bundle_accessor.swift */; };
 		30E1C395455AFA67AC4CE7C4 /* MomentPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E574A5CB60FADAD252AD954 /* MomentPlayer.framework */; };
 		35CC077E511C0F5FC7E4528A /* EditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC3B775FF8B7843869A11597 /* EditorViewController.xib */; };
 		3A5D118392093F0EC263DEB2 /* MomentCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */; };
@@ -25,13 +26,10 @@
 		3FD1EBF4FFF5E9063EC3C9D8 /* ActualRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89569E868B3B9CED2EB88A /* ActualRepository.swift */; };
 		41C775ECF80AB6B5164F1944 /* MomentEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		43A56579EBE2976D80607EA6 /* EditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9626CFBF2B869D7C30AD971 /* EditorViewController.swift */; };
-		489CF2FCC4249E4BABA5BE41 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; };
 		4F0A926A70A164BCF063938C /* MomentCommon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */; };
-		520DE887CBB12854E90E5AF0 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5DF1757FADCEBC8CB88FB97B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BEC61B03565E10F0119A24 /* ViewController.swift */; };
 		620156974E066CF07B90CBFA /* libMomentEditorDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A086C8E933683F3105B06167 /* libMomentEditorDomain.a */; };
 		655BE1C59C721E309F0E38D0 /* MomentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032A5949ADE156025682FCEB /* MomentData.swift */; };
-		69F0C20848E92F41F887830D /* resource_bundle_accessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7D55BDC51015275366AEA7C /* resource_bundle_accessor.swift */; };
 		72611743E46A9737F6A2B2C4 /* MomentEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */; };
 		76A56100D64D592658723063 /* MomentCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7BEE5F391785B54863BB819C /* MomentDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352883F9B1EF44A2CB0DF8CC /* MomentDataTests.swift */; };
@@ -51,7 +49,6 @@
 		A684E458F9103380D8E80C1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05E9A1F5A6BA87D6B0D86D07 /* Assets.xcassets */; };
 		A95F156086BAACDC75BB9CAA /* ViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30853246C15AAD9CCE6D66AD /* ViewData.swift */; };
 		B0BC1D58A2E0CE576EC26C78 /* MomentEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */; };
-		BF68E045B041CF4CC1D3FD4C /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C24B7D2A53B881C1CBBB488E /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FF269DD381AC7AA8FE50C6 /* Entity.swift */; };
 		C59036D800429C301AF831DB /* libMomentCommonUtil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F64521DAD467426FFF49E0A6 /* libMomentCommonUtil.a */; };
 		C742A781CD08E5C1614EF936 /* MomentEditor.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -59,15 +56,12 @@
 		CDD921D6504955467C7F310F /* iPhone_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 38F4C5495BEBD427AF100B64 /* iPhone_11.png */; };
 		CE270E3212B973B0E35FA888 /* ActualRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB921304029166B85050FF94 /* ActualRepositoryTests.swift */; };
 		D1CA5CCFD5F0A3FB05E9AE20 /* libMomentPlayerView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A82B5940A6AEB39CB3D72261 /* libMomentPlayerView.a */; };
-		D497AB2C96B3871DCD740B72 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D95E649942EB61C4B302D0CB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; };
 		DC0A4AFF92E84412D9CC038D /* EntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E669B2B66A7BAD6A813B128 /* EntityTests.swift */; };
 		E34DADD47081BBB768078C3F /* MomentDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3625FB15510887BAE5EB959D /* MomentDataTests.swift */; };
 		F02CE706AC60F3B9B702ECA9 /* libMomentPlayerDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F26D5114D9005782931E5C46 /* libMomentPlayerDomain.a */; };
 		F9A2EAB500EE91DAC719D853 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD3CDBEE8A98727CB0F1902 /* Entity.swift */; };
 		FD48F76B0476391DB57A6A5C /* EntityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DA369A6D7601917CF034925 /* EntityTests.swift */; };
 		FD84CF9A04990E6E826DDB7D /* ActualRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B3DC05710ABE3D3FC182BB /* ActualRepository.swift */; };
-		FF7FC689D9D0145FCC69ADD3 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0155542E19791D3079E146 /* Alamofire.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -287,7 +281,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				A5BA8384D907AEE84BF402E3 /* MomentPlayer.framework in Embed Frameworks */,
-				520DE887CBB12854E90E5AF0 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,18 +292,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				C742A781CD08E5C1614EF936 /* MomentEditor.framework in Embed Frameworks */,
-				D497AB2C96B3871DCD740B72 /* Alamofire.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		838F227F47B857EE87B7B366 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				BF68E045B041CF4CC1D3FD4C /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -338,11 +319,11 @@
 		4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MomentEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52294124A41698E6EFCF25D4 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 		5615AB7360CB8EA705DD5F7E /* libMomentEditorView.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentEditorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EB85368E4947916EE0EE78 /* bundle_accessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bundle_accessor.swift; sourceTree = "<group>"; };
 		6C92A04F4BB9CD2D44941C4E /* MomentSDK_MomentEditorView.bundle */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.plug-in"; path = MomentSDK_MomentEditorView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DAE20D4BAD025F77EB07F9D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		71750BB7B15C794C0DB4B0D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76C96F4B7A4A7995638AA95C /* libMomentEditorRepository.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentEditorRepository.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A0155542E19791D3079E146 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = "<group>"; };
 		7E669B2B66A7BAD6A813B128 /* EntityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTests.swift; sourceTree = "<group>"; };
 		80D0E87C20E77653F0C23A9C /* Foo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foo.swift; sourceTree = "<group>"; };
 		862BCA061EB35DE48A72F8D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -361,7 +342,6 @@
 		B367B80CD1F1DF6B1A1914F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B38295762CB5B44D6EB3E1C7 /* MomentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentData.swift; sourceTree = "<group>"; };
 		B685CA1E03D3D5040C02906F /* Lorem ipsum.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Lorem ipsum.txt"; sourceTree = "<group>"; };
-		B7D55BDC51015275366AEA7C /* resource_bundle_accessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resource_bundle_accessor.swift; sourceTree = "<group>"; };
 		BBF633C77EA74CB97BF27A1C /* FooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooTests.swift; sourceTree = "<group>"; };
 		BC077C2207DD06AABA578ADC /* MomentEditorTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3B775FF8B7843869A11597 /* EditorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditorViewController.xib; sourceTree = "<group>"; };
@@ -391,7 +371,6 @@
 				4F0A926A70A164BCF063938C /* MomentCommon.framework in Frameworks */,
 				72611743E46A9737F6A2B2C4 /* MomentEditor.framework in Frameworks */,
 				147CA3F975F873301E81F6DF /* MomentPlayer.framework in Frameworks */,
-				FF7FC689D9D0145FCC69ADD3 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,7 +421,6 @@
 				620156974E066CF07B90CBFA /* libMomentEditorDomain.a in Frameworks */,
 				87329F8FFD0835EC7CB76EC6 /* libMomentEditorView.a in Frameworks */,
 				098803E801C5AFBE723FB8A5 /* libMomentEditorRepository.a in Frameworks */,
-				489CF2FCC4249E4BABA5BE41 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,7 +431,6 @@
 				F02CE706AC60F3B9B702ECA9 /* libMomentPlayerDomain.a in Frameworks */,
 				D1CA5CCFD5F0A3FB05E9AE20 /* libMomentPlayerView.a in Frameworks */,
 				0C3EB596BFBEE50EC3FC3B97 /* libMomentPlayerRepository.a in Frameworks */,
-				D95E649942EB61C4B302D0CB /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,14 +453,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0C64897A8A152D0883B4E84F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BAF1CFB0D1D87DFD8F7BE9AC /* Carthage */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		0D7922BB5898C727E5D95CFB /* MomentApp */ = {
 			isa = PBXGroup;
 			children = (
@@ -530,7 +499,6 @@
 				0D7922BB5898C727E5D95CFB /* MomentApp */,
 				76B8331719098B430ECAA828 /* Sources */,
 				D009221B2E22DBD796622954 /* Tests */,
-				0C64897A8A152D0883B4E84F /* Frameworks */,
 				63E5458FA635745A1B502B4D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -538,11 +506,11 @@
 		4F4D6A1DF5F610A3A13F4516 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				65EB85368E4947916EE0EE78 /* bundle_accessor.swift */,
 				38F4C5495BEBD427AF100B64 /* iPhone_11.png */,
 				A3B2C3267D13579CAC1C16DD /* Localizable.strings */,
 				B685CA1E03D3D5040C02906F /* Lorem ipsum.txt */,
 				B31368A8CDFE6E7C480CCBED /* Media.xcassets */,
-				B7D55BDC51015275366AEA7C /* resource_bundle_accessor.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -597,14 +565,6 @@
 				A0B3DC05710ABE3D3FC182BB /* ActualRepository.swift */,
 			);
 			path = Repository;
-			sourceTree = "<group>";
-		};
-		85739C79B549533C042B050C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				7A0155542E19791D3079E146 /* Alamofire.framework */,
-			);
-			path = iOS;
 			sourceTree = "<group>";
 		};
 		8BE53790CD7B00BCF2D90235 /* RepositoryTests */ = {
@@ -676,15 +636,6 @@
 				90F35EED2B09584084332829 /* View */,
 			);
 			path = Player;
-			sourceTree = "<group>";
-		};
-		BAF1CFB0D1D87DFD8F7BE9AC /* Carthage */ = {
-			isa = PBXGroup;
-			children = (
-				85739C79B549533C042B050C /* iOS */,
-			);
-			name = Carthage;
-			path = ../../Carthage/Build;
 			sourceTree = "<group>";
 		};
 		C2140ED53CC9F1AA71297415 /* Common */ = {
@@ -792,7 +743,6 @@
 			buildPhases = (
 				D24C9CAED76364D3C86E0FFE /* Sources */,
 				C6B26F524EB0325CD6052559 /* Frameworks */,
-				838F227F47B857EE87B7B366 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -827,7 +777,6 @@
 			buildPhases = (
 				482F25EBA9BD48EEAEFFB89A /* Sources */,
 				F647752750A0BB0B9E500056 /* Resources */,
-				BA49C34800372A4F92772FBA /* Carthage */,
 				1248AF3171F270FBB3F7D33A /* Frameworks */,
 				18219E08A394840121E51DE1 /* Embed Frameworks */,
 			);
@@ -1254,22 +1203,6 @@
 			shellPath = /bin/sh;
 			shellScript = "ditto \"${SCRIPT_INPUT_FILE_0}\" \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 		};
-		BA49C34800372A4F92772FBA /* Carthage */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/../../Carthage/Build/iOS/Alamofire.framework",
-			);
-			name = Carthage;
-			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Alamofire.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "carthage copy-frameworks\n";
-		};
 		D2597264106519C5B238DDD5 /* Copy Swift Objective-C Interface Header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1434,7 +1367,7 @@
 			files = (
 				43A56579EBE2976D80607EA6 /* EditorViewController.swift in Sources */,
 				A95F156086BAACDC75BB9CAA /* ViewData.swift in Sources */,
-				69F0C20848E92F41F887830D /* resource_bundle_accessor.swift in Sources */,
+				2B0215CEF7CF5FD4E05E4A74 /* bundle_accessor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1661,10 +1594,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1689,10 +1618,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = K4WL5WK33A;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = MomentApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1709,6 +1634,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1756,7 +1682,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1825,10 +1751,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1923,10 +1845,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1943,10 +1861,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1968,10 +1882,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2021,10 +1931,6 @@
 		7F0C15B97F7B05D1B4728E62 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2093,10 +1999,6 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2119,10 +2021,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2152,10 +2050,6 @@
 		A5D6A68D7AFE054161653994 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2193,10 +2087,6 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = K4WL5WK33A;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = MomentApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -2212,10 +2102,6 @@
 		B026119CBEA323F4DD830979 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -2258,10 +2144,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2278,6 +2160,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -2319,7 +2202,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2424,10 +2307,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2475,10 +2354,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				INFOPLIST_FILE = "Supporting Files/Framework_Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2498,10 +2373,6 @@
 		F920A414D091173027E18BD6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/../../Carthage/Build/iOS",
-				);
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,7 +1,7 @@
 import Foundation
 import MomentPlayerView
 import MomentPlayerDomain
-import Alamofire
+//import Alamofire
 
 public struct MomentData {
     public var text = "Hello, World!"
@@ -12,8 +12,8 @@ public struct MomentData {
         let aa = ViewData()
         print(aa)
         
-        AF.request("https://httpbin.org/headers").responseJSON { response in
-            print("player", response)
-        }
+//        AF.request("https://httpbin.org/headers").responseJSON { response in
+//            print("player", response)
+//        }
     }
 }
