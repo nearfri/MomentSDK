@@ -15,7 +15,6 @@
 		13B8F1B0D69437E9FE7234E1 /* MomentCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		147CA3F975F873301E81F6DF /* MomentPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E574A5CB60FADAD252AD954 /* MomentPlayer.framework */; };
 		1D5B916261CDC1DF16287B2E /* libMomentEditorRepository.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C96F4B7A4A7995638AA95C /* libMomentEditorRepository.a */; };
-		1DBD10A16EFEDCA91CB4026D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35991BEE42D3EC940985CB7C /* Main.storyboard */; };
 		214816DCF6AF6F0DBF3233B5 /* MomentSDK_MomentEditorView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6C92A04F4BB9CD2D44941C4E /* MomentSDK_MomentEditorView.bundle */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		219D415DB0DD7F26B7EA877A /* MomentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38295762CB5B44D6EB3E1C7 /* MomentData.swift */; };
 		2B0215CEF7CF5FD4E05E4A74 /* bundle_accessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EB85368E4947916EE0EE78 /* bundle_accessor.swift */; };
@@ -30,6 +29,7 @@
 		5DF1757FADCEBC8CB88FB97B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3BEC61B03565E10F0119A24 /* ViewController.swift */; };
 		620156974E066CF07B90CBFA /* libMomentEditorDomain.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A086C8E933683F3105B06167 /* libMomentEditorDomain.a */; };
 		655BE1C59C721E309F0E38D0 /* MomentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032A5949ADE156025682FCEB /* MomentData.swift */; };
+		69CCD521A0A07A2D17A1CCD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AEF6B6F66897673D28631E /* Main.storyboard */; };
 		72611743E46A9737F6A2B2C4 /* MomentEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */; };
 		76A56100D64D592658723063 /* MomentCommon.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		7BEE5F391785B54863BB819C /* MomentDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352883F9B1EF44A2CB0DF8CC /* MomentDataTests.swift */; };
@@ -319,6 +319,7 @@
 		4FC85B3490BAE6045C36A2F7 /* MomentEditor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MomentEditor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		52294124A41698E6EFCF25D4 /* Dice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice.swift; sourceTree = "<group>"; };
 		5615AB7360CB8EA705DD5F7E /* libMomentEditorView.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentEditorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		63AEF6B6F66897673D28631E /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		65EB85368E4947916EE0EE78 /* bundle_accessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bundle_accessor.swift; sourceTree = "<group>"; };
 		6C92A04F4BB9CD2D44941C4E /* MomentSDK_MomentEditorView.bundle */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.plug-in"; path = MomentSDK_MomentEditorView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DAE20D4BAD025F77EB07F9D /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -346,13 +347,11 @@
 		BC077C2207DD06AABA578ADC /* MomentEditorTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC3B775FF8B7843869A11597 /* EditorViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditorViewController.xib; sourceTree = "<group>"; };
 		EC9E2FDF34B9664CDC116D26 /* MomentEditorRepositoryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentEditorRepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED9FE3D7C3EC93A40CF2C673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDD3CDBEE8A98727CB0F1902 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
 		EFC71E5F1B65EF70C9C13E65 /* MomentEditorDomainTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MomentEditorDomainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F26D5114D9005782931E5C46 /* libMomentPlayerDomain.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentPlayerDomain.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64521DAD467426FFF49E0A6 /* libMomentCommonUtil.a */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = archive.ar; path = libMomentCommonUtil.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADF27627FB0E7B8A8174ACC /* MomentCommon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MomentCommon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC044B307F3D01857FEE5DE5 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -460,7 +459,7 @@
 				05E9A1F5A6BA87D6B0D86D07 /* Assets.xcassets */,
 				41B3BDF596EC4B58FB9F5160 /* Info.plist */,
 				0CCC27ECC0FFD3DE4DACE51D /* LaunchScreen.storyboard */,
-				35991BEE42D3EC940985CB7C /* Main.storyboard */,
+				63AEF6B6F66897673D28631E /* Main.storyboard */,
 				862BCA061EB35DE48A72F8D1 /* SceneDelegate.swift */,
 				A3BEC61B03565E10F0119A24 /* ViewController.swift */,
 			);
@@ -1148,7 +1147,7 @@
 			files = (
 				A684E458F9103380D8E80C1A /* Assets.xcassets in Resources */,
 				83C4E9A70C0992075265B7B4 /* LaunchScreen.storyboard in Resources */,
-				1DBD10A16EFEDCA91CB4026D /* Main.storyboard in Resources */,
+				69CCD521A0A07A2D17A1CCD2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1562,15 +1561,6 @@
 				6DAE20D4BAD025F77EB07F9D /* ko */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		35991BEE42D3EC940985CB7C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED9FE3D7C3EC93A40CF2C673 /* Base */,
-				FC044B307F3D01857FEE5DE5 /* ko */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		A3B2C3267D13579CAC1C16DD /* Localizable.strings */ = {
